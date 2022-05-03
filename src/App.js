@@ -1,14 +1,16 @@
 
 import "./App.css";
-// import Help from "./components/Help";
+import Help from "./components/Help";
 import Sliding from "./components/Sliding";
 
 
 function App() {
   return (
     <div className="App">
-<Sliding/>
-{/* <Help/> */}
+{/* <Sliding/> */}
+
+<Help/>
+
     </div>
   );
 }
