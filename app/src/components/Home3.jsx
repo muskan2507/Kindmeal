@@ -18,7 +18,7 @@ function Home3() {
           width="500"
           align="center"
           height="50"
-          style={{ marginIop: "10px", fontSize: "20px", color: "#999999" }}
+          style={{margin:"auto", marginIop: "10px", fontSize: "20px", color: "#999999" }}
         >
           <tbody>
             <tr>
