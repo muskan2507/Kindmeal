@@ -1,0 +1,148 @@
+#container{
+    width: 100%;
+    display: flex;
+  }
+  #left{
+    flex: 3;
+    /* border: 2px solid red; */
+  }
+  #right{
+    flex:7;
+    /* border: 2px solid green; */
+    margin-left: 10px;
+  
+  }
+  #button1{
+       border:2px solid #282c34;
+       width: 54%;
+       
+       margin: auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+  }
+  #button2{
+    border: 2px solid #282c34;
+    width: 54%;
+       
+       margin: auto;
+       margin-top: 50px;
+       margin-bottom: 20px;
+  
+  }
+  #d3{
+    border: 2px solid #282c34;
+    width: 54%;
+       font-size: 12px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #head1{
+     margin-top: 5px;
+  
+  }
+  #p2{
+    font-size: 17px;
+    margin-left: 65px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: #282c34;
+  }
+  .ekline{
+    display: flex;
+    margin-left: 40%;
+    /* margin-left: 20px; */
+  }
+  #fme{
+    margin-right:120px ;
+  }
+  
+  #fn{
+    width: 38%;
+    height: 30px;
+    margin-left: 10px;
+    /* margin-left: 0; */
+  }
+  #ln{
+    width: 39%;
+    height: 30px;
+    margin-left: 10px;
+  }
+  #email{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  #Remail{
+    width: 60%;
+    height: 30px;
+    margin: 0%;
+    margin-left: 10px;
+  }
+  #pwd{
+    width: 60%;
+    height: 30px;
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #username{
+    width: 60%;
+    height: 30px;
+    margin: 0%;
+    margin-left: 10px;
+  }
+  #dob{
+    width: 60%;
+    height: 30px;
+    margin: 0%;
+    margin-left: 10px;
+  }
+  #country{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  #state{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  
+  #gender{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+    margin-left: 10px;
+  }
+  #male{
+    margin-left: 10px;
+  }
+  #female{
+    margin-left: 10px;
+  }
+  #file{
+    
+    width: 60%;
+    height: 30px;
+    margin-left: 50px;
+  }
+  #file1{
+    margin-left: 25px;
+  }
+  #agree{
+    margin-left: -300px;
+  }
+  #jn{
+    margin-left: -400px;
+    height: 50px;
+    width: 30%;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+  }

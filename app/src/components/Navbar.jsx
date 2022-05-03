@@ -15,9 +15,9 @@ const Navbar = () => {
                 </Link>
 
                 <div style={{ display: "flex" }}>
-                    <Social src='https://www.kindmeal.my/images/follow_blog_grey.png' />
-                    <Social src='https://www.kindmeal.my/images/follow_facebook_grey.png' />
-                    <Social src='https://www.kindmeal.my/images/follow_twitter_grey.png' />
+                   <a href="https://www.kindmeal.my/widget.htm"> <Social src='https://www.kindmeal.my/images/follow_blog_grey.png' title="Saves Lives With Your Blog - KindMeal.my Widgets"/></a>
+                   <a href="https://www.facebook.com/KindMeal.my"> <Social src='https://www.kindmeal.my/images/follow_facebook_grey.png' title="Follow KindMeal.my on Facebook" /></a>
+                    <a href="https://twitter.com/KindMeal"><Social src='https://www.kindmeal.my/images/follow_twitter_grey.png' title="Follow KindMeal.my on Twitter" /></a>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                     <p style={{ fontSize: "12px" }}>Login</p>
