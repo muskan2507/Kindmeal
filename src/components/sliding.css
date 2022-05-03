@@ -26,10 +26,9 @@ cursor: pointer;
 }
 .thumb{
   width: 14%!important;
-
+height: 100px;
 }
 .carousel .slide{
-    /* height: 80vh; */
     width: 70% !important;
     height: 360px !important;
 }

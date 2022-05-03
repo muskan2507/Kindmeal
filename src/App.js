@@ -7,9 +7,9 @@ import Sliding from "./components/Sliding";
 function App() {
   return (
     <div className="App">
-{/* <Sliding/> */}
+<Sliding/>
 
-<Help/>
+{/* <Help/> */}
 
     </div>
   );
