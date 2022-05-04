@@ -20,9 +20,10 @@
     border-radius: 10px;
     text-align: center;
     background-color: #f8f8f8;
+    display: block;
 
   }
- 
+   
   #d3{
     width: 230px;
     height: 230px;
@@ -171,19 +172,42 @@
     
     width: 60%;
     height: 30px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
   #file1{
-    margin-left: 25px;
+    margin-left: 20px;
   }
-  #agree{
-    margin-left: -300px;
+  #agree a {
+    text-decoration: none;
+    color: #282c34;
+  }
+  a:hover {
+    text-decoration: underline;
   }
   #jn{
-    margin-left: -400px;
-    height: 50px;
+    margin-left: 20px;
+    height: 35px;
     width: 30%;
     color: #fff;
     background-color: red;
     border-radius: 5px;
+  }
+  #ul {
+    margin-left: 30px;
+    font-size: 13px;
+  }
+  #btn {
+    font-family: 'Roboto', Arial;
+    width: 250px;
+    height: 40px;
+    line-height: 19px;
+    background-color: #f53838;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+   
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 6px;
   }

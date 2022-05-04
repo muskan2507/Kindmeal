@@ -1,0 +1,19 @@
+{
+  "formData": [
+   
+    {
+      "firstName": "Muskan",
+      "lastName": "Shaw",
+      "email": "princesahil0065@gmail.com",
+      "country": "INDIA",
+      "password": "12345678",
+      "username": "muskan2507",
+      "dob": "1999-07-25",
+      "state": "KOLKATA",
+      "gender": "female",
+      "photo": "C:\\fakepath\\me.jpg",
+      "agree": true,
+      "id": 2
+    }
+  ]
+}

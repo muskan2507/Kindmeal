@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import "../Styles/Join.css";
-const Join = () => {
+const JoinShop = () => {
   const navigate = useNavigate()
   const [FormData,setFormData]=useState([])
   const handleChange=(e)=> {
@@ -77,29 +77,41 @@ const Join = () => {
       <div id="right">
         <div id="head1">
           <h1>
-            Food Lover? Sign Up Now or{" "}
-            <a href="https://www.facebook.com/v2.9/dialog/oauth?client_id=292733157519852&redirect_uri=https%3A%2F%2Fwww.kindmeal.my%2Flogin.php%3Faction%3Dfacebook&state=9152522c0f1a08cd79f59884f7db96b8&display=popup&scope=email,user_birthday,user_location">
-              Login With Facebook
-            </a>
+          Restaurant / Shop Owner? Sign Up Now 
+           
           </h1>
         </div>
         <br />
         <div id="paragraph">
           <p>
-            Discover tasty meat-free meals and dine instantly — no coupon
-            payment, booking or printing is required.
+          Improve your business, build brand loyalty, and save precious animal lives! Join KindMeal now to enjoy the following features:
           </p>
         </div>
         <br />
+        <div id="ul">
+            <ul>
+                <li>
+                Effectively reach over 200,000 consumers
+                </li>
+                <li>Feature your shop across premium partner platforms & media channels</li>
+                <li>Offer coupons & deals to attract new customers</li>
+                <li>Showcase your delicious meat-free meals</li>
+                <li>Interact with our community of food lovers</li>
+                <li>Get your exclusive Shop Page — https://KindMeal.my/YourShopName</li>
+            </ul>
+        </div>
+        <br/>
         <div id="p2">
           <p>
-            KindMeal is a fun, exciting and cool new way for you to show your
-            compassion towards animals. We collaborate with kind restaurants and
-            cafes across the nation to bring you delicious meat-free foods that
-            will not only help save precious animal lives, but improve your
-            health and save your money at the same time!
+          To support our welfare causes, we offer simple, affordable <a href="#" style={{textDecoration:"none"}}>Premium Plans</a> on a monthly <br/>subscription basis, starting from RM 99 only. No deal commissions, no hidden fees. Premium <br/> Plan details are available upon signing up.
+            
           </p>
         </div>
+        <br />
+        <br />
+        <p style={{fontSize:"25px"}}>Personal Profile</p>
+        
+        <p>First, we setup your personal profile, then proceed to configure your shop promotions</p>
         <br />
         <br />
         <form onSubmit={handleSubmit}>
@@ -112,17 +124,15 @@ const Join = () => {
             Your Name
             <input
               id="fn"
-               name="firstName"
-               onChange={handleChange}
+              name="firstName"
               type="first name"
-            
+              onChange={handleChange}
             />
             <input
               id="ln"
               type="last name"
-              name="lastName"
-              onChange={handleChange}
-             
+               name="lastName"
+               onChange={handleChange}
             />
           </div>
           <br />
@@ -144,7 +154,7 @@ const Join = () => {
             Re-Enter Email{" "}
             <input
               id="Remail"
-              name="email"
+               name="email"
               type="email"
               onChange={handleChange}
             ></input>
@@ -188,8 +198,8 @@ const Join = () => {
             Birth Date{" "}
             <input
               id="dob"
-               name="dob"
-               onChange={handleChange}
+              onChange={handleChange}
+              name="dob"
               type="date"
             ></input>
           </div>
@@ -197,7 +207,7 @@ const Join = () => {
           <div>
             {" "}
             Country
-            <select id="country" name="country" onChange={handleChange}>
+            <select id="country" name="country"  onChange={handleChange}>
               <option>Your Country</option>
               <option>INDIA</option>
               <option>CHINA</option>
@@ -222,7 +232,7 @@ const Join = () => {
           <br/>
           <div>
             State
-            <select id="state" name="state" onChange={handleChange}>
+            <select id="state" name="state"  onChange={handleChange}>
               <option>Select State</option>
               <option>PATNA</option>
               <option>BANGALORE</option>
@@ -239,32 +249,32 @@ const Join = () => {
             Gender
             <input
               id="male"
-              name="gender"
               onChange={handleChange}
-              value="male"
+              name="gender"
               type="radio"
+              value="male"
               style={{marginLeft:"65px",marginRight:'5px'}}
             />
             Male
             <input
               id="female"
-               name="gender"
-               onChange={handleChange}
-               value="female"
+              name="gender"
               type="radio"
+              value="female"
               style={{marginLeft:"12px",marginRight:'5px'}}
+              onChange={handleChange}
             />
             Female
           </div>
           <br/>
           <div id="file">
-            Profile Photo <input id="file1" type="file" placeholder="Select Photo" onChange={handleChange}/>
+            Profile Photo <input id="file1" type="file"  onChange={handleChange} name="photo" placeholder="Select Photo" />
           </div>
           <br/>
           <div id='agree'><input  type="checkbox" name="agree" onChange={handleChange}/> I agree to KindMeal.my's <a href="https://www.kindmeal.my/terms.htm">Terms & Conditions</a></div>
           <br />
           <br />
-          <div ><button id='jn' type="submit">Join Now</button></div>
+          <div ><button id='jn' type="submit">Set Up My Shop & Deals »</button></div>
         </form>
       </div>
      
@@ -291,4 +301,4 @@ const Join = () => {
   );
 };
 
-export default Join;
+export default JoinShop;
