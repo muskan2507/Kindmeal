@@ -2,16 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './style.css';
 
-
-
-
-
 const Directory = () => {
 const [show, setShow]= useState([])
 const [page,setPage]=useState(1)
-
-
-
 
 
 useEffect(()=>{
