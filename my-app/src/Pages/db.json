@@ -1,0 +1,445 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19752-l.jpg",
+            "title": "Rescue Rooster Loves To Chase His Favorite Girl Around The House",
+            "by": "by KindMeal.my",
+            "para": "Loyal rooster loves to chase his favorite girl around the house — and snuggle on her lap while she's doing her homework ❤️",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 2,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+            "title": "Hummus Pasta 🍝",
+            "by": "by KindMeal.my",
+            "para": "Try this budget-friendly hummus pasta!",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 3,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+            "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+            "by": "by KindMeal.my",
+            "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 4,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+            "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+            "by": "by KindMeal.my",
+            "para": "🥑",
+            "date": "04 May 2022"
+        },
+        {
+            "id": 5,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+            "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+            "by": "by Compassion Over Killing",
+            "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+            "date": "03 May 2022"
+        },
+        {
+            "id": 6,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+            "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+            "by": "by Compassion Over Killing",
+            "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+            "date": "08 May 2022"
+        },
+        {
+            "id": 7,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+            "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+            "by": "by Compassion Over Killing",
+            "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 8,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+            "title": "January-march 2022 Impact | Animal Equality",
+            "by": "by Animal Equality",
+            "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 9,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+            "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+            "by": "by Compassion Over Killing",
+            "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+            "date": "09 May 2022"
+        },
+        {
+            "id": 10,
+            "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+            "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+            "by": "by Compassion Over Killing",
+            "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+            "date": "09 May 2022"
+        }
+
+    ]
+}
