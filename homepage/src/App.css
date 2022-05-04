@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.listhead,.listhead1,.listhead2,.listhead3 {
+  width: 86%;
+  margin: auto;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 0px 6px #e0e0e0;
+  margin-top: 40px;
+}
+.listed_items,
+.listpara {
+  display: flex;
+  justify-content: center;
+}
+.listed_items > div {
+  height: 190px;
+  width: 190px;
+  margin: 10px;
+}
+.listed_items > div > a > img {
+  width: 100%;
+}
+.listpara > div {
+  width: 190px;
+  margin: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+.listpara > div > a {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+}
+.listhead > h2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+.listhead > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.save_life {
+  margin-left: 22%;
+}
+.paranum_2 > div > a {
+  font-size: 15px;
+}
+.paranum_2 > div > span {
+  font-size: 12px;
+}
+#pet_finder > img {
+  width: 100%;
+  height: auto;
+}
+#find_deals {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.intro_feature {
+  width: 230px;
+  height: 210px;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #cccccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #666666;
+  vertical-align: middle;
+  margin: 10px;
+  font-weight: bolder;
+}
+.intro_feature > a > img {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.intro_content {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #888888;
+  margin-top: 5px;
+}
+
+#any_restaurant {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #888888;
+  margin-top: 55px;
+}
+
+.btn_red {
+  margin: auto;
+  background-color: #f53838;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 450px;
+  height: 100px;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_red:hover {
+  background-color: #d41f1f;
+}
+
+#tasty_journey {
+  font-size: 16px;
+  line-height: 10px;
+}
+
+#as_featured_in {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #888888;
+  margin-top: 10px;
+  font-weight: bold;
+}
+header {
+  height: 82px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
