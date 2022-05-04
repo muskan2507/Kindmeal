@@ -19,13 +19,15 @@
     height: 360px;
 }
 .sliding{
-    width: 90% !important;
+    width: 80% !important;
     margin: auto !important;
 cursor: pointer;
 
 }
 .thumb{
   width: 14%!important;
+  height: 100px;
+  /* width: 80px; */
 
 }
 .carousel .slide{

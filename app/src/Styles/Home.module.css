@@ -12,7 +12,7 @@
     vertical-align: middle;
 }
 .button_red {
-    ont-family: 'Roboto', Arial;
+    font-family: 'Roboto', Arial;
     width: 150px;
     height: 20px;
     line-height: 19px;
@@ -26,3 +26,56 @@
     vertical-align: middle;
     border-radius: 6px;
 }
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  .listhead,.listhead1,.listhead2,.listhead3 {
+    width: 86%;
+    /* background-color: #d41f1f; */
+    margin: auto;
+    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 6px #e0e0e0;
+    margin-top: 40px;
+  }
+  .listed_items,
+  .listpara {
+    display: flex;
+    justify-content: center;
+  }
+  .listed_items > div {
+    height: 190px;
+    width: 190px;
+    margin: 10px;
+  }
+  .listed_items > div > a > img {
+    width: 100%;
+  }
+  .listpara > div {
+    width: 190px;
+    margin: 10px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .listpara > div > a {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+  }
+  .listhead > h2 {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .listhead > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .save_life {
+    margin-left: 22%;
+  }
+  
