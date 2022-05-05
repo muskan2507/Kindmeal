@@ -10,7 +10,7 @@ import Sliding from "./components/Sliding";
 import LoginPopup from "./signupPopup/LoginPopup";
 import SignupPopup from "./signupPopup/SignupPopup";
 
-import Recipe from "./components/Recipe";
+import Recipe from "./Recipes/Recipe";
 
 
 
@@ -33,7 +33,7 @@ function App() {
 </Routes>  */}
 
 
-{/* <Sliding/> */}
+<Sliding/>
 
 {/* <AddDirectory/> */}
 {/* <Directory/> */}
