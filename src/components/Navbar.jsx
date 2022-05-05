@@ -5,7 +5,7 @@ import SignupPopup from '../signupPopup/SignupPopup'
 import LoginPopup from '../signupPopup/LoginPopup'
 
 
-const Navbar = (signup) => {
+const Navbar = () => {
 
 
 
@@ -22,7 +22,10 @@ const Navbar = (signup) => {
                     <Social src='https://www.kindmeal.my/images/follow_twitter_grey.png' />
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                    <p style={{ fontSize: "12px" }}><LoginPopup/></p>
+                    <NavLink to='/loginwindow' style={{ fontSize: "12px" }}>
+                        <LoginPopup/>
+                        
+                        </NavLink>
                     <div className='facebook_email'>
                         <Facebook className='show'>Facebook</Facebook>
                         <p className='hide'>Login with Facebook Account</p>
@@ -31,8 +34,9 @@ const Navbar = (signup) => {
                         <Email className='showEmail'>Email</Email>
                         <p className='hideEmail'>Login with KindMeal Account</p>
                     </div>
-                    <Signup title={signup}>
-                    <SignupPopup/>
+                    <Signup>
+                    {/* <SignupPopup/> */}
+                  
                     </Signup>
                 </div>
             </Nav>

@@ -1,27 +1,52 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState,useMemo } from 'react'
 import style from './recipe.module.css'
+
+
+
 const Recipe = () => {
 const [show, setShow]=useState([])
+const [selectedCategory, setSelectedCategory] = useState();
+const [count, setCount] =useState(1)
+
+
+
+
   useEffect(()=>{
-    fetch(" http://localhost:8080/recipeData").then((res)=>res.json())
+    fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=12`).then((res)=>res.json())
     .then((data)=>setShow(data))
     .catch((er)=>console.log(er))
-  },[])
+  },[count])
 
-
-
-
-  
-  const shopSearch = (e) => {
+  const handleSearch = (e) => {
     if (e.target.value === '') {
-      fetch('http://localhost:8080/recipeData').then((res) => res.json())
+      fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=9`).then((res) => res.json())
         .then((data) => setShow(data))
         .catch((er) => console.log(er))
     } else {
-      const newShow = show.filter((item) => item.name.includes(e.target.value))
+      const newShow = show.filter((item) => item.title.includes(e.target.value))
       setShow([...newShow])
     }
   }
+
+  function getFilteredList() {
+    // Avoid filter when selectedCategory is null
+    if (!selectedCategory) {
+      return show;
+    }
+    return show.filter((item) => item.catagory === selectedCategory);
+  }
+  // Avoid duplicate function calls with useMemo
+  var filteredList = useMemo(getFilteredList, [selectedCategory, show]);
+
+  function handleCategoryChange(event) {
+    if(event.target.value==="All Categories"){
+      return selectedCategory;
+    }else{
+
+      setSelectedCategory(event.target.value);
+    }
+  }
+
 
 
   console.log(show);
@@ -38,19 +63,20 @@ const [show, setShow]=useState([])
           <p>Transform into a master chef now.</p>
         </div>
         <div className={style.flex}>
-          <input type="text" placeholder='Search Recipe or User Name' className={style.input_box} onChange={shopSearch} />
-          <select name="search-by-select" id="select" className='input-box'>
-            <option value="all Shops In Malasiyas">All Categories</option>
-            <option value="Selangore">Appetizers</option>
-            <option value="Kuala Lumpur">Beverages</option>
-            <option value="Johor">Breakfast</option>
-            <option value="Kedah">Breads</option>
-            <option value="Melaka">Condiments</option>
-            <option value="Pehang">Desserts</option>
-            <option value="Pehang">Snacks</option>
-            <option value="Pehang">Main Dishes</option>
-            <option value="Pehang">Side Dishes</option>
-            <option value="Pehang">Salads</option>
+          <input type="text" placeholder='Search Recipe or User Name' className={style.input_box} onChange={handleSearch} />
+          <select id="select" className='input-box'
+           onChange={handleCategoryChange} name="category-list">
+            <option value="All Categories">All Categories</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Beverages">Beverages</option>
+            <option value="Breakfast">Breakfast</option>
+            <option value="Breads">Breads</option>
+            <option value="Condiments">Condiments</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Main Dishes">Main Dishes</option>
+            <option value="Side Dishes">Side Dishes</option>
+            <option value="Salads">Salads</option>
           </select>
 
           <button>Search Recipes</button>
@@ -59,9 +85,9 @@ const [show, setShow]=useState([])
       </div>
 
       <div className={style.button_div}>
-          <button>All Category</button>
-          <button>Appetizers</button>
-          <button>Beverages</button>
+          <button  onChange={handleCategoryChange} >All Category</button>
+          <button  onChange={handleCategoryChange} >Appetizers</button>
+          <button  onChange={handleCategoryChange} >Beverages</button>
           <button>Breakfast</button>
           <button>Breads</button>
           <button>Condiments</button>
@@ -75,31 +101,44 @@ const [show, setShow]=useState([])
         <div className={style.pagination}>
           <div>
           <p>Page : </p>
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-          <p>4</p>
-          <p>5</p>
-          <p>6</p>
-          <p>7</p>
-          <p>8</p>
-          <p>9</p>
+          <p onClick={()=>setCount(1)}>1</p>
+          <p onClick={()=>setCount(2)}>2</p>
+          <p onClick={()=>setCount(2)}>3</p>
+          <p onClick={()=>setCount(2)}>4</p>
+          <p onClick={()=>setCount(2)}>5</p>
+          <p onClick={()=>setCount(2)}>6</p>
+          <p onClick={()=>setCount(2)}>7</p>
+          <p onClick={()=>setCount(2)}>8</p>
+          <p onClick={()=>setCount(2)}>9</p>
           </div>
-     <button>Next  </button>
+     <button  onClick={()=>setCount(count+1)} >Next  </button>
         </div>
 <div className={style.grid_div}>
 
      {
-     show.map((item)=>(
-       <div className={style.map_div}>
-<div>
+     filteredList.map((item)=>(
+       <div className={style.map_div} key={item.id}>
+<div className={style.head_logo_div}>
+  <div>
   <img src={item.logo} alt="logo" className={style.logo}/>
+  <p className={style.author}>{item.author}</p>
+  </div>
   <button className={style.view_btn}>View</button>
 </div>
 
 
 <img src={item.img} alt="images" />
+<h5 className={style.title}>{item.title}</h5>
 
+<div className={style.time_like_div}>
+  <p> <img src="https://www.kindmeal.my/images/icon_time_small.png" alt="time" className={style.ti_li_co}/>
+    {item.time}</p>
+
+  <p><img src="https://www.kindmeal.my/images/icon_heart_small.png" alt="like"className={style.ti_li_co} />
+    {item.Like}</p>
+  <p><img src="https://www.kindmeal.my/images/icon_commentbubble_small.png" alt="comment" className={style.ti_li_co}/>
+    {item.Comment}</p>
+</div>
   
   
   

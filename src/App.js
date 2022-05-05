@@ -25,17 +25,17 @@ function App() {
  <Navbar/>
  
 
-<LoginPopup/>
+{/* <Routes> */}
+  {/* <Route path="/addshop" element={<AddDirectory/>}/>
+  <Route path="/directory" element={<Directory/>}/> */}
+ {/* <Route path="/loginwindow" element={<LoginPopup/>}/> */}
 
-{/* <Routes>
-  <Route path="/addshop" element={<AddDirectory/>}/>
-  <Route path="/" element={<Directory/>}/>
- 
+{/* </Routes>  */}
 
-</Routes>  */}
+{/* <LoginPopup/>
+<SignupPopup/> */}
 
-
-<Sliding/>
+{/* <Sliding/> */}
 
 {/* <AddDirectory/> */}
 {/* <Directory/> */}

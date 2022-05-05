@@ -22,6 +22,15 @@ setFormData({...formData, [inputName]: e.target.value})
 }
 console.log(formData);
 
+// const handleLogin=()=>{
+//     window.open("/directory")
+// }
+
+
+
+
+
+
     return (
 <>
 <button onClick={(e) => setVisibility(!visibility)} className={style.signup_btn}>Login</button>
@@ -34,7 +43,7 @@ console.log(formData);
       >
           <form>
         <div className={style.main_popup}>
-            <img className={style.img2} src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="" />
+            <img className={style.img2} src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="images" />
             <h3>Member Login</h3>
             <div className={style.login_input}>
            <input type="text" placeholder='Your Email' name='email' onChange={handleChange}/>
