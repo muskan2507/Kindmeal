@@ -3,10 +3,16 @@ import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AddDirectory from "./components/AddDirectory";
-import Article from "./components/Article";
+
 import Directory from "./components/Directory";
 import Help from "./components/Help";
 import Sliding from "./components/Sliding";
+import LoginPopup from "./signupPopup/LoginPopup";
+import SignupPopup from "./signupPopup/SignupPopup";
+
+import Recipe from "./components/Recipe";
+
+
 
 
 function App() {
@@ -14,12 +20,17 @@ function App() {
 
   return (
     <div className="App">
+ 
+ 
+<SignupPopup/>
+<LoginPopup/>
 
-<Routes>
+{/* <Routes>
   <Route path="/addshop" element={<AddDirectory/>}/>
   <Route path="/" element={<Directory/>}/>
+ 
 
-</Routes>
+</Routes>  */}
 
 
 {/* <Sliding/> */}
@@ -29,6 +40,9 @@ function App() {
 {/* <Help/> */}
 
 
+
+
+<Recipe/>
 
     </div>
   );
