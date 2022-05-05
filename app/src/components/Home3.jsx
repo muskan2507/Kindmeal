@@ -95,7 +95,7 @@ function Home3() {
             </td>
 
             <td width="25%" align="center" valign="middle">
-              <div className={style.intro_feature}>
+              <div className={style.intro_feature} style={{fontSize:"18px"}}>
                 <a href="https://www.kindmeal.my/menu.htm">
                   <img
                     src="https://www.kindmeal.my/images/intro_menu.png"
@@ -135,14 +135,15 @@ function Home3() {
        </div>
        <a href="https://www.kindmeal.my/join.htm"  style={{textDecoration:"none"}}>
        <center>
-          <div  className={style.button_red} style={{marginTop:"40px", marginBottom:"80px", width:"450px", height:"90px", lineHeight:"40px", fontSize:"40px", borderRadius:"10px"}}>
+          <div  className={style.button_red} style={{marginTop:"40px", marginBottom:"80px", width:"450px", height:"100px", lineHeight:"40px", fontSize:"40px", borderRadius:"10px"}}>
             <div style={{marginTop:"12px"}}>Join KindMeal Now</div>
             <div style={{fontSize:"16px", lineHeight:"10px"}}><br/>Your tasty journey begins here</div>
           </div>
         </center>
        </a>
        <div style={{textAlign:"center", marginBottom:"40px", fontSize:"26px", color:"#888888", marginTop:"10px"}}>
-         <p> As Featured In</p>
+         <p style={{textAlign:"center",fontSize:"20px"}}> As Featured In</p>
+         <br/>
          <img src="https://www.kindmeal.my/images/media-feature2.png" />
       </div>
       <center>

@@ -10,10 +10,14 @@ function Home() {
   return (
     <div>
         <Sliding/>
-        <Listhead/>
+        <br/>
+        <br/>
+         <Listhead/>
+         <br/>
+         <br/>
         <Listhead1/>
-        <Listhead2/>
-        <Listhead3/>
+       {/*} <Listhead2/>
+        <Listhead3/> */}
         <Home3/>
     </div>
   )

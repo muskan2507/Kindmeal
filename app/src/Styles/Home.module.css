@@ -33,49 +33,23 @@ body {
   a{
     text-decoration: none;
   }
-  .listhead,.listhead1,.listhead2,.listhead3 {
-    width: 86%;
-    /* background-color: #d41f1f; */
-    margin: auto;
-    border: 1px solid #dddddd;
-    box-shadow: 0px 0px 6px #e0e0e0;
+  .box {
     margin-top: 40px;
+    margin: auto;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #dddddd;
+    color: #333333;
+    box-shadow: 0px 0px 6px #e0e0e0;
+    font-size: 14px;
+    width: 70%;
+   
   }
-  .listed_items,
-  .listpara {
-    display: flex;
-    justify-content: center;
+  .box a {
+      color:blue;
   }
-  .listed_items > div {
-    height: 190px;
-    width: 190px;
-    margin: 10px;
+  .box img {
+      height: 150px;
+      width: 170px;
+      object-fit: cover;
+      object-position: center 30%;
   }
-  .listed_items > div > a > img {
-    width: 100%;
-  }
-  .listpara > div {
-    width: 190px;
-    margin: 10px;
-    margin-top: 0px;
-    text-align: center;
-  }
-  .listpara > div > a {
-    font-size: 12px;
-    font-weight: bold;
-    color: gray;
-    text-decoration: none;
-  }
-  .listhead > h2 {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  .listhead > a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .save_life {
-    margin-left: 22%;
-  }
-  

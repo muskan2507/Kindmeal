@@ -17,249 +17,941 @@
     }
   ],
   
-    "recipeData":[
-       {
-           "img":"https://www.kindmeal.my/photos/recipe/118/118560-18474-m.jpg",
-           "title":"Cranberry Mimosa",
-           "author":"KindMealChef",
-           "time":"5 Mins",
+  
+    "directory": [
+      {
+        "id": 1,
+        "name": "AENON The Health Kitchen",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 2,
+        "name": "Ba Xian Vegetarian Court",
+        "description": "We serve delicious home-cooked vegetarian meals, crafted with the healthiest ingredients and plenty of love. We also sell natural, handmade clay and wooden Buddhist crafts, health supplements, and homemade beauty products.",
+        "address": "15, Jalan 12/144A, Taman Bukit Cheras , 56000 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Fri - Wed: 9am - 4pm; Thu: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 3,
+        "name": "Annalakshmi Vegetarian Restaurant",
+        "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan",
+        "phone": "03-22723799, 03-22843799",
+        "opening": "Tue-Sun 11am-3pm, 6:30-10pm.",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 4,
+        "name": "Ba Xian Vegetarian Court",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+        "phone": "03-62778052",
+        "opening": "Daily: 6:30am - 9:00pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 5,
+        "name": "AENON The Health Kitchen",
+        "description": "Berjaya Cafe, the epitome for the vegetarian lovers that brings the opulence, style, and is entwined with the gastronomic taste from the best chef’s in town. With the current trend of lifestyle that focuses not only on health and well-being, our Berjaya Cafe brings you the",
+        "address": "Level 14 West, Berjaya Times Square Hotel, No. 1, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Daily: 6:30am - 9:00pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 6,
+        "name": "AENON The Health Kitchen",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 7,
+        "name": "AENON The Health Kitchen",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 8,
+        "name": "AENON The Health Kitchen",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 9,
+        "name": "Biogreen Kepong Bukit Maluri",
+        "description": "Made Fresh, Eat Fresh Every Day at Valentime! Valentime by Biogreen is a bakery that bakes only organic and healthy bread using the best ingredients including organic unbleached flour, unr",
+        "address": "No. 9 Jalan Burung Tiung, Taman Bukit Maluri, 52100 Kepong, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Mon-Sat: 10am - 7.30pm (Valentime Bread Available Mon-Sat 10am-7.30pm)",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 10,
+        "name": "Blue Boy Vegetarian Food Centre",
+        "description": "AENON Health Kitchen, a hygienic restaurant that provides simple, palatable, wholesome & healthy food at affordable prices. We are dedicated in offering an extraordinary dining experience and providing consumers the opportunity to learn on healthy lifestyle. Health is a choice, not a chance!",
+        "address": "6001 Blue Boy Mansion, Jalan Tong Shin (at Jalan Pudu Lama), Kuala Lumpur, 55100, Wilayah Persekutuan",
+        "phone": "03 - 9201 0972",
+        "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 11,
+        "name": "Ahimsa",
+        "description": "Ahimsa Vege Health Food Industries Sdn Bhd is a company with a fresh vision to infuse innovation and health technology into local vegetarian food. Our team of professionals includes enviro",
+        "address": "17, Jalan Kesuma 2/3, Bandar Tasik Kesuma, 43700 Beranang, Selangor",
+        "phone": "03-8723 2862 / 016-2013949 / 016-2132949 / 016-3303949",
+        "opening": "Mon - Fri: Monday - Friday: 9am - 6pm; Closed: Sat - Sun",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      },
+      {
+        "id": 12,
+        "name": "Alice Kitchen By Yishensu",
+        "description": "Alice Kitchen wishes to offer our personal rendition of fusion vegetarian and vegan gourmet cuisine with an innovative gastronomic take on traditional and modern days non-meat food cultur",
+        "address": "Lot CC-65A, Concourse Floor, Lot CC-65A, Concourse Floor, Tropicana Gardens Mall, No2A, Persiaran Surian, Tropicana Indah, 47810 Petaling Jaya, Selangor",
+        "phone": "017-3909180 / 012-5073013",
+        "opening": "Mon - Sun: 11am - 9pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
+        "visit": "https://mobile.kindmeal.my/#!p=shop&v=362"
+      },
+      {
+        "id": 13,
+        "name": "Asia Cafe Food Stall 45",
+        "address": "Jalan SS15 (at next to Taylor Intertiol College), Subang Jaya, 47500, Selangor",
+        "phone": "017-3909180",
+        "opening": "Mon - Sun: 11am - 9pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      },
+      {
+        "id": 14,
+        "name": "Anew Organic Shop",
+        "address": "35, Ground Floor, Jalan USJ10/1E, Subang Jaya, 47620, Selangor",
+        "phone": "017-3909180 / 012-5073013",
+        "opening": "Mon - Sun: 11am - 9pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      },
+      {
+        "id": 15,
+        "name": "Annalakshmi Vegetarian Restaurant",
+        "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan",
+        "phone": "03-22723799, 03-22843799",
+        "opening": "Tue-Sun 11am-3pm, 6:30-10pm.",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      },
+      {
+        "id": 16,
+        "name": "Ba Xian Vegetarian Court",
+        "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
+        "phone": "017-3909180 / 012-5073013",
+        "opening": "Mon - Sun: 11am - 9pm",
+        "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      },
+      {
+        "name": "Kashmiri Pulao",
+        "address": "asas",
+        "phone": "3434534534",
+        "email": "343434@afaf.xcom",
+        "opening": " Mon - Fri: 10am - 9pm; Sat - Sun: 10am - 10pm",
+        "": "www.debu.com",
+        "description": "We serve delicious home-cooked vegetarian meals, crafted with the healthiest ingredients and plenty of love. We also sell natural, handmade clay and wooden Buddhist crafts, health suppleme",
+        "id": 17
+      },
+      {
+        "name": "Lalu-Bhulu",
+        "address": "Patna, Bihar",
+        "phone": "3434534534",
+        "email": "343434@afaf.xcom",
+        "opening": " Mon - Fri: 10am - 9pm; Sat - Sun: 10am - 10pm",
+        "map": "www",
+        "description": "hajnjndbsdas",
+        "id": 18
+      }
+    ],
+  
+    
+        "articles": [
+            {
+                "id": 1,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19752-l.jpg",
+                "title": "Rescue Rooster Loves To Chase His Favorite Girl Around The House",
+                "by": "by KindMeal.my",
+                "para": "Loyal rooster loves to chase his favorite girl around the house — and snuggle on her lap while she's doing her homework ❤️",
+                "date": "04 May 2022",
+                "ifr":"https://www.facebook.com/plugins/video.php?allowfullscreen=true&app_id=292733157519852&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3e30d82f0c7738%26domain%3Dwww.kindmeal.my%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.kindmeal.my%252Ff272d359ee15ee%26relation%3Dparent.parent&container_width=756&height=400&href=https%3A%2F%2Fwww.facebook.com%2Fsoulmatesdodo%2Fvideos%2F491849209300866%2F&locale=en_US&sdk=joey"
+            },
+            {
+                "id": 2,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 3,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 4,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 5,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 6,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 7,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 8,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 9,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 10,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 11,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 12,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 13,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 14,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 15,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 16,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 17,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 18,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 19,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 20,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 21,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 22,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 23,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 24,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 25,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 26,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 27,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 28,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 29,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 30,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 31,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 32,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 33,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 34,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 35,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 36,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 37,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 38,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 39,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 40,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 41,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 42,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 43,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 44,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 45,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 46,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            },
+            {
+                "id":47,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19748-l.jpg",
+                "title": "Hummus Pasta 🍝",
+                "by": "by KindMeal.my",
+                "para": "Try this budget-friendly hummus pasta!",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 48,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19747-l.jpg",
+                "title": "Wishing Our Dearest Muslim Friends A Safe, Joyful And Heartwarming Hari Raya Aid..",
+                "by": "by KindMeal.my",
+                "para": "Wishing our dearest Muslim friends a safe, joyful and heartwarming Hari Raya Aidilfitri! ❤️ Enjoy a funtastic holiday, drive safely, and remember to keep your beloved pets safe and sound. Install our PetFinder.my app to send these cute Raya WhatsApp stickers:",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 49,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19745-l.jpg",
+                "title": "Avocados Reduce The Risk Of Heart Disease, Study Shows",
+                "by": "by KindMeal.my",
+                "para": "🥑",
+                "date": "04 May 2022"
+            },
+            {
+                "id": 50,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19754-l.jpg",
+                "title": "Its Pretty Simple When You Think About It, Going Vegan Is The Right Thing To Do...",
+                "by": "by Compassion Over Killing",
+                "para": "It’s pretty simple when you think about it, going vegan is the right thing to do. #GoVegan and keep animals off your plate.",
+                "date": "03 May 2022"
+            },
+            {
+                "id": 51,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19753-l.jpg",
+                "title": "Animals Are Not Meals. Cows Farmed For Meat Are Subjected To Torment Their Entir..",
+                "by": "by Compassion Over Killing",
+                "para": "Animals are not meals. Cows farmed for meat are subjected to torment their entire lives. It's cruel - these sentient beings deserve happy, healthy lives of freedom. Find out more about what #cows in the animal agriculture industry endure here: Image Credit: Tom Wollard / We Animals Media",
+                "date": "08 May 2022"
+            },
+            {
+                "id": 52,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19751-l.jpg",
+                "title": "A Prison Inmate In A Pre-release Work Program Was The First Recorded Human Case Of The Bird Flu In The Us",
+                "by": "by Compassion Over Killing",
+                "para": "With this recent news confirming avian influenza crossover to humans, we can no longer ignore the uncomfortable truth the industry has been unwilling to take accountability for: the basic business model of the poultry industry is to blame for manufacturing these viruses, said our Executive Directo..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 53,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19749-l.jpg",
+                "title": "January-march 2022 Impact | Animal Equality",
+                "by": "by Animal Equality",
+                "para": "Together, we’ve made significant strides to help animals in 2022. Just this year, we have released 3 investigations, convinced 18 companies to improve standards for animals, and have impacted over 22 million animals. We could not have done this without your support. Read more about what you've helpe..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 54,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19750-l.jpg",
+                "title": "In 2015, An Animal Outlook Investigator Documented The Shocking Horrors Forced U..",
+                "by": "by Compassion Over Killing",
+                "para": "In 2015, an Animal Outlook investigator documented the shocking horrors forced upon baby birds including sick, injured, or weak birds. Inside a Foster Farms turkey hatchery in Fresno, California these birds were set aside and either dumped into a machine to be ground up alive or gassed to death in p..",
+                "date": "09 May 2022"
+            },
+            {
+                "id": 55,
+                "imgURL": "https://www.kindmeal.my/photos/article/19/19746-l.jpg",
+                "title": "Farmed Animals How Can You Help Them Right Now?. If You Care About Animals Or Wa..",
+                "by": "by Compassion Over Killing",
+                "para": "Farmed animals: How can you help them — right now? If you care about animals or want to learn the truth about the cruel realities of animal agriculture, now is the time to get involved in the animal rights movement. Here are five easy ways to get started:",
+                "date": "09 May 2022"
+            }
+    
+        ],
+        
+            "recipeData":[
+           {
+             "id":1,
+             "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+               "img":"https://www.kindmeal.my/photos/recipe/118/118560-18474-m.jpg",
+               "title":"Cranberry Mimosa",
+               "author":"KindMealChef",
+               "time":"5 Mins",
+                 "Like": 0,
+                 "Comment":1
+            },
+            {
+             "id": 2,
+             "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+             "title": "Spiced Poached Pears",
+             "author":"KindMealChef",
+             "img":"https://www.kindmeal.my/photos/recipe/115/115797-17920-m.jpg",
+             "time":"30 Mins",
              "Like": 0,
              "Comment":1
-        },
-        {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000009-19416-m.jpg",
-            "title":"Vegetarian VFC",
-            "author":"MayNg",
-            "time":"1 Hr",
-              "Like": 3,
-              "Comment":2
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/104/104682-15566-m.jpg",
-            "title":"Sun-Dried Tomato Dip",
-            "author":"KindMealChef",
-            "time":"10 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000008-19415-m.jpg",
-            "title":"Curry Tomato Sauce",
-            "author":"BluePenguin",
-            "time":"30 Mins",
-              "Like": 0,
-              "Comment":1
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000011-19418-m.jpg",
-            "title":"Nasi Lemark",
-            "author":"MayNg",
-            "time":"45 Mins",
-              "Like": 1,
-              "Comment":2
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000011-19418-m.jpg",
-            "title":"Nasi Lemark",
-            "author":"MayNg",
-            "time":"45 Mins",
-              "Like": 1,
-              "Comment":2
-         },
+           },
+            {
+             "id":3,
+             "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000009-19416-m.jpg",
+                "title":"Vegetarian VFC",
+                "author":"MayNg",
+                "time":"1 Hr",
+                  "Like": 3,
+                  "Comment":2
+             },
+             {
+               "id":4,
+               "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/104/104682-15566-m.jpg",
+                "title":"Sun-Dried Tomato Dip",
+                "author":"KindMealChef",
+                "time":"10 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":5,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000008-19415-m.jpg",
+                "title":"Curry Tomato Sauce",
+                "author":"BluePenguin",
+                "time":"30 Mins",
+                  "Like": 0,
+                  "Comment":1
+             },
+             {
+               "id":6,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000011-19418-m.jpg",
+                "title":"Nasi Lemark",
+                "author":"MayNg",
+                "time":"45 Mins",
+                  "Like": 1,
+                  "Comment":2
+             },
+             {
+               "id":7,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000011-19418-m.jpg",
+                "title":"Nasi Lemark",
+                "author":"MayNg",
+                "time":"45 Mins",
+                  "Like": 1,
+                  "Comment":2
+             },
+             
+             {
+               "id":8,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039471-58904-m.jpg",
+                "title":"Banana Cake",
+                "author":"MyWeekedPlan",
+                "time":"55 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":9,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039459-58887-m.jpg",
+                "title":"Stir-fried Broccoli Rice",
+                "author":"SynThiaSumireDT",
+                "time":"1 hr",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":10,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039466-58897-m.jpg",
+                "title":"BRINJAL CURRY",
+                "author":"ismah",
+                "time":"11 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":11,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039473-58906-m.jpg",
+                "title":"Oreo Egg Tart",
+                "author":"MyWeekedPlan",
+                "time":"45 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":12, 
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039473-58906-m.jpg",
+                "title":"Oreo Egg Tart",
+                "author":"MyWeekedPlan",
+                "time":"45 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":13,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039478-58911-m.jpg",
+                "title":"Donuts",
+                "author":"MyWeekedPlan",
+                "time":"1 Hr 40 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":14,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000010-19417-m.jpg",
+                "title":"Avocado Chocolate Quino",
+                "author":"XianKy",
+                "time":"30 Mins",
+                  "Like": 1,
+                  "Comment":1
+             },
+             {
+               "id":14,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000012-19420-m.jpg",
+                "title":"Ceaser Dressing",
+                "author":"Janelle",
+                "time":"20 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":15,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000013-19421-m.jpg",
+                "title":"Pitaya Adzuki Nice Cream Smoothie Bowl",
+                "author":"BluePenguin",
+                "time":"30 Mins",
+                  "Like": 3,
+                  "Comment":1
+             },
+             {
+               "id":16,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
+                "title":"Crunchy Chocolate Chip Cookies",
+                "author":"MyWeekedPlan",
+                "time":"23 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":17,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
+                "title":"Crunchy Chocolate Chip Cookies",
+                "author":"MyWeekedPlan",
+                "time":"23 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":18,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
+                "title":"Crunchy Chocolate Chip Cookies",
+                "author":"MyWeekedPlan",
+                "time":"23 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":19,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
+                "title":"Crunchy Chocolate Chip Cookies",
+                "author":"MyWeekedPlan",
+                "time":"23 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":20,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039474-58907-m.jpg",
+                "title":"Khaman Dhokla Recipe",
+                "author":"buzztowns",
+                "time":"1 Hr",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":21,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039472-58905-m.jpg",
+                "title":"Hokkaido cheese Tart",
+                "author":"MyWeekedPlan",
+                "time":"4 Hr 30 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":22,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039472-58905-m.jpg",
+                "title":"Hokkaido cheese Tart",
+                "author":"MyWeekedPlan",
+                "time":"4 Hr 30 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":23,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000007-19413-m.jpg",
+                "title":"Chickpea Cakes",
+                "author":"BluePenguin",
+                "time":"2 Hrs",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":24,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1000/1000007-19413-m.jpg",
+                "title":"Chickpea Cakes",
+                "author":"BluePenguin",
+                "time":"2 Hrs",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":25,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/1039/1039462-58891-m.jpg",
+                "title":"Making French Toast-easy",
+                "author":"FoodLover398",
+                "time":"3 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":25,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/105/105013-15658-m.jpg",
+                "title":"Fried Mushroom Appetizers",
+                "author":"KindMealChef",
+                "time":"15 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":26,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/109/109372-16618-m.jpg",
+                "title":"Berry Salad With Balsami Vinegar And Honey",
+                "author":"KindMealChef",
+                "time":"15 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":27,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/36/36980-3607-m.jpg",
+                "title":"Creamy Butternut Squash Soup",
+                "author":"KindMealChef",
+                "time":"55 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":28,
+                "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/119/119074-18574-m.jpg",
+                "title":"Spiced Lemonade",
+                "author":"KindMealChef",
+                "time":"15 Mins",
+                  "Like": 0,
+                  "Comment":0
+             },
+             {
+               "id":29,
+               "logo":"https://www.kindmeal.my/photos/member/0/6-m.jpg",
+                "img":"https://www.kindmeal.my/photos/recipe/105/105871-15870-m.jpg",
+                "title":"Nigella Lawson Roquamole",
+                "author":"KindMealChef",
+                "time":"10 Mins",
+                  "Like": 0,
+                  "Comment":0
+             }
          
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039471-58904-m.jpg",
-            "title":"Banana Cake",
-            "author":"MyWeekedPlan",
-            "time":"55 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039459-58887-m.jpg",
-            "title":"Stir-fried Broccoli Rice",
-            "author":"SynThiaSumireDT",
-            "time":"1 hr",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039466-58897-m.jpg",
-            "title":"BRINJAL CURRY",
-            "author":"ismah",
-            "time":"11 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039473-58906-m.jpg",
-            "title":"Oreo Egg Tart",
-            "author":"MyWeekedPlan",
-            "time":"45 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039473-58906-m.jpg",
-            "title":"Oreo Egg Tart",
-            "author":"MyWeekedPlan",
-            "time":"45 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039478-58911-m.jpg",
-            "title":"Donuts",
-            "author":"MyWeekedPlan",
-            "time":"1 Hr 40 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000010-19417-m.jpg",
-            "title":"Avocado Chocolate Quino",
-            "author":"XianKy",
-            "time":"30 Mins",
-              "Like": 1,
-              "Comment":1
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000012-19420-m.jpg",
-            "title":"Ceaser Dressing",
-            "author":"Janelle",
-            "time":"20 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000013-19421-m.jpg",
-            "title":"Pitaya Adzuki Nice Cream Smoothie Bowl",
-            "author":"BluePenguin",
-            "time":"30 Mins",
-              "Like": 3,
-              "Comment":1
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
-            "title":"Crunchy Chocolate Chip Cookies",
-            "author":"MyWeekedPlan",
-            "time":"23 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
-            "title":"Crunchy Chocolate Chip Cookies",
-            "author":"MyWeekedPlan",
-            "time":"23 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
-            "title":"Crunchy Chocolate Chip Cookies",
-            "author":"MyWeekedPlan",
-            "time":"23 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039467-58898-m.jpg",
-            "title":"Crunchy Chocolate Chip Cookies",
-            "author":"MyWeekedPlan",
-            "time":"23 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039474-58907-m.jpg",
-            "title":"Khaman Dhokla Recipe",
-            "author":"buzztowns",
-            "time":"1 Hr",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039472-58905-m.jpg",
-            "title":"Hokkaido cheese Tart",
-            "author":"MyWeekedPlan",
-            "time":"4 Hr 30 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039472-58905-m.jpg",
-            "title":"Hokkaido cheese Tart",
-            "author":"MyWeekedPlan",
-            "time":"4 Hr 30 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000007-19413-m.jpg",
-            "title":"Chickpea Cakes",
-            "author":"BluePenguin",
-            "time":"2 Hrs",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1000/1000007-19413-m.jpg",
-            "title":"Chickpea Cakes",
-            "author":"BluePenguin",
-            "time":"2 Hrs",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/1039/1039462-58891-m.jpg",
-            "title":"Making French Toast-easy",
-            "author":"FoodLover398",
-            "time":"3 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/105/105013-15658-m.jpg",
-            "title":"Fried Mushroom Appetizers",
-            "author":"KindMealChef",
-            "time":"15 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/109/109372-16618-m.jpg",
-            "title":"Berry Salad With Balsami Vinegar And Honey",
-            "author":"KindMealChef",
-            "time":"15 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/36/36980-3607-m.jpg",
-            "title":"Creamy Butternut Squash Soup",
-            "author":"KindMealChef",
-            "time":"55 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/119/119074-18574-m.jpg",
-            "title":"Spiced Lemonade",
-            "author":"KindMealChef",
-            "time":"15 Mins",
-              "Like": 0,
-              "Comment":0
-         },
-         {
-            "img":"https://www.kindmeal.my/photos/recipe/105/105871-15870-m.jpg",
-            "title":"Nigella Lawson Roquamole",
-            "author":"KindMealChef",
-            "time":"10 Mins",
-              "Like": 0,
-              "Comment":0
-         }
-
-    ]
+         ]
+         
+    
 
 }

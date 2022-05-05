@@ -1,95 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router'
 import style from "../Styles/Home.module.css"
-
-class Listhead1 extends React.Component {
-  render() {
-    return (
-      <div className={style.listhead1}>
-        <h2>Yummylicious Moments</h2>
-        <a
-          className={style.save_life}
-          href="./recepie.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-             .     Secret Recipes
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          {" "}
-             .     Member Hot Picks
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          {" "}
-             .    Photo Moments
-        </a>
-        <div className={style.listed_items}>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_2_1.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_2_2.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_2_3.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_2_4.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_2_5.png" alt />
-            </a>
-          </div>
+const ListHead1 = () => {
+    const navigate=useNavigate()
+    const [data,setData]=useState([])
+    useEffect(() => {
+        const getData = async () => {
+    
+          try {
+            let res = await fetch(`http://localhost:8080/recipeData?_limit=5`)
+            let data = await res.json();
+            setData(data)
+            // console.log(data)
+          }
+          catch (error) {
+            console.log(error);
+          }
+        }
+        getData();
+        // console.log(data)
+      },[])
+  return (
+    <div className={style.box}>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            <p style={{fontSize:"20px"}}>Yummylicious Moments</p>
+            <p style={{fontSize:"17px"}}>
+                <a href="" onClick={()=>navigate("/recipes")}>Secret Recipies</a>   |   
+                <a href="" onClick={()=>navigate("/hotpicks")} >Member Hot Picks</a>  |   
+                <a href="" onClick={()=>navigate("/moments")}>Photo Moments</a>
+            </p>
         </div>
-        <div className={style.listpara}>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Alicor Vegetarian Organic Mart
-            </a>
-            <br />
-            <span>ChewLengLeng</span>{" "}
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              A Delicious KindMoment
-            </a>
-            <br />
-            <span>william</span>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              A Delicious KindMoment
-            </a>
-            <br />
-            <span>ChewLengLeng</span>{" "}
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Creative Home-Style Dining
-            </a>
-            <br />
-            <span>yoyo</span>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Vegan Thai Delights
-            </a>
-            <br />
-            <span>yoyo</span>
-          </div>
+        <br/>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            {data.map(e=>{
+                return (
+                    <div style={{width:"170px",textAlign:"center"}} key={e.id}>
+                        <img src={e.img}/>
+                        <p style={{textAlign:"center",fontSize:"12px"}}>{e.title}</p>
+                    </div>
+                )
+            })}
         </div>
-      </div>
-    );
-  }
+    </div>
+  )
 }
 
-export default Listhead1;
+export default ListHead1

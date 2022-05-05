@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState,useNavigate } from 'react'
 import { Email, Facebook, GreenBar, GreenLinks, Logo, Nav, Signup, Social } from './Styled'
 import { NavLink, Link } from 'react-router-dom'
+import LoginPopup from '../PopUp/LoginPopUp'
+import SignupPopup from '../PopUp/SignUpPopUp'
 
 
 const Navbar = () => {
-
+   
 
 
     return (
@@ -20,42 +22,44 @@ const Navbar = () => {
                     <a href="https://twitter.com/KindMeal"><Social src='https://www.kindmeal.my/images/follow_twitter_grey.png' title="Follow KindMeal.my on Twitter" /></a>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                    <p style={{ fontSize: "12px" }}>Login</p>
-                    <div>
+                <p style={{ fontSize: "12px" }}><LoginPopup/></p>
+                    <div className='facebook_email'>
                         <Facebook className='show'>Facebook</Facebook>
                         <p className='hide'>Login with Facebook Account</p>
                     </div>
-                    <div>
+                    <div  className='facebook_email'>
                         <Email className='showEmail'>Email</Email>
                         <p className='hideEmail'>Login with KindMeal Account</p>
                     </div>
-                    <Signup>Signup</Signup>
+                    <Signup>
+                    <SignupPopup />
+                    </Signup>
                 </div>
             </Nav>
             <GreenBar>
                 <GreenLinks>
-                    <NavLink className="NavLink" to="/">Home</NavLink>
+                    <NavLink className="NavLink" to="/" style={{textDecoration:"none"}}>Home</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/deals">Meal Deals</NavLink>
+                    <NavLink className="NavLink" to="/deals" style={{textDecoration:"none"}}>Meal Deals</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/kindmoments">KindMoments</NavLink>
+                    <NavLink className="NavLink" to="/kindmoments" style={{textDecoration:"none"}}>KindMoments</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/hotpicks">HotPicks</NavLink>
+                    <NavLink className="NavLink" to="/hotpicks" style={{textDecoration:"none"}}>HotPicks</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/recipes">Recipes</NavLink>
+                    <NavLink className="NavLink" to="/recipes" style={{textDecoration:"none"}}>Recipes</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/directory">Directory</NavLink>
+                    <NavLink className="NavLink" to="/directory" style={{textDecoration:"none"}}>Directory</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/articles">Articles</NavLink>
+                    <NavLink className="NavLink" to="/articles" style={{textDecoration:"none"}}>Articles</NavLink>
                 </GreenLinks>
                 <GreenLinks >
-                    <NavLink className="NavLink" to="/help">Help</NavLink>
+                    <NavLink className="NavLink" to="/help" style={{textDecoration:"none"}}>Help</NavLink>
                 </GreenLinks>
             </GreenBar>
         </>
