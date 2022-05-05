@@ -24,7 +24,7 @@ console.log(formData);
 
     return (
 <>
-<button onClick={(e) => setVisibility(!visibility)} style={{marginLeft:"500px"}}>Login</button>
+<button onClick={(e) => setVisibility(!visibility)} className={style.signup_btn}>Login</button>
  
 
 

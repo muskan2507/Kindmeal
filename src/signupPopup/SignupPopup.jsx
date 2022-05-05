@@ -3,6 +3,7 @@ import style from './popup.module.css'
 import { useState } from "react";
 import CustomPopup from "./CustomPopup";
 
+
 const SignupPopup = () => {
 
     const [visibility, setVisibility] = useState(false);
@@ -17,7 +18,7 @@ const SignupPopup = () => {
 
     return (
 <>
-<button onClick={(e) => setVisibility(!visibility)} style={{marginLeft:"200px"}}>signup</button>
+<button onClick={(e) => setVisibility(!visibility)} className={style.signup_btn}>Signup</button>
  
 
 

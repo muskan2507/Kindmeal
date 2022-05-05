@@ -11,6 +11,8 @@ import LoginPopup from "./signupPopup/LoginPopup";
 import SignupPopup from "./signupPopup/SignupPopup";
 
 import Recipe from "./Recipes/Recipe";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 
@@ -20,9 +22,9 @@ function App() {
 
   return (
     <div className="App">
+ <Navbar/>
  
- 
-<SignupPopup/>
+
 <LoginPopup/>
 
 {/* <Routes>
@@ -44,6 +46,7 @@ function App() {
 
 <Recipe/>
 
+<Footer/>
     </div>
   );
 }
