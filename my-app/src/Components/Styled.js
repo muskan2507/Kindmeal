@@ -282,3 +282,30 @@ transition: transform .10s;
 }
 `;
 
+//onClick subpage
+
+export const MainDiv = styled.div`
+border-radius: 10px;
+background-color: #ffffff;
+box-shadow: 0px 0px 6px #e0e0e0;
+width: 70%;
+margin:auto;
+padding:20px;
+height:800px;
+display: flex;
+flex-direction: column;
+`;
+
+export const Video = styled.iframe`
+background-color: rgba(20, 22, 26, .2);
+content: "";
+height: 500px;
+position: absolute;
+width: 70%;
+margin-bottom:1%;
+`;
+
+export const Phedd = styled.h1`
+margin-top:60%; 
+text-align:justify;
+`;

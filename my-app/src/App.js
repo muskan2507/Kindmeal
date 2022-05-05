@@ -11,6 +11,7 @@ import Recipes from './Pages/Recipes';
 import Directory from './Pages/Directory';
 import Articles from './Pages/Articles';
 import Help from './Pages/Help';
+import Subpage from './Pages/Subpage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/directory' element={<Directory/>}/>
         <Route path='/articles' element={<Articles/>}/>
         <Route path='/help' element={<Help/>}/>
+        <Route path='/articles/:id' element={<Subpage/>}/>
       </Routes>
     <Footer/>
     </div>

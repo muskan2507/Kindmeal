@@ -44,7 +44,7 @@ const Articles = () => {
           <Num onClick={()=>setPageNumber(6)}>6</Num>
           <Num onClick={()=>setPageNumber(7)}>7</Num>
           <Num onClick={()=>setPageNumber(8)}>8</Num>
-          <p>.....</p>
+          <p>...</p>
           <Num onClick={()=>setPageNumber(10)}>10</Num>
         </PageNum>
         <div style={{display:"flex", gap:"10px"}}>
