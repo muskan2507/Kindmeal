@@ -3,28 +3,46 @@
     height: auto;
     padding-bottom: 20px;
     background-color: #f0f0f0;
+    margin: auto;
     margin-bottom: 80px;
+    
   }
   #mar {
     padding: 35px 100px 10px 100px;
     font-weight: 100;
+    /* margin: auto; */
+    text-align: left;
     margin: auto;
+    width: 83%;
     color: rgba(0, 0, 0, 0.725); 
+    /* font-size: 30px; */
   }
-
+#mar h5 {
+  text-align: left;
+  font-size: 30px;
+}
   #mar p{
-      margin-top: 8px;
+      /* margin-top: 8px; */
+      font-size: 14px;
   }
   #mar1 {
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: 50;
   }
+  #mar a {
+    text-decoration: none;
+    color: blue;
+  }
   .page,.flex-div{
+    margin: auto;
       margin-top: -20px ;
       display: flex;
       justify-content: space-between;
       padding: 1px 100px 8px 60px;
       font-size: 20px;
+      width: 83%;
+      gap: 35px;
+      
   }
   .page button{
       margin-top: -10px;
@@ -99,7 +117,9 @@ padding-left: 50px;
   }
 .flex-div2{
     padding: 0px 130px 0px 130px; 
+    margin: auto;
     margin-top: -50px;
+    width: 87%;
 }
 .flex-div2 button{
     width: 220px; 
@@ -120,14 +140,24 @@ cursor: pointer;
 }
 .pagination{
  font-size: 20px;
-  margin: 4%;
-  margin-left: 9%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  width: 68%;
+  /* border:1px solid black */
 }
+
 .next{
-margin-left: 60%;
+margin-left: 62%;
 /* border: 1px solid black; */
 color: black;
-padding: 8px;
+
+/* padding: 8px; */
+}
+.next button {
+  width: 60px;
 }
 .border{
   text-decoration: none;
@@ -143,20 +173,32 @@ color: black;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   justify-content: space-between;
-  width: 95%;
-  padding: 0px 70px 8px 80px;
-  gap: 60px;
- 
- 
+  width:68%;
+  /* padding: 0px 70px 8px 80px; */
+  gap: 20px;
+  box-sizing: border-box;
+ margin: auto;
+ /* border: 1px solid black; */
+ margin-left: 220px;
+ /* font-size: 14px; */
 }
 .child-div{
   padding: 30px;
+  box-sizing: border-box;
+  width:100%;
   border-radius: 8px;
-  height: auto;
+  /* height: auto; */
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.child-div h3, .child-div h4 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.child-div h4 {
+  font-size: 20px;
+}
 .child-div p{
-  font-size: 16px;
+  font-size: 13px;
   line-height: normal;
 }
 .bottom-line{
@@ -175,6 +217,14 @@ color: black;
   width: 55%;
   margin: auto;
 }
+.input-div h3 {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.input-div label {
+  margin-top: 10px;
+  font-size: 15px;
+}
 .input-div .input-child{
   font-size: 16px;
   margin-left: 4%;
@@ -185,15 +235,20 @@ color: black;
 }
 .input-div div input,textarea{
   width: 440px;
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   border: 0.5px solid rgba(0, 0, 0, 0.253);
   border-radius: 6px;
+  height: 40px;
 }
-.block-div input{
-  margin-top: -10px;
+.block-div textarea{
+  /* margin-top: -10px; */
+  height: 300px;
 }
 .block-div p{
+    margin-top: -10px;
+    margin-bottom: 6px;
+
   font-size: 14px;
   color: rgba(0, 0, 0, 0.591);
 }
@@ -201,8 +256,8 @@ color: black;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 color: white;
 border-radius: 8px;
 border: none;
@@ -210,6 +265,16 @@ cursor: pointer;
 background-color: #f53838;
 margin-bottom: 20%;
 margin-top: 4%;
-margin-left: 20%;
+margin-left: 30px;
+}
+.gmap_iframe {
+  width: 100%;
+  height: 200px;
 }
 
+.addShop{
+  text-decoration: none;
+}
+.page-item a {
+  color: blue;
+}

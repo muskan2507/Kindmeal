@@ -125,6 +125,8 @@ line-height: 15px;
 export const Para = styled.p`
 font-size: 12px;
 line-height: 15px;
+text-align:center;
+color:#eeeeee;
 `;
 
 //Article page 

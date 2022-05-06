@@ -1,7 +1,9 @@
 import React from 'react'
-import './style.css'
+import { useNavigate } from 'react-router-dom';
+import '../Styles/Directory.css'
 
 const AddDirectory = () => {
+  const navigate=useNavigate()
   const [formdata,setformdata] = React.useState({});
   const handleChange = (e)=>{
     let inputName = e.target.name;
@@ -12,10 +14,11 @@ const AddDirectory = () => {
   const handleSubmit = (e)=>{
     e.preventDefault()
     sendata(formdata)
+  navigate(-1)
   }
 
   const sendata = (formdata)=>{
-    fetch(`http://localhost:8080/posts`,{
+    fetch(`http://localhost:8080/directory`,{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
@@ -34,9 +37,9 @@ const AddDirectory = () => {
         
         <div className="ynews">
                 <div id="mar">
-                    <h1>
-Add Vegetarian / Vegan Shop</h1>
-                       
+                    <h5>
+Add Vegetarian / Vegan Shop</h5>
+                       <br/>
                         <p id="mar1">Know of a vegetarian or vegan shop not featured in our directory? List it now to share with more food lovers and encourage meat-free dining!</p>
                
                         <p id="mar1">If you are the restaurant owner, <span id="b2s">join KindMeal </span>as a merchant now to feature your vegetarian promotions for FREE.</p>
@@ -51,7 +54,7 @@ Add Vegetarian / Vegan Shop</h1>
                     
                       </div>
                       <div  className='flex input-child'>
-                        <label htmlFor="">Shop Address</label>
+                        <label htmlFor="" style={{marginTop:"20px"}}>Shop Address</label>
                           <div className='block-div'>
                           <p>Full address, including zip, city & state</p>
                           <input type="text"  onChange={handleChange} name='address'/>

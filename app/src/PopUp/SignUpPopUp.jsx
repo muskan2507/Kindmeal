@@ -13,7 +13,7 @@ const SignupPopup = () => {
     };
     const handleClick =()=>{
         navigate("/join")
-        console.log("hello")
+        // console.log("hello")
         setVisibility(!visibility);
     }
 const handleClick1 =()=>{

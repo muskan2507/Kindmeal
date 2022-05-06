@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import AddDirectory from '../components/AddDirectory'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Article from '../Pages/Article'
@@ -26,7 +27,8 @@ const MainRoutes = () => {
             <Route path="/help" element={<Help/>}/>
             <Route path="/articles" element={<Articles/>}/>
             <Route path="/articles/:id" element={<Article/>}/>
-            {/* <Route path="/directory" element={<Directory/>}/> */}
+            <Route path="/directory" element={<Directory/>}/>
+            <Route path="/directory/addshop" element={<AddDirectory/>}/>
         </Routes>
         <Footer/>
     </div>

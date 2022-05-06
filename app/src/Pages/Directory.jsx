@@ -6,7 +6,7 @@ const Directory = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch(`http://localhost:8080/directory`)
+    fetch(`http://localhost:8080/directory?_page=${page}&_limit=6`)
       .then((res) => res.json())
       .then((data) => setShow(data))
       .catch((err) => console.log(err));
@@ -14,7 +14,7 @@ const Directory = () => {
 
   const shopSearch = (e) => {
     if (e.target.value === "") {
-      fetch("http://localhost:8080/posts")
+      fetch("http://localhost:8080/directory")
         .then((res) => res.json())
         .then((data) => setShow(data))
         .catch((er) => console.log(er));
@@ -34,17 +34,18 @@ const Directory = () => {
     <div>
       <div className="ynews">
         <div id="mar">
-          <h1>Vegetarian Restaurants In Malaysia</h1>
+          <h5>Vegetarian Restaurants In Malaysia</h5>
+          <br/>
           <p id="mar1">
             Looking for even more delicious choices? Explore hundreds of
             vegetarian and vegan restaurants in Malaysia.
           </p>
-
+            <br/>
           <p id="mar1">
             Are you a restaurant or cafe owner? Boost your business with an
             attractive KindMeal profile and deals for FREE.
-            <span id="b2s"> Find out more</span> or{" "}
-            <span id="b2s">contact us</span> more.
+            <a href="https://www.kindmeal.my/businesses.htm"> Find out more</a> or{" "}
+            <a href="https://www.kindmeal.my/contact.htm">contact us</a> more.
           </p>
         </div>
         <div className="flex-div flex">
@@ -67,7 +68,7 @@ const Directory = () => {
           </select>
 
           <button>Search Shop</button>
-          <Link to="/addshop" className="addShop">
+          <Link to="/directory/addshop" className="addShop" style={{textDecoration:"none"}}>
             Add a Shop
           </Link>
         </div>
@@ -87,63 +88,55 @@ const Directory = () => {
             </a>
           </li>
           <li className="page-item">
-            <a className="page-link  border-0" href="#">
+            <a className="page-link  border-0" href="#" onClick={()=>setPage(1)}>
               1
             </a>
-          </li>
+          </li> 
           <li className="page-item">
-            <a className="page-link border-0" href="#">
+            <a className="page-link border-0" href="#" onClick={()=>setPage(2)}>
               2
             </a>
           </li>
           <li className="page-item">
-            <a className="page-link border-0" href="#">
+            <a className="page-link border-0" href="#" onClick={()=>setPage(3)}>
               3
             </a>
           </li>
           <li className="page-item">
-            <a className="page-link border-0" href="#">
+            <a className="page-link border-0" href="#" onClick={()=>setPage(4)}>
               4
             </a>
           </li>
           <li className="page-item">
-            <a className="page-link border-0" href="#">
+            <a className="page-link border-0" href="#" onClick={()=>setPage(5)}>
               5
             </a>
           </li>
           <li className="page-item">
-            <a className="page-link border-0" href="#">
+            <a className="page-link border-0" href="#" onClick={()=>setPage(6)}>
               6
             </a>
           </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              7
-            </a>
-          </li>
+          
           <li className=" next">
-            <a
-              className="btn btn-secondary"
-              href="#"
-              onClick={() => {
-                if (page > 1) {
-                  setPage(page + 1);
-                }
-              }}
-            >
-              Next >>{" "}
-            </a>
+           
+            
+              <button onClick={()=>setPage(page+1)}>Next » </button>
+            
           </li>
         </ul>
       </nav>
-
+         <br/><br/>
       <div className="map-div">
         {show.map((item, index) => {
           return (
             <div key={item.id} className="child-div">
               <h3>{item.name}</h3>
+              <br/>
               <p>{item.description}</p>
+              <br/>
               <hr />
+              <br/> <br/>
               <h4 className="address-1">Address</h4>
               <p>{item.address}</p>
               <br />
@@ -153,7 +146,7 @@ const Directory = () => {
               <br />
               <h4 className="openHoue-1">Opening Hours</h4>
               <p>{item.opening}</p>
-
+               <br/>
               {/* <iframe className="gmap_iframe" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src={item.map}></iframe> */}
 
               <iframe
@@ -217,26 +210,16 @@ const Directory = () => {
               6
             </a>
           </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              7
-            </a>
-          </li>
+         
           <li className=" next">
-            <a
-              className="btn btn-secondary"
-              href="#"
-              onClick={() => {
-                if (page > 1) {
-                  setPage(page + 1);
-                }
-              }}
-            >
-              Next >>{" "}
-            </a>
+           
+            
+          <button onClick={()=>setPage(page+1)}>Next » </button>
+
           </li>
         </ul>
       </nav>
+      <br/><br/>
     </div>
   );
 };
