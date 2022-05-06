@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState,useMemo } from 'react'
 import { Link } from 'react-router-dom';
 import './style.css';
 
@@ -8,6 +8,7 @@ import './style.css';
 const Directory = () => {
   const [show, setShow] = useState([])
   const [page, setPage] = useState(1)
+  const [selectedCategory, setSelectedCategory] = useState();
 
 
   useEffect(() => {
@@ -29,15 +30,33 @@ const Directory = () => {
     }
   }
 
-  const vegeterianSort = (show) => {
-    show.sort((a, b) => {
-      return (a.name - b.name)
-    })
+
+  function getFilteredList() {
+    // Avoid filter when selectedCategory is null
+    if (!selectedCategory) {
+      return show;
+    }
+    return show.filter((item) => item.catagory === selectedCategory);
+  }
+  // Avoid duplicate function calls with useMemo
+  var filteredList = useMemo(getFilteredList, [selectedCategory, show]);
+
+  function handleCategoryChange(event) {
+    if(event.target.value==="All Categories"){
+      return selectedCategory;
+    }else{
+
+      setSelectedCategory(event.target.value);
+    }
   }
 
 
 
-  console.log(show);
+
+
+  // console.log(show);
+
+
   return (
     <div>
 
@@ -52,7 +71,7 @@ const Directory = () => {
         </div>
         <div className='flex-div flex'>
           <input type="text" placeholder='Search Shop Name' className='input-box' onChange={shopSearch} />
-          <select name="search-by-select" id="select" className='input-box'>
+          <select name="search-by-select" id="select" className='input-box' onChange={handleCategoryChange}>
             <option value="all Shops In Malasiyas">All Shops In Malaysia</option>
             <option value="Selangore">Selangore</option>
             <option value="Kuala Lumpur">Kuala Lumpur</option>
@@ -68,7 +87,7 @@ const Directory = () => {
       </div>
 
       <div className='flex-div2 flex'>
-        <button onClick={vegeterianSort}>Vegeterian Directory</button>
+        <button >Vegeterian Directory</button>
         <button>Featured Resturents</button>
         <button>Food Menu</button>
         <button>Food Map</button>
@@ -98,7 +117,9 @@ const Directory = () => {
 
       <div className='map-div'>
 
-        {show.map((item, index) => {
+        {
+        
+        filteredList.map((item, index) => {
           return (
             <div key={item.id} className="child-div">
               <h3>{item.name}</h3>

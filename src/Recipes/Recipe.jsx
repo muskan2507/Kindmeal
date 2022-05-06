@@ -19,7 +19,8 @@ const [count, setCount] =useState(1)
 
   const handleSearch = (e) => {
     if (e.target.value === '') {
-      fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=9`).then((res) => res.json())
+      fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=9`)
+      .then((res) => res.json())
         .then((data) => setShow(data))
         .catch((er) => console.log(er))
     } else {
@@ -134,7 +135,7 @@ const [count, setCount] =useState(1)
   <p> <img src="https://www.kindmeal.my/images/icon_time_small.png" alt="time" className={style.ti_li_co}/>
     {item.time}</p>
 
-  <p><img src="https://www.kindmeal.my/images/icon_heart_small.png" alt="like"className={style.ti_li_co} />
+  <p ><img src="https://www.kindmeal.my/images/icon_heart_small.png" alt="like"className={style.ti_li_co}/>
     {item.Like}</p>
   <p><img src="https://www.kindmeal.my/images/icon_commentbubble_small.png" alt="comment" className={style.ti_li_co}/>
     {item.Comment}</p>

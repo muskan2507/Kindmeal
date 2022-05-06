@@ -13,6 +13,7 @@ import SignupPopup from "./signupPopup/SignupPopup";
 import Recipe from "./Recipes/Recipe";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import MealDeals from "./MealDeals/MealDeals";
 
 
 
@@ -38,13 +39,15 @@ function App() {
 {/* <Sliding/> */}
 
 {/* <AddDirectory/> */}
-{/* <Directory/> */}
+<Directory/>
 {/* <Help/> */}
 
 
 
 
-<Recipe/>
+{/* <Recipe/> */}
+
+<MealDeals/>
 
 <Footer/>
     </div>

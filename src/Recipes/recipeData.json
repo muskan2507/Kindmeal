@@ -7,7 +7,7 @@
       "title":"Cranberry Mimosa",
       "author":"KindMealChef",
       "time":"5 Mins",
-        "Like": 0,
+        "Like": 10,
         "catagory":"Breakfast",
         "Comment":1
    },
@@ -18,7 +18,7 @@
     "author":"KindMealChef",
     "img":"https://www.kindmeal.my/photos/recipe/1039/1039471-58904-m.jpg",
     "time":"30 Mins",
-    "Like": 0,
+    "Like": 7,
     "catagory":"Breads",
     "Comment":1
   },
@@ -41,7 +41,7 @@
        "title":"Sun-Dried Tomato Dip",
        "author":"KindMealChef",
        "time":"10 Mins",
-         "Like": 0,
+         "Like": 4,
          "catagory":"Desserts",
          "Comment":0
     },
@@ -52,9 +52,9 @@
        "title":"Curry Tomato Sauce",
        "author":"BluePenguin",
        "time":"30 Mins",
-         "Like": 0,
+         "Like": 3,
          "catagory":"Condiments",
-         "Comment":1
+         "Comment":7
     },
     {
       "id":6,
@@ -86,7 +86,7 @@
        "title":"Banana Cake",
        "author":"MyWeekedPlan",
        "time":"55 Mins",
-         "Like": 0,
+         "Like": 15,
          "catagory":"Breakfast",
          "Comment":0
     },
@@ -97,9 +97,9 @@
        "title":"Stir-fried Broccoli Rice",
        "author":"SynThiaSumireDT",
        "time":"1 hr",
-         "Like": 0,
+         "Like": 10,
          "catagory":"Main Dishes",
-         "Comment":0
+         "Comment":14
     },
     {
       "id":10,
@@ -108,9 +108,9 @@
        "title":"BRINJAL CURRY",
        "author":"ismah",
        "time":"11 Mins",
-         "Like": 0,
+         "Like": 11,
          "catagory":"Main Dishes",
-         "Comment":0
+         "Comment":7
     },
     {
       "id":11,
@@ -119,9 +119,9 @@
        "title":"Oreo Egg Tart",
        "author":"MyWeekedPlan",
        "time":"45 Mins",
-         "Like": 0,
+         "Like": 9,
          "catagory":"Beverages",
-         "Comment":0
+         "Comment":7
     },
     {
       "id":12, 
@@ -130,9 +130,9 @@
        "title":"Oreo Egg Tart",
        "author":"MyWeekedPlan",
        "time":"45 Mins",
-         "Like": 0,
+         "Like": 20,
          "catagory":"Breakfast",
-         "Comment":0
+         "Comment":15
     },
     {
       "id":13,
@@ -141,9 +141,9 @@
        "title":"Donuts",
        "author":"MyWeekedPlan",
        "time":"1 Hr 40 Mins",
-         "Like": 0,
+         "Like": 24,
          "catagory":"Side Dishes",
-         "Comment":0
+         "Comment":14
     },
     {
       "id":14,
