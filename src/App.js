@@ -26,17 +26,28 @@ function App() {
  <Navbar/>
  
 
-{/* <Routes> */}
-  {/* <Route path="/addshop" element={<AddDirectory/>}/>
-  <Route path="/directory" element={<Directory/>}/> */}
+<Routes>
+
+  <Route path="/" element={<Sliding/>} />
+ <Route path="/directory" element={<Directory/>} /> 
+ 
+
+  <Route path="/addshop" element={<AddDirectory/>}/>
+
  {/* <Route path="/loginwindow" element={<LoginPopup/>}/> */}
 
-{/* </Routes>  */}
+ <Route path="/mealdeals" element={<MealDeals/>} />
+ <Route path="/help" element={<Help/>} />
+ <Route path="/recipes" element={<Recipe/>} />
+
+
+
+</Routes> 
 
 {/* <LoginPopup/>
 <SignupPopup/> */}
 
-<Sliding/>
+{/* <Sliding/> */}
 
 {/* <AddDirectory/> */}
 {/* <Directory/> */}
@@ -47,7 +58,7 @@ function App() {
 
 {/* <Recipe/> */}
 
-<MealDeals/>
+{/* <MealDeals/> */}
 
 <Footer/>
     </div>

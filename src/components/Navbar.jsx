@@ -35,7 +35,7 @@ const Navbar = () => {
                         <p className='hideEmail'>Login with KindMeal Account</p>
                     </div>
                     <Signup>
-                    {/* <SignupPopup/> */}
+                    <SignupPopup/>
                   
                     </Signup>
                 </div>
