@@ -13,7 +13,7 @@ const [show,setShow]= useState([])
       .catch((er)=>console.log(er))
     },[count])
 
-    console.log(show);
+    // console.log(show);
 
 
     const handleSearch = (e) => {
@@ -23,8 +23,10 @@ if(e.target.value===''){
   .then((data)=>setShow(data))
   .catch((er)=>console.log(er))
 }else{
-  const newShow=show.filter((item)=>item.title.includes(e.target.value))
-  setShow([...newShow])
+  const newShow=show.filter((item)=>item.title.includes(e.target.value) )
+  const newShow2=show.filter((item)=>item.name.includes(e.target.value) )
+
+  setShow([...newShow, ...newShow2])
   
 }
     }
@@ -33,7 +35,11 @@ const getFilteredList=()=>{
   if(!selectedCategory){
     return show;
   }
-    return show.filter((item)=>item.catagory===selectedCategory)
+    return show.filter((item)=>{
+      return(
+      item.catagory===selectedCategory
+      )
+    })
  
 }
 
@@ -48,6 +54,11 @@ const getFilteredList=()=>{
             setSelectedCategory(event.target.value)
           }
     }
+
+const handleLocationChange=()=>{
+
+}
+
 
 
   return (
@@ -81,7 +92,7 @@ const getFilteredList=()=>{
           </select>
 
           <select id="select" className={style.select}
-           onChange={handleCategoryChange} name="Location">
+           onChange={handleLocationChange} name="Location">
             <option value="All Locations">All Locations</option>
             <option value="Klang vally">Klang vally</option>
             <option value="Kualalumpur">Kualalumpur</option>
@@ -102,19 +113,20 @@ const getFilteredList=()=>{
 
         <img src="https://www.kindmeal.my/images/ads/banner_ekoeko-1100x280.jpg" alt="addvertise" className={style.addvertise} />
         <div className={style.pagination}>
-          <div>
+          <div className={style.pageNum}>
           <p>Page : </p>
           <p onClick={()=>setCount(1)}>1</p>
           <p onClick={()=>setCount(2)}>2</p>
-          <p onClick={()=>setCount(2)}>3</p>
-          <p onClick={()=>setCount(2)}>4</p>
-          <p onClick={()=>setCount(2)}>5</p>
-          <p onClick={()=>setCount(2)}>6</p>
-          <p onClick={()=>setCount(2)}>7</p>
-          <p onClick={()=>setCount(2)}>8</p>
-          <p onClick={()=>setCount(2)}>9</p>
+          <p onClick={()=>setCount(3)}>3</p>
+          <p onClick={()=>setCount(4)}>4</p>
+          <p onClick={()=>setCount(5)}>5</p>
+          <p onClick={()=>setCount(6)}>6</p>
+          <p onClick={()=>setCount(7)}>7</p>
+          <p onClick={()=>setCount(8)}>8</p>
+          <p onClick={()=>setCount(9)}>9</p>
+          <p onClick={()=>setCount(10)}>10</p>
           </div>
-     <button  onClick={()=>setCount(count+1)} >Next  </button>
+     <button  onClick={()=>setCount(count+1)} >Next &raquo; </button>
         </div>
 <div className={style.grid}>
   {
@@ -148,7 +160,7 @@ filteredList.map((item)=>(
 </div>
 <div>
   <p>KindMeal Discount</p>
-  <p className={style.discount}>{`${item.off} Off`}</p>
+  <p className={style.discount}>{`${item.off2} Off`}</p>
 </div>
 <div>
   <p>Expires In</p>

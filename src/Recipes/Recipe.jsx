@@ -12,14 +12,14 @@ const [count, setCount] =useState(1)
 
 
   useEffect(()=>{
-    fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=12`).then((res)=>res.json())
+    fetch(`http://localhost:8080/recipeData?_page=${count}&_limit=12`).then((res)=>res.json())
     .then((data)=>setShow(data))
     .catch((er)=>console.log(er))
   },[count])
 
   const handleSearch = (e) => {
     if (e.target.value === '') {
-      fetch(`http://localhost:8081/recipeData?_page=${count}&_limit=9`)
+      fetch(`http://localhost:8080/recipeData?_page=${count}&_limit=9`)
       .then((res) => res.json())
         .then((data) => setShow(data))
         .catch((er) => console.log(er))
@@ -104,15 +104,15 @@ const [count, setCount] =useState(1)
           <p>Page : </p>
           <p onClick={()=>setCount(1)}>1</p>
           <p onClick={()=>setCount(2)}>2</p>
-          <p onClick={()=>setCount(2)}>3</p>
-          <p onClick={()=>setCount(2)}>4</p>
-          <p onClick={()=>setCount(2)}>5</p>
-          <p onClick={()=>setCount(2)}>6</p>
-          <p onClick={()=>setCount(2)}>7</p>
-          <p onClick={()=>setCount(2)}>8</p>
-          <p onClick={()=>setCount(2)}>9</p>
+          <p onClick={()=>setCount(3)}>3</p>
+          <p onClick={()=>setCount(4) }>4</p>
+          <p onClick={()=>setCount(5)}>5</p>
+          <p onClick={()=>setCount(6)}>6</p>
+          <p onClick={()=>setCount(7)}>7</p>
+          <p onClick={()=>setCount(8)}>8</p>
+          <p onClick={()=>setCount(9)}>9</p>
           </div>
-     <button  onClick={()=>setCount(count+1)} >Next  </button>
+     <button  onClick={()=>setCount(count+1)} >Next &raquo; </button>
         </div>
 <div className={style.grid_div}>
 

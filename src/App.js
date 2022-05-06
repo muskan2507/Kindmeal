@@ -36,10 +36,10 @@ function App() {
 {/* <LoginPopup/>
 <SignupPopup/> */}
 
-{/* <Sliding/> */}
+<Sliding/>
 
 {/* <AddDirectory/> */}
-<Directory/>
+{/* <Directory/> */}
 {/* <Help/> */}
 
 
