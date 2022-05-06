@@ -1,0 +1,66 @@
+.MealDeals{
+  width: 86%;
+  /* display: flex; */
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  margin-top: 40px;
+}
+.MealDealsHead>span>a{
+  text-decoration: none;
+}
+.MealDealsHead>span>a:hover{
+  text-decoration: underline;
+}
+.MealDealsHead{
+  margin-top: 10px;
+  color: #666666;
+
+  font-size: 24px;
+  display: flex;
+  justify-content:space-between;
+  padding: 5px;
+  font-weight: bold;
+}
+.MealDealsCards{
+  margin-top: 20px;
+display: grid;
+grid-template-columns:220px 220px 220px 220px 220px;
+text-align: center;
+gap: 10px;
+font-size: 15px;
+color: #666666;
+font-weight: bold;
+margin-left: 10px;
+
+}
+.innerCard>div>img{
+  width: 220px;
+  height: 180px;
+  border-radius: 10px;
+}
+.mealsOff{
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  margin-top:-170px;
+  margin-left: 150px;
+  background-color: #FB2222;
+  color:white;
+  position: absolute;
+}
+.offText{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.SpecialBannerImg{
+ width: 86%;
+ margin: auto;
+ margin-top: 20px;
+
+  }
+  .SpecialBannerImg>img{
+    width: 100%;
+  }

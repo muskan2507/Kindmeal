@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto+Condensed:wght@300&display=swap');
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Datils{
+  width: 85%;
+  /* background-color: aqua; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* height: 500px; */
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+.DetailsHead{
+  width:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #F0F0F0 ;
+  height: 50px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.DetailContent{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:376px 500px ;
+}
+.LeftDetailContent>div>img{
+  width:100%;
+  height:100%;
+}
+.LeftDetailContent>div>div{
+  width:100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-top: -51px;
+  position: relative;
+  color: #F0F0F0;
+
+}
+.RightDetailContent{
+  text-align: center;
+}
+.RightInnerDetailContent{
+  display: grid;
+  line-height: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:173px 173px ;
+}
+.p1{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.button2{
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  text-align:center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #007FFF;
+  font-weight: bold;
+  color: #F0F0F0;
+  border: none;
+}
+div>button>img{
+  height: 30px;
+}
+.BottomContent{
+  border: 1px solid gray;
+}
+.RightContent{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.LeftContent
+{
+  border-left: 1px solid gray;
+}
+
+
+
+/* ///////////////////////////////////////////////////0 */
+
+.Info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: -500px;
+  border: 1px solid gray;
+  /* gap :20px; */
+  
+}
+.Info>div{
+  margin-top: 40px;
+}
+
+.LeftInfo{
+  margin-left: 20px;
+  padding: 10px;
+}
+.RightInfo{
+  margin-left: 20px;
+  padding: 10px;
+}
+.Infohead{
+  font-size: 27px;
+  font-weight: bold;
+}
+.samep{
+  font-size: 15px;
+  font-weight: bold;
+}
+.icons{
+  display: flex;
+  gap: 40px;
+ font-size: 15px;
+}
+
+.info2{
+  display: flex;
+  gap: 20px;
+
+}
+
+/* ///////////////////////////////////// */
+.iceCremImg{
+ background-color: rgba(190, 192, 191,0.2);
+  display: grid;
+  grid-template-columns:repeat(6,153px);
+  border: 1px solid gray;
+  padding: 20px;
+  border-top: none;
+  column-gap: 30px;
+  row-gap: 5px;
+}
+ 
+.iceCremImg>div>img{
+  width: 150px;
+  height: 157px;
+}
