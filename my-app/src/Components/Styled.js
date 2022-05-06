@@ -263,23 +263,6 @@ export const Num = styled.p`
 display:block;
 cursor: pointer;
 transition: transform .10s;
-&:active{
-    background-color: #f8f8f8;
-    border: 1px solid #e8e8e8;
-    color: #666666;
-    font-weight: bold;
-    font-size: 14px;
-	line-height: 25px;
-    width: 18px;
-    height: 22px;
-	padding: 5px;
-    margin-right: 5px;
-	text-align: center;
-    display: inline;
-    transform: scale(1);
-  
-
-}
 `;
 
 //onClick subpage
@@ -308,4 +291,64 @@ margin-bottom:1%;
 export const Phedd = styled.h1`
 margin-top:60%; 
 text-align:justify;
+`;
+
+export const ButtonBar = styled.div`
+display:flex;
+justify-content:space-around;
+align-items: center;
+`;
+
+export const KindContainer = styled.div`
+display:grid;
+grid-template-columns: repeat(3,1fr);
+justify-content:center;
+gap:5%;
+padding:0% 16%;
+height:100%;
+`;
+
+export const MiniContainer = styled.div`
+width: 330px;
+border: 1px solid #dddddd;
+border-radius: 10px;
+background-color: #ffffff;
+color: #444444;
+font-size: 16px;
+text-align: left;
+border-top: 1px solid #eeeeee;
+display:flex;
+flex-direction: column;
+`;
+
+export const RoundImg = styled.img`
+width: 70px;
+height: 70px;
+border-radius:50%;
+
+`;
+
+export const MainImg = styled.img`
+width:100%;
+height:248px;
+`; 
+
+export const SocialIcon = styled.img`
+-webkit-text-size-adjust: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+text-align: left;
+color: #888888;
+font-size: 15px;
+line-height: 13px;
+font-weight: normal;
+cursor: pointer;
+width: 23px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
 `;

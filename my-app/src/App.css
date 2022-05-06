@@ -1,4 +1,4 @@
-*{
+* {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -6,7 +6,7 @@
 .active {
   background-color: #229760;
   padding: 9px 22px;
-  
+
 }
 
 .hide,
@@ -26,6 +26,7 @@
   position: absolute;
   margin-top: 3px;
   margin-left: 50px;
+  
 }
 
 h1 {
@@ -39,6 +40,7 @@ h1 {
   line-height: 40px;
   text-decoration: none;
   font-weight: normal;
+
 }
 
 /* Footer -----------------------------------------------------------------------------------------------*/
