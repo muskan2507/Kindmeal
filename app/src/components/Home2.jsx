@@ -1,131 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router'
 import style from "../Styles/Home.module.css"
-
-class Listhead3 extends React.Component {
-  render() {
-    return (
-      <div className={style.listhead}>
-        <h2>Amazing Superheroes</h2>
-        <a
-          className={style.save_life}
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-           .     Latest Buzz
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          {" "}
-           .     Lifestyle Ambassadors
-        </a>
-        <a
-          style={{
-            color: "darkorange"
-          }}
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-               .     Win Gifts!
-        </a>
-        <div className={style.listed_items}>
-          <div>
-            <a
-              href="https://www.kindmeal.my/CarmenLee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_4_1.png" alt />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/BeeHuiYewvy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_4_2.png" alt />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/ShreenChong"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_4_3.png" alt />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/EvelynCYLim"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_4_4.png" alt />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/RaindyLee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_4_5.png" alt />
-            </a>
-          </div>
+const ListHead = () => {
+    const navigate=useNavigate()
+    const [data,setData]=useState([])
+    useEffect(() => {
+        const getData = async () => {
+    
+          try {
+            let res = await fetch(`http://localhost:8080/superHeroes?_limit=5`)
+            let data = await res.json();
+            setData(data)
+            // console.log(data)
+          }
+          catch (error) {
+            console.log(error);
+          }
+        }
+        getData();
+        // console.log(data)
+      },[])
+  return (
+    <div className={style.box}>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            <p style={{fontSize:"20px"}}>Amazing Superheroes</p>
+            <p style={{fontSize:"17px"}}>
+                <a href="https://www.kindmeal.my/buzz.htm">Latest Buzz</a>   |   
+                <a href="https://www.kindmeal.my/ambassadors.htm" >Lifestyle Ambassadors</a>  |   
+                <a href="https://www.kindmeal.my/superhero.htm">Win Gifts!</a>
+            </p>
         </div>
-        <div className={style.listpara}>
-          <div>
-            <a
-              href="https://www.kindmeal.my/CarmenLee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CarmenLee
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/BeeHuiYewvy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              BeeHuiYewvy
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/ShreenChong"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ShreenChong
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/EvelynCYLim"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              EvelynCYLim
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/RaindyLee"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              RaindyLee
-            </a>
-          </div>
+        <br/>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            {data.map(e=>{
+                return (
+                    <div style={{width:"170px",textAlign:"center"}} key={e.id}>
+                        <img src={e.img}/>
+                        <p style={{textAlign:"center",fontSize:"12px"}}>{e.name}</p>
+                    </div>
+                )
+            })}
         </div>
-      </div>
-    );
-  }
+    </div>
+  )
 }
 
-export default Listhead3;
+export default ListHead

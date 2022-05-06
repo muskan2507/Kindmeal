@@ -16,8 +16,12 @@ function Home() {
          <br/>
          <br/>
         <Listhead1/>
-       {/*} <Listhead2/>
-        <Listhead3/> */}
+        <br/>
+         <br/>
+        <Listhead2/>
+        <br/>
+         <br/>
+        <Listhead3/> 
         <Home3/>
     </div>
   )

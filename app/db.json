@@ -11,7 +11,7 @@
       "dob": "1999-07-25",
       "state": "KOLKATA",
       "gender": "female",
-      "photo": "C:\\fakepath\\me.jpg",
+      "photo": "https://www.kindmeal.my/photos/member/41/41066-s.jpg",
       "agree": true,
       "id": 2
     }
@@ -1120,6 +1120,51 @@
                   "Comment":0
              }
          
+         ],
+         "superHeroes":[
+           {
+           "img":"https://www.kindmeal.my/photos/member/16/16737-m.jpg",
+           "name":"KatrinaTang   "
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/member/33/33921-m.jpg",
+           "name":"AnneYap1"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/member/13/13195-m.jpg",
+             "name":"SamNgJiunHian"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/member/24/24312-m.jpg",
+             "name":"PuahPidiaen"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/member/39/39963-m.jpg",
+             "name":"EugeneLaiEuJin"
+           }
+         ],
+         "discoverRest":[
+           {
+             "img":"https://www.kindmeal.my/photos/item/0/538-7371-s.jpg",
+             "name":"Creamy Mushroom Pumpkin"
+             
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/item/0/461-5462-s.jpg",
+             "name":"Dark Chocolate Brownies"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/item/0/130-1187-s.jpg",
+             "name":"Jing Si Books & Cafe 静思书轩"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/item/0/530-6878-s.jpg",
+             "name":"Black Bean Fish"
+           },
+           {
+             "img":"https://www.kindmeal.my/photos/item/0/545-7429-s.jpg",
+             "name":"Kyoto Pork Ribs Ramen"
+           }
          ]
          
     

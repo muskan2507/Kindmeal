@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import style from "../Styles/Home.module.css"
 function Home3() {
+  const navigate=useNavigate()
   return (
     <div>
       <div
@@ -133,7 +135,7 @@ function Home3() {
       <div style={{textAlign:"center", marginBottom:"0px",fontSize:"20px", color:"#888888", marginTop:"5px"}}>
         Any restaurant or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are meat-free.<br/>Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!<br/><br/>
        </div>
-       <a href="https://www.kindmeal.my/join.htm"  style={{textDecoration:"none"}}>
+       <a href="" onClick={()=>navigate("/join")}  style={{textDecoration:"none"}}>
        <center>
           <div  className={style.button_red} style={{marginTop:"40px", marginBottom:"80px", width:"450px", height:"100px", lineHeight:"40px", fontSize:"40px", borderRadius:"10px"}}>
             <div style={{marginTop:"12px"}}>Join KindMeal Now</div>

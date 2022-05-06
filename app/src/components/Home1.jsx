@@ -1,92 +1,48 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router'
 import style from "../Styles/Home.module.css"
-class Listhead2 extends React.Component {
-  render() {
-    return (
-      <div className={style.listhead2}>
-        <h2>Discover Restaurants</h2>
-        <a
-          className={style.save_life}
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-             .    Vegetarian Directory
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          {" "}
-             .    Restaurant Menu
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          {" "}
-             .    Food Map
-        </a>
-        <div className={style.listed_items}>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_3_1.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_3_2.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_3_3.png" alt />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/MBG/menu.htm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="./IMG/listed_homepage_3_4.png" alt />
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <img src="./IMG/listed_homepage_3_5.png" alt />
-            </a>
-          </div>
+const ListHead = () => {
+    const navigate=useNavigate()
+    const [data,setData]=useState([])
+    useEffect(() => {
+        const getData = async () => {
+    
+          try {
+            let res = await fetch(`http://localhost:8080/discoverRest?_limit=5`)
+            let data = await res.json();
+            setData(data)
+            // console.log(data)
+          }
+          catch (error) {
+            console.log(error);
+          }
+        }
+        getData();
+        // console.log(data)
+      },[])
+  return (
+    <div className={style.box}>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            <p style={{fontSize:"20px"}}>Discover Restaurants</p>
+            <p style={{fontSize:"17px"}}>
+                <a href="" onClick={()=>navigate("/directory")}>Vegiterian Directory</a>   |   
+                <a href=""  onClick={()=>navigate("/recipes")}>Restaurant Menu</a>  |   
+                <a href="https://www.kindmeal.my/foodmap.htm">Food Map</a>
+            </p>
         </div>
-        <div className={style.listpara}>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Gintonica
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Mille Crepe & Green Tea Latte
-            </a>{" "}
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Cheese and Egg Sandwich
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.kindmeal.my/MBG/menu.htm"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Cherry Box
-            </a>
-          </div>
-          <div>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Garden Burger
-            </a>
-          </div>
+        <br/>
+        <div style={{display:"flex" , justifyContent:"space-between"}}>
+            {data.map(e=>{
+                return (
+                    <div style={{width:"170px",textAlign:"center"}} key={e.id}>
+                        <img src={e.img}/>
+                        <p style={{textAlign:"center",fontSize:"12px"}}>{e.name}</p>
+                    </div>
+                )
+            })}
         </div>
-      </div>
-    );
-  }
+    </div>
+  )
 }
 
-export default Listhead2;
+export default ListHead
