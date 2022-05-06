@@ -13,6 +13,7 @@ import Join from '../Pages/Join'
 import JoinShop from '../Pages/JoinShop'
 import JoinSuccess from '../Pages/JoinSuccess'
 import MealDeals from '../Pages/MealDeals'
+import Recipe from '../Pages/Recipes'
 const MainRoutes = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const MainRoutes = () => {
             <Route path="/articles/:id" element={<Article/>}/>
             <Route path="/directory" element={<Directory/>}/>
             <Route path="/directory/addshop" element={<AddDirectory/>}/>
+            <Route path="/recipes" element={<Recipe/>}/>
         </Routes>
         <Footer/>
     </div>
