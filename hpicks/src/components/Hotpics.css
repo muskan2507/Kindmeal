@@ -1,0 +1,23 @@
+.div1{
+    display: flex;
+    width:99% ;
+    border: 2px solid;
+    height: 370px;
+}
+.image{
+    width: 90%;
+    /* border: 2px soli  d red; */
+    margin-top: 28%;
+    border-radius: 6%;
+
+
+}
+
+.divdiv{
+    display: flex;
+    border: 2px solid;
+    height: 60px;
+    /* width: 99%; */
+}
+
+

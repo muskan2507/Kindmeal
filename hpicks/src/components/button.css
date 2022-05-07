@@ -1,0 +1,26 @@
+button{
+    /* border: none; */
+    width: 142px;
+    height: 46.16px;
+    border: 0.1px solid silver;
+    border-radius: 7px;
+    margin :2%;
+    background-color: #f8f8f8;
+    
+}
+.buttonhere{
+    /* border: 1px solid teal; */
+    width: 90%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(7,120px);
+/* grid-gap: 2%; */
+justify-content: center;
+grid-column-gap: 3%;
+grid-row-gap: 3%;
+height: 120px;
+margin-top: 1%;
+}
+button:nth-child(1){
+    background-color: #2bb673;
+}
