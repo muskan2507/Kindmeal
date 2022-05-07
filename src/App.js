@@ -14,6 +14,7 @@ import Recipe from "./Recipes/Recipe";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import MealDeals from "./MealDeals/MealDeals";
+import UserProfile from "./UserProfile/UserProfile";
 
 
 
@@ -28,7 +29,8 @@ function App() {
 
 <Routes>
 
-  <Route path="/" element={<Sliding/>} />
+  {/* <Route path="/" element={<Sliding/>} /> */}
+  <Route path="/" element={<UserProfile/>}/>
  <Route path="/directory" element={<Directory/>} /> 
  
 
