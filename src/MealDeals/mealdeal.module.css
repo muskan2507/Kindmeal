@@ -114,7 +114,7 @@ color: rgba(0, 0, 0, 0.56);
     margin-right: auto;
     /* width: 90%; */
     width: 1050px;
-    margin-top: 5%;
+    margin-top: 6px;
 }
 
 .pagination{
@@ -191,8 +191,8 @@ margin-top: -80px;
     margin: auto;
     /* margin-left: 8%; */
 position: relative;
-height: 535px;
-margin-top: 25px;
+height: auto;
+margin-top: 10px;
 
 }
 .meal_deal_img{
@@ -334,9 +334,11 @@ margin-top: 5px;
     font-size: 24px;
     color: red;
     text-align: center;
+    line-height: 4px;
 }
 .expire{
     font-size: 24px;
     text-align: center;
     color: rgba(0, 0, 0, 0.497);
+    line-height: 4px;
 }

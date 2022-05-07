@@ -86,17 +86,17 @@ const [count, setCount] =useState(1)
       </div>
 
       <div className={style.button_div}>
-          <button  onChange={handleCategoryChange} >All Category</button>
-          <button  onChange={handleCategoryChange} >Appetizers</button>
-          <button  onChange={handleCategoryChange} >Beverages</button>
-          <button>Breakfast</button>
-          <button>Breads</button>
-          <button>Condiments</button>
-          <button>Desserts</button>
-          <button>Snacks</button>
-          <button>Main Dishes</button>
-          <button>Salads</button>
-          <button>Side Dishes</button>
+          <button  onClick={handleCategoryChange} >All Category</button>
+          <button  onClick={handleCategoryChange}>Appetizers</button>
+          <button  onClick={handleCategoryChange} >Beverages</button>
+          <button onClick={handleCategoryChange}>Breakfast</button>
+          <button onClick={handleCategoryChange}>Breads</button>
+          <button onClick={handleCategoryChange}>Condiments</button>
+          <button onClick={handleCategoryChange}>Desserts</button>
+          <button onClick={handleCategoryChange}>Snacks</button>
+          <button onClick={handleCategoryChange}>Main Dishes</button>
+          <button onClick={handleCategoryChange}>Salads</button>
+          <button onClick={handleCategoryChange}>Side Dishes</button>
           <button>Soup</button>
         </div>
         <div className={style.pagination}>

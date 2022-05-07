@@ -7,7 +7,7 @@ const MealDeals = () => {
 const [show,setShow]= useState([])
 
     useEffect(()=>{
-      fetch(`http://localhost:8085/mealDeals?_page=${count}&_limit=8`)
+      fetch(`http://localhost:8080/mealDeals?_page=${count}&_limit=8`)
       .then((res)=>res.json())
       .then((data)=>setShow(data))
       .catch((er)=>console.log(er))
@@ -18,7 +18,7 @@ const [show,setShow]= useState([])
 
     const handleSearch = (e) => {
 if(e.target.value===''){
-  fetch(`http://localhost:8085/mealDeals?_page=${count}&_limit=8`)
+  fetch(`http://localhost:8080/mealDeals?_page=${count}&_limit=8`)
   .then((res)=>res.json())
   .then((data)=>setShow(data))
   .catch((er)=>console.log(er))
