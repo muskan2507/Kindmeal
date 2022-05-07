@@ -352,3 +352,16 @@ border-right-style: solid;
 border-bottom-style: solid;
 border-left-style: solid;
 `;
+
+export const MiniBox = styled.div`
+-webkit-text-size-adjust: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #dddddd;
+width: 250px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 6px #e0e0e0;
+text-align: center;
+background-color: #ffffff;
+`;

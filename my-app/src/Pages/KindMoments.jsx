@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import MapKindMeals from '../Components/MapKindMeals';
-import { ButtonBar, AButton, PButton, Pagination, PageNum, Num, KindContainer, ArticleHeader, Ahedd, Apara} from '../Components/Styled'
+import { ButtonBar, AButton, PButton, Pagination, PageNum, Num, KindContainer, ArticleHeader, Ahedd, Apara, MiniBox } from '../Components/Styled'
 
 
 
@@ -29,12 +29,19 @@ const KindMoments = () => {
 
   return (
     <>
-          <ArticleHeader>
-        <Ahedd>KindMoments   |   Saving Lives with Yummy Photos</Ahedd>
-        <Apara>Discover new, delicious meat-free cuisines enjoyed by other compassionate food lovers. Share your interesting KindMoments, and build your own fans and followers to encourage kind, healthy meals.
-        </Apara>
-        <Apara> You can also follow our Facebook Page or Twitter for more news and updates.</Apara>
-        <Apara>Get started sharing your tasty moments now.</Apara>
+      <ArticleHeader style={{ display: "flex",gap:"20px" }}>
+        <div>
+          <Ahedd>KindMoments   |   Saving Lives with Yummy Photos</Ahedd>
+          <Apara>Discover new, delicious meat-free cuisines enjoyed by other compassionate food lovers. Share your interesting KindMoments, and build your own fans and followers to encourage kind, healthy meals.
+          </Apara>
+          <Apara> You can also follow our Facebook Page or Twitter for more news and updates.</Apara>
+          <Apara>Get started sharing your tasty moments now.</Apara>
+        </div>
+        <MiniBox>
+          <Ahedd>Share Your KindMoment</Ahedd>
+          <Apara>Interesting food or restaurant? Share with 1000s of food lovers!</Apara>
+          <AButton>Share</AButton>
+        </MiniBox>
       </ArticleHeader>
       <br />
       <br />
