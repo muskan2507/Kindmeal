@@ -12,6 +12,7 @@ import Home from '../Pages/Home'
 import Join from '../Pages/Join'
 import JoinShop from '../Pages/JoinShop'
 import JoinSuccess from '../Pages/JoinSuccess'
+import Logout from '../Pages/LogOut'
 import MealDeals from '../Pages/MealDeals'
 import Recipe from '../Pages/Recipes'
 const MainRoutes = () => {
@@ -31,6 +32,8 @@ const MainRoutes = () => {
             <Route path="/directory" element={<Directory/>}/>
             <Route path="/directory/addshop" element={<AddDirectory/>}/>
             <Route path="/recipes" element={<Recipe/>}/>
+            <Route path="/logout" element={<Logout/>}/>
+            
         </Routes>
         <Footer/>
     </div>

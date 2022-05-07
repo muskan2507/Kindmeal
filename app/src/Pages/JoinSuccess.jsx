@@ -10,7 +10,7 @@ const JoinSuccess = () => {
         const data=await res.json()
         // console.log(data[data.length-1])
         setDetails(data[data.length-1])
-        console.log(details)
+        // console.log(details)
     }
     useEffect(() => {
       get()

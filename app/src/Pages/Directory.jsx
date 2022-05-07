@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Directory.css";
 const Directory = () => {
   const [show, setShow] = useState([]);
   const [page, setPage] = useState(1);
+  const [selectedCategory, setSelectedCategory] = useState();
+
 
   useEffect(() => {
     fetch(`http://localhost:8080/directory?_page=${page}&_limit=6`)
@@ -24,11 +26,25 @@ const Directory = () => {
     }
   };
 
-  const vegeterianSort = (show) => {
-    show.sort((a, b) => {
-      return a.name - b.name;
-    });
-  };
+  
+  function getFilteredList() {
+    // Avoid filter when selectedCategory is null
+    if (!selectedCategory) {
+      return show;
+    }
+    return show.filter((item) => item.catagory === selectedCategory);
+  }
+  // Avoid duplicate function calls with useMemo
+  var filteredList = useMemo(getFilteredList, [selectedCategory, show]);
+
+  function handleCategoryChange(event) {
+    if(event.target.value==="All Categories"){
+      return selectedCategory;
+    }else{
+
+      setSelectedCategory(event.target.value);
+    }
+  }
   console.log(show);
   return (
     <div>
@@ -55,7 +71,7 @@ const Directory = () => {
             className="input-box"
             onChange={shopSearch}
           />
-          <select name="search-by-select" id="select" className="input-box">
+          <select name="search-by-select" id="select" className="input-box"  onChange={handleCategoryChange}>
             <option value="all Shops In Malasiyas">
               All Shops In Malaysia
             </option>
@@ -75,12 +91,12 @@ const Directory = () => {
       </div>
 
       <div className="flex-div2 flex">
-        <button onClick={vegeterianSort}>Vegeterian Directory</button>
+        <button>Vegeterian Directory</button>
         <button>Featured Resturents</button>
         <button>Food Menu</button>
         <button>Food Map</button>
       </div>
-      <nav aria-label="Page navigation example">
+     {filteredList.length>5? (  <nav aria-label="Page navigation example">
         <ul className="pagination">
           <li className=" ">
             <a className="page-link border-0" href="#">
@@ -125,10 +141,10 @@ const Directory = () => {
             
           </li>
         </ul>
-      </nav>
+      </nav>):(<div></div>)}
          <br/><br/>
       <div className="map-div">
-        {show.map((item, index) => {
+        {filteredList.map((item, index) => {
           return (
             <div key={item.id} className="child-div">
               <h3>{item.name}</h3>
@@ -173,52 +189,7 @@ const Directory = () => {
     </iframe> */}
       </div>
 
-      <nav aria-label="Page navigation example">
-        <ul className="pagination">
-          <li className=" ">
-            <a className="page-link border-0" href="#">
-              Page:{" "}
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link  border-0" href="#">
-              1
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              2
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              3
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              4
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              5
-            </a>
-          </li>
-          <li className="page-item">
-            <a className="page-link border-0" href="#">
-              6
-            </a>
-          </li>
-         
-          <li className=" next">
-           
-            
-          <button onClick={()=>setPage(page+1)}>Next » </button>
-
-          </li>
-        </ul>
-      </nav>
+     
       <br/><br/>
     </div>
   );

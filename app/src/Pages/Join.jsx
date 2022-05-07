@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 import "../Styles/Join.css";
 const Join = () => {
   const navigate = useNavigate()
-  const [FormData,setFormData]=useState([])
+  const [FormData,setFormData]=useState({})
   const handleChange=(e)=> {
     const inputName=e.target.name
     if(e.target.type==="checkbox"){
@@ -20,23 +20,25 @@ const Join = () => {
         })
        }
     }
-    const post=async ()=> {
-        try{
-        let res = await fetch(`http://localhost:8080/formData`,{
-            method:"POST",
-            headers:{"content-type":"application/json"},
-            body: JSON.stringify(FormData)
-        })
-        }
-        catch(e){
-            console.log(e)
-        }
+    // console.log(FormData)
+    const post=()=> {
+         let arr=[]
+       
+        arr.push(FormData)
+        localStorage.setItem("RegisteredData",JSON.stringify(arr))
+       console.log(arr)
     }
     const handleSubmit=(e)=>{
         e.preventDefault()
-       post()
-    //    console.log(FormData)
-    navigate("/joinsuccess")
+        post()
+      if(FormData){
+       
+        //    console.log(FormData)
+        navigate("/joinsuccess")
+      }
+      else{
+        alert("Fill the details Correctly")
+      }
       }
   return (
     <>
@@ -115,6 +117,7 @@ const Join = () => {
                name="firstName"
                onChange={handleChange}
               type="first name"
+              required
             
             />
             <input
@@ -122,6 +125,7 @@ const Join = () => {
               type="last name"
               name="lastName"
               onChange={handleChange}
+              required
              
             />
           </div>
@@ -137,6 +141,7 @@ const Join = () => {
               name="email"
               type="email"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <div>
@@ -147,6 +152,7 @@ const Join = () => {
               name="email"
               type="email"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <div>
@@ -157,6 +163,7 @@ const Join = () => {
                name="password"
               type="password"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <br/>
@@ -177,6 +184,7 @@ const Join = () => {
               name="username"
               type="username"
               onChange={handleChange}
+              required
              
             ></input>
           </div>
@@ -191,13 +199,14 @@ const Join = () => {
                name="dob"
                onChange={handleChange}
               type="date"
+              required
             ></input>
           </div>
           <br/>
           <div>
             {" "}
             Country
-            <select id="country" name="country" onChange={handleChange}>
+            <select id="country" name="country" onChange={handleChange}  required>
               <option>Your Country</option>
               <option>INDIA</option>
               <option>CHINA</option>
@@ -222,7 +231,7 @@ const Join = () => {
           <br/>
           <div>
             State
-            <select id="state" name="state" onChange={handleChange}>
+            <select id="state" name="state" onChange={handleChange}  required>
               <option>Select State</option>
               <option>PATNA</option>
               <option>BANGALORE</option>
@@ -244,6 +253,7 @@ const Join = () => {
               value="male"
               type="radio"
               style={{marginLeft:"65px",marginRight:'5px'}}
+              
             />
             Male
             <input
@@ -258,10 +268,10 @@ const Join = () => {
           </div>
           <br/>
           <div id="file">
-            Profile Photo <input id="file1" type="file" placeholder="Select Photo" onChange={handleChange}/>
+            Profile Photo <input  required id="file1" name="photo" type="link" placeholder="Select Photo" onChange={handleChange}/>
           </div>
           <br/>
-          <div id='agree'><input  type="checkbox" name="agree" onChange={handleChange}/> I agree to KindMeal.my's <a href="https://www.kindmeal.my/terms.htm">Terms & Conditions</a></div>
+          <div id='agree'><input  required type="checkbox" name="agree" onChange={handleChange}/> I agree to KindMeal.my's <a href="https://www.kindmeal.my/terms.htm">Terms & Conditions</a></div>
           <br />
           <br />
           <div ><button id='jn' type="submit">Join Now</button></div>

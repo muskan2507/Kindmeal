@@ -39,6 +39,7 @@ const Help = () => {
                     <br />
                     <hr />
                     <br />
+                    <br/>
                     <div className="sub-heading">What is KindMeal?</div>
 
                     <p>KindMeal is Malaysia's (and possibly the world's!) pioneering meat-free lifestyle platform. We provide an effective platform to promote compassionate dining in a fun and effective way, that would allow you to save precious animal lives, improve your health, enjoy a cleaner environment and of course, save your hard-earned money.
@@ -55,7 +56,7 @@ const Help = () => {
 
                     <div className="sub-heading">What is a Username?</div>
                     <p>A Username is a nickname exclusively used to identify your profile. It will be used to access your Public Page, such as <span>https://KindMeal.my/MyUsername</span>, and it will also be displayed when you share KindMoments, comments and reviews.</p>
-
+                       <br/>
                     <div className="sub-heading">How do KindMeal deals work?</div>
                     <p>Restaurants create attractive deals within KindMeal, which you can obtain coupons for. Our coupons differ from other conventional deal sites in that you do not need to make any upfront payment at KindMeal, and you can easily present our LiveCoupon via computer, mobile or laptop without any print coupons. For restaurants that do not require advance reservations, you can even use the LiveCoupon immediately! After all, eating is an impulsive decision, right?
                     </p>

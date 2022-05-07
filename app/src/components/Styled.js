@@ -226,7 +226,7 @@ padding: 0px;
 border-radius: 10px;
 background-color: #ffffff;
 box-shadow: 0px 0px 6px #e0e0e0; 
-width: 500px; 
+width: 450px; 
 min-height: 250px;
 `;
 
@@ -235,11 +235,13 @@ min-height: 250px;
 
 export const Pagination = styled.div`
 width:68%;
-padding:0% 16%;
+${'' /* padding:0% 16%; */}
 display:flex;
 align-items: center;
 justify-content:space-between;
-margin-Top:50px;
+
+margin:auto;
+margin-top:50px;
 `;
 
 export const PButton = styled.button`

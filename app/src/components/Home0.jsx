@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router'
+import { Link } from 'react-router-dom'
 import style from "../Styles/Home.module.css"
 const ListHead = () => {
     const navigate=useNavigate()
@@ -34,10 +35,13 @@ const ListHead = () => {
         <div style={{display:"flex" , justifyContent:"space-between"}}>
             {data.map(e=>{
                 return (
+                  <Link to = {`/articles/${e.id}`} style={{textDecoration:"none",color:"#444444"}}>
+
                     <div style={{width:"170px",textAlign:"center"}} key={e.id}>
                         <img src={e.imgURL}/>
                         <p style={{textAlign:"center",fontSize:"12px"}}>{e.title}</p>
                     </div>
+                    </Link>
                 )
             })}
         </div>

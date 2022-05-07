@@ -20,24 +20,25 @@ const JoinShop = () => {
         })
        }
     }
-    const post=async ()=> {
-        try{
-        let res = await fetch(`http://localhost:8080/formData`,{
-            method:"POST",
-            headers:{"content-type":"application/json"},
-            body: JSON.stringify(FormData)
-        })
-        }
-        catch(e){
-            console.log(e)
-        }
-    }
-    const handleSubmit=(e)=>{
-        e.preventDefault()
-       post()
-    //    console.log(FormData)
-    navigate("/joinsuccess")
-      }
+    const post=()=> {
+      let arr=[]
+    
+     arr.push(FormData)
+     localStorage.setItem("RegisteredData",JSON.stringify(arr))
+    console.log(arr)
+ }
+ const handleSubmit=(e)=>{
+     e.preventDefault()
+     post()
+   if(FormData){
+    
+     //    console.log(FormData)
+     navigate("/joinsuccess")
+   }
+   else{
+     alert("Fill the details Correctly")
+   }
+   }
   return (
     <>
     <div id="container">
@@ -127,12 +128,14 @@ const JoinShop = () => {
               name="firstName"
               type="first name"
               onChange={handleChange}
+              required
             />
             <input
               id="ln"
               type="last name"
                name="lastName"
                onChange={handleChange}
+               required
             />
           </div>
           <br />
@@ -147,6 +150,7 @@ const JoinShop = () => {
               name="email"
               type="email"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <div>
@@ -157,6 +161,7 @@ const JoinShop = () => {
                name="email"
               type="email"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <div>
@@ -167,6 +172,7 @@ const JoinShop = () => {
                name="password"
               type="password"
               onChange={handleChange}
+              required
             ></input>
           </div>
           <br/>
@@ -187,6 +193,7 @@ const JoinShop = () => {
               name="username"
               type="username"
               onChange={handleChange}
+              required
              
             ></input>
           </div>
@@ -201,13 +208,14 @@ const JoinShop = () => {
               onChange={handleChange}
               name="dob"
               type="date"
+              required
             ></input>
           </div>
           <br/>
           <div>
             {" "}
             Country
-            <select id="country" name="country"  onChange={handleChange}>
+            <select id="country" name="country"  onChange={handleChange} required>
               <option>Your Country</option>
               <option>INDIA</option>
               <option>CHINA</option>
@@ -232,7 +240,7 @@ const JoinShop = () => {
           <br/>
           <div>
             State
-            <select id="state" name="state"  onChange={handleChange}>
+            <select id="state" name="state"  onChange={handleChange} required>
               <option>Select State</option>
               <option>PATNA</option>
               <option>BANGALORE</option>
@@ -268,10 +276,10 @@ const JoinShop = () => {
           </div>
           <br/>
           <div id="file">
-            Profile Photo <input id="file1" type="file"  onChange={handleChange} name="photo" placeholder="Select Photo" />
+            Profile Photo <input id="file1" required type="file"  onChange={handleChange} name="photo" placeholder="Select Photo" />
           </div>
           <br/>
-          <div id='agree'><input  type="checkbox" name="agree" onChange={handleChange}/> I agree to KindMeal.my's <a href="https://www.kindmeal.my/terms.htm">Terms & Conditions</a></div>
+          <div id='agree'><input  type="checkbox" required name="agree" onChange={handleChange}/> I agree to KindMeal.my's <a href="https://www.kindmeal.my/terms.htm">Terms & Conditions</a></div>
           <br />
           <br />
           <div ><button id='jn' type="submit">Set Up My Shop & Deals »</button></div>

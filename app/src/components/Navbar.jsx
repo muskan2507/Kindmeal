@@ -15,28 +15,36 @@ import SignupPopup from "../PopUp/SignUpPopUp";
 import { AuthContext } from "../Context/AuthContext";
 
 const Navbar = () => {
-  const [data, setdata] = useState([]);
   const [name, setName] = useState("");
   const [lastname, setLastname] = useState("");
   const [photo, setPhoto] = useState("");
-  const { isAuth, setIsAuth } = React.useContext(AuthContext);
-  const getdata = async () => {
-    let res = await fetch("http://localhost:8080/formData");
-    let data = await res.json();
-    setdata([...data]);
-    // console.log(data)
-    console.log(data[0].firstName, data[0].lastNme);
-    setName(data[0].firstName);
+  const { isAuth, setIsAuth } = useContext(AuthContext);
+  // const navigate = useNavigate()
+
+  const getdata =  () => {
+    let data = JSON.parse(localStorage.getItem("RegisteredData")) || []
+    // setdata([...data])
+    // console.log(data[0].firstName, data[0].lastNme);
+    // 
+    if (data.length > 0) {
+      setIsAuth(true);
+      setName(data[0].firstName);
     setLastname(data[0].lastName);
     setPhoto(data[0].photo);
+    }
+    // console.log(data)
+    // console.log(data, isAuth);
+    
+
   };
   useEffect(() => {
-    getdata();
+    getdata()
   }, []);
-  if (data.length > 0) {
-    setIsAuth(true);
+  const handleLogOut=()=>{
+    // navigate("/logout")
+    setIsAuth(false)
   }
-  console.log(data, isAuth);
+  //
   //   console.log(data[0].firstName,data[0].lastNme)
 
   return (
@@ -73,7 +81,7 @@ const Navbar = () => {
         </div>
         {isAuth ? (
           <div style={{ display: "flex" }}>
-          <p style={{ marginTop: "20px", marginRight: "15px" }} onClick={()=>setIsAuth(false)}>Log Out</p>
+          <Link to="/logout" style={{textDecoration:"none"}}><p style={{ marginTop: "20px", marginRight: "15px",cursor:"pointer" }} onClick={handleLogOut} >Log Out</p></Link>
             <p style={{ marginTop: "20px", marginRight: "15px" }}>
               {name} {lastname}
             </p>{" "}

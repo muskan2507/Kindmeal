@@ -112,7 +112,7 @@ const Recipe = () => {
         <button>Soup</button>
       </div>
       <div className={style.pagination}>
-        <div>
+       {filteredList.length>9 ?  (<div>
           <p>Page : </p>
           <p onClick={() => setCount(1)}>1</p>
           <p onClick={() => setCount(2)}>2</p>
@@ -123,7 +123,7 @@ const Recipe = () => {
           <p onClick={() => setCount(2)}>7</p>
           <p onClick={() => setCount(2)}>8</p>
           <p onClick={() => setCount(2)}>9</p>
-        </div>
+        </div>): <div></div>}
         <button onClick={() => setCount(count + 1)}>Next </button>
       </div>
       <div className={style.grid_div}>
