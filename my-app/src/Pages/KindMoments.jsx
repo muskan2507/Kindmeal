@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import MapKindMeals from '../Components/MapKindMeals';
-import { ButtonBar, AButton, PButton, Pagination, PageNum, Num, KindContainer} from '../Components/Styled'
+import { ButtonBar, AButton, PButton, Pagination, PageNum, Num, KindContainer, ArticleHeader, Ahedd, Apara} from '../Components/Styled'
 
 
 
@@ -29,6 +29,14 @@ const KindMoments = () => {
 
   return (
     <>
+          <ArticleHeader>
+        <Ahedd>KindMoments   |   Saving Lives with Yummy Photos</Ahedd>
+        <Apara>Discover new, delicious meat-free cuisines enjoyed by other compassionate food lovers. Share your interesting KindMoments, and build your own fans and followers to encourage kind, healthy meals.
+        </Apara>
+        <Apara> You can also follow our Facebook Page or Twitter for more news and updates.</Apara>
+        <Apara>Get started sharing your tasty moments now.</Apara>
+      </ArticleHeader>
+      <br />
       <br />
       <ButtonBar>
         <div style={{ display: "flex", gap: "20px" }}>
@@ -74,7 +82,6 @@ const KindMoments = () => {
           <AButton>Search</AButton>
         </div>
       </ButtonBar>
-      <br />
       <Pagination>
         <p>Page : </p>
         <PageNum>
