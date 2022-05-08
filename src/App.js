@@ -2,18 +2,22 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import AddDirectory from "./components/AddDirectory";
+// import AddDirectory from "./components/AddDirectory";
 
-import Directory from "./components/Directory";
-import Help from "./components/Help";
-import Sliding from "./components/Sliding";
-import LoginPopup from "./signupPopup/LoginPopup";
-import SignupPopup from "./signupPopup/SignupPopup";
+// import Directory from "./components/Directory";
+// import Help from "./components/Help";
+// import Sliding from "./components/Sliding";
+// import LoginPopup from "./signupPopup/LoginPopup";
+// import SignupPopup from "./signupPopup/SignupPopup";
 
-import Recipe from "./Recipes/Recipe";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import MealDeals from "./MealDeals/MealDeals";
+// import Recipe from "./Recipes/Recipe";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
+// import MealDeals from "./MealDeals/MealDeals";
+// import UserProfile from "./UserProfile/UserProfile";
+import MainRoutes from "./Routes/MainRoutes";
+
+import Progress from "./UserProfile/Progress";
 import UserProfile from "./UserProfile/UserProfile";
 
 
@@ -24,27 +28,27 @@ function App() {
 
   return (
     <div className="App">
- <Navbar/>
+ {/* <Navbar/> */}
  
 
-<Routes>
+{/* <Routes> */}
 
   {/* <Route path="/" element={<Sliding/>} /> */}
-  <Route path="/" element={<UserProfile/>}/>
+  {/* <Route path="/" element={<UserProfile/>}/>
  <Route path="/directory" element={<Directory/>} /> 
  
 
-  <Route path="/addshop" element={<AddDirectory/>}/>
+  <Route path="/addshop" element={<AddDirectory/>}/> */}
 
  {/* <Route path="/loginwindow" element={<LoginPopup/>}/> */}
-
+{/* 
  <Route path="/mealdeals" element={<MealDeals/>} />
  <Route path="/help" element={<Help/>} />
- <Route path="/recipes" element={<Recipe/>} />
+ <Route path="/recipes" element={<Recipe/>} /> */}
 
 
 
-</Routes> 
+{/* </Routes>  */}
 
 {/* <LoginPopup/>
 <SignupPopup/> */}
@@ -54,15 +58,16 @@ function App() {
 {/* <AddDirectory/> */}
 {/* <Directory/> */}
 {/* <Help/> */}
-
-
-
-
 {/* <Recipe/> */}
-
 {/* <MealDeals/> */}
+{/* <Footer/> */}
 
-<Footer/>
+
+{/* <MainRoutes/> */}
+
+
+<UserProfile/>
+
     </div>
   );
 }

@@ -85,11 +85,12 @@ display: block;
 export const FooterLayout = styled.div`
 width: 100%;
 background-color: #2bb673;
-min-height: 100px;
+
 padding-top: 10px;
 padding-bottom: 10px;
 text-align: -webkit-center;
 color: #ffffff;
+
 left: 0;
 bottom: 0;
 width: 100%;
@@ -99,7 +100,8 @@ export const Flex = styled.div`
 display:flex;
 justify-content:center;
 text-align: left;
-gap:4.5%;
+gap:40px;
+margin-bottom:15px;
 `;
 
 export const Heddline = styled.p`
@@ -118,11 +120,13 @@ font-weight: normal;
 color: #eeeeee;
 font-size: 12px;
 font-weight: normal;
-line-height: 0.6;
+line-height: 15px;
 `
 export const Para = styled.p`
-font-size: 10px;
-line-height: 0.2;
+font-size: 12px;
+line-height: 15px;
+text-align:center;
+color:#eeeeee;
 `;
 
 //Article page 
@@ -142,7 +146,6 @@ color: #444444;
 text-align:left`;
 
 export const Container = styled.div`
-
 margin-bottom: 40px;
 min-height: 300px;
 width: 72%;
@@ -204,13 +207,17 @@ background-color: #d41f1f;
 
 export const AImg = styled.img`
 position: relative;
-width: 500px;
+width: 450px;
 height: 300px;
 overflow: hidden;
 background-color: #ffffff;
 border-radius: 10px 10px 0px 0px;
+z-index:300;
+object-fit:cover;
+object-position:center 40%;
 
-}
+
+
 `;
 
 export const BImg = styled.div`
@@ -221,7 +228,6 @@ background-color: #ffffff;
 box-shadow: 0px 0px 6px #e0e0e0; 
 width: 500px; 
 min-height: 250px;
-
 `;
 
 
@@ -250,13 +256,15 @@ width: 100px;
     xbox-shadow: 0px 1px 2px #aaaaaa;
     border-radius: 6px;
     border:#e8e8e8;
+    margin-top:-10px;
 `;
 
 export const PageNum = styled.p`
-margin-left: -42%;
+margin-left: 30px;
 color:blue;
 display:flex;
 gap:18px;
+margin-top:-15px;
 `;
 
 export const Num = styled.p`
@@ -278,7 +286,6 @@ transition: transform .10s;
     display: inline;
     transform: scale(1);
   
-
 }
 `;
 
@@ -302,10 +309,10 @@ content: "";
 height: 500px;
 position: absolute;
 width: 70%;
-margin-bottom:1%;
+${'' /* margin-bottom:1%; */}
 `;
 
 export const Phedd = styled.h1`
-margin-top:60%; 
+margin-top:55%; 
 text-align:justify;
 `;
