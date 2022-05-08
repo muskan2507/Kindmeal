@@ -314,3 +314,83 @@ export const Phedd = styled.h1`
   margin-top: 55%;
   text-align: justify;
 `;
+
+export const ButtonBar = styled.div`
+display:flex;
+justify-content:space-between;
+align-items: center;
+width:73%;
+margin:auto;
+`;
+
+export const KindContainer = styled.div`
+display:grid;
+grid-template-columns: repeat(3,1fr);
+justify-content:center;
+gap:5%;
+padding:0% 16%;
+height:100%;
+`;
+
+export const MiniContainer = styled.div`
+width: 330px;
+border: 1px solid #dddddd;
+border-radius: 10px;
+background-color: #ffffff;
+color: #444444;
+font-size: 16px;
+text-align: left;
+border-top: 1px solid #eeeeee;
+display:flex;
+flex-direction: column;
+${'' /* padding-bottom:20px; */}
+`;
+
+export const RoundImg = styled.img`
+width: 50px;
+height: 50px;
+border-radius:50%;
+margin-right:15px;
+`;
+
+export const MainImg = styled.img`
+width:100%;
+height:248px;
+`; 
+
+export const SocialIcon = styled.img`
+-webkit-text-size-adjust: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+text-align: left;
+color: #888888;
+font-size: 15px;
+line-height: 13px;
+font-weight: normal;
+cursor: pointer;
+width: 23px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+`;
+
+export const MiniBox = styled.div`
+-webkit-text-size-adjust: none;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-size: 14px;
+border: 1px solid #dddddd;
+width: 400px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 6px #e0e0e0;
+text-align: center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background-color: #ffffff;
+`;

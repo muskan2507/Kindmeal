@@ -13,6 +13,7 @@ import HotPicks from "../Pages/HotPicks";
 import Join from "../Pages/Join";
 import JoinShop from "../Pages/JoinShop";
 import JoinSuccess from "../Pages/JoinSuccess";
+import KindMoments from "../Pages/KindMoments";
 import Logout from "../Pages/LogOut";
 import MealDeals from "../Pages/MealDeals";
 import Recipe from "../Pages/Recipes";
@@ -35,6 +36,7 @@ const MainRoutes = () => {
         <Route path="/recipes" element={<Recipe />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/hotpicks" element={<HotPicks/>}/>
+        <Route path="/kindmoments" element={<KindMoments/>}/>
       </Routes>
       <Footer />
     </div>
