@@ -101,16 +101,16 @@ const Navbar = () => {
             />
           </div>
         ) : (
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
             <p style={{ fontSize: "12px" }}>
               <LoginPopup />
             </p>
             <div className="facebook_email">
-              <Facebook className="show">Facebook</Facebook>
+              <Facebook className="show" style={{backgroundColor: "#35619f"}}>Facebook</Facebook>
               <p className="hide">Login with Facebook Account</p>
             </div>
             <div className="facebook_email">
-              <Email className="showEmail">Email</Email>
+              <Email className="showEmail" style={{background:"#666666"}}>Email</Email>
               <p className="hideEmail">Login with KindMeal Account</p>
             </div>
             <Signup>

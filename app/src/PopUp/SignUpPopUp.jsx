@@ -26,6 +26,8 @@ const SignupPopup = () => {
       <button
         onClick={(e) => setVisibility(!visibility)}
         className={style.signup_btn}
+        style={{backgroundColor:"white",color:"black"}}
+
       >
         Signup
       </button>

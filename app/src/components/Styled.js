@@ -25,7 +25,7 @@ export const Social = styled.img`
 
 export const Facebook = styled.button`
   width: 80px;
-  height: 20px;
+  height: 30px;
   line-height: 20px;
   padding: 1px;
   background-color: #35619f;
@@ -39,7 +39,7 @@ export const Facebook = styled.button`
 
 export const Email = styled.button`
   width: 80px;
-  height: 20px;
+  height: 30px;
   background-color: #666666;
   font-weight: bold;
   font-size: 13px;

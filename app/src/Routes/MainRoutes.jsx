@@ -17,6 +17,7 @@ import KindMoments from "../Pages/KindMoments";
 import Logout from "../Pages/LogOut";
 import MealDeals from "../Pages/MealDeals";
 import Recipe from "../Pages/Recipes";
+import UserProfile from "../Pages/UserProfile";
 const MainRoutes = () => {
   return (
     <div>
@@ -37,6 +38,7 @@ const MainRoutes = () => {
         <Route path="/logout" element={<Logout />} />
         <Route path="/hotpicks" element={<HotPicks/>}/>
         <Route path="/kindmoments" element={<KindMoments/>}/>
+        <Route path="/userprofile" element={<UserProfile/>}/>
       </Routes>
       <Footer />
     </div>
