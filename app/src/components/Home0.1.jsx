@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 import style from "../Styles/Home.module.css";
 const ListHead1 = () => {
   const navigate = useNavigate();
@@ -7,7 +8,7 @@ const ListHead1 = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        let res = await fetch(`http://localhost:8080/recipeData?_limit=5`);
+        let res = await fetch(`http://localhost:8080/kindmoments?_page=2&_limit=5`);
         let data = await res.json();
         setData(data);
         // console.log(data)
@@ -40,10 +41,15 @@ const ListHead1 = () => {
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         {data.map((e) => {
           return (
+            <Link
+        to={`/kindmoments/${e.id}`}
+        style={{ textDecoration: "none", color: "#444444" }}
+      >
             <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
               <img src={e.img} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.title}</p>
+              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.description}</p>
             </div>
+            </Link>
           );
         })}
       </div>

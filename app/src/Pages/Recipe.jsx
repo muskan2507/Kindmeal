@@ -4,7 +4,7 @@ import styles from '../Styles/Recip.module.css'
 const Recipe = () => {
   return (
     <div>
-               <div><img className={styles.BannerImg} src="https://www.kindmeal.my/photos/shop/2/244-c.jpg" alt="" />
+               <div><img className={styles.BannerImg} src="https://www.kindmeal.my/photos/shop/6/603-c.jpg" alt="" />
        <div className={styles.BanneroverHead}><h1>MBG Fruit Shop</h1></div>
       
       <div id={styles.overBanner}>
