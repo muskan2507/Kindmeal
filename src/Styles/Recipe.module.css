@@ -150,9 +150,10 @@ color: white;
     gap: 30px;
     margin: auto;
     margin-top: 30px;
-    width:70%;
+    width:80%;
    box-sizing: border-box;
 }
+
 .map_div{
     border-radius: 10px;
     box-sizing: border-box;
@@ -174,7 +175,9 @@ color: white;
     padding-left: 3%;
     padding-right: 3%;
     margin: 3px;
+    transition: all 1s;
 }
+
 .map_div div img{
     height: 45px;
     width: 45px;
@@ -198,6 +201,12 @@ color: white;
     color: white;
     font-weight: 600;
     border-radius: 7px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.view_btn:hover{
+background-color: #ff2121;
+transform: scale(1.2);
 }
 .title{
     text-align: center;
