@@ -63,10 +63,10 @@ function App() {
 {/* <Footer/> */}
 
 
-{/* <MainRoutes/> */}
+<MainRoutes/>
 
 
-<UserProfile/>
+{/* <UserProfile/> */}
 
     </div>
   );
