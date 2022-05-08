@@ -4,8 +4,8 @@
     padding-bottom: 20px;
     background-color: #f0f0f0;
     margin-bottom: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
     padding-top: 20px;
   }
 .heading_span{
@@ -13,7 +13,7 @@
     
 }
 .mar {
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 .mar h2{
@@ -30,6 +30,7 @@
 }
 .input_box{
     margin-left: -100px;
+
    
 }
 .flex{
@@ -37,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 15px;
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 .flex input{
@@ -86,7 +87,7 @@ outline: none;
     justify-content: space-between;
     gap: 15px;
     font-size: 15px;
-    width: 70%;
+    width: 80%;
     margin: auto;
  
 }
@@ -112,7 +113,7 @@ outline: none;
     margin-top: 40px;
     /* padding-left: 10%;
     padding-right: 10%; */
-    width:70%;
+    width:80%;
    
    
 
