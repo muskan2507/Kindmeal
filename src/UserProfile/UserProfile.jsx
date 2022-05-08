@@ -11,7 +11,7 @@ const UserProfile = () => {
         .then((data)=>setShow(data))
         .catch((er)=>console.log(er))
     },[])
-console.log(show);
+// console.log(show);
 
     return (
         <div className={style.userProfile}>
