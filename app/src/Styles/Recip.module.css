@@ -1,0 +1,371 @@
+.BannerImg{
+    width: 100%;
+  }
+  .BanneroverHead{
+    margin-top: -80px;
+    background-color: blue;
+    margin-left: 400px;
+    color: aliceblue;
+  }
+  #overBanner{
+    display: flex;
+    margin-left: 180px;
+    gap: 100px;
+  }
+  #overBanner>div>img{
+    width: 200px;
+    margin-top: -150px;
+    border: 3px solid white;
+  }
+  .navRoutes{
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .navRoutes>a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444444;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .navRoutes>a:hover{
+    border-bottom: 5px solid #16EE44  ;
+  }
+  .Media{
+    display: flex;
+    gap:20px;
+    margin-top: 10px;
+  }
+  .Media>div>button{
+    background-color:#1877F2;
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 7px;
+    /* cursor: grab; */
+  }
+  .Media>div>button>a{
+    color: white;
+    text-decoration: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto+Condensed:wght@300&display=swap');
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Datils{
+  width: 85%;
+  /* background-color: aqua; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* height: 500px; */
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+.DetailsHead{
+  width:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #F0F0F0 ;
+  height: 50px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.DetailContent{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:376px 500px ;
+}
+.LeftDetailContent>div>img{
+  width:100%;
+  height:100%;
+}
+.LeftDetailContent>div>div{
+  width:100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-top: -51px;
+  position: relative;
+  color: #F0F0F0;
+
+}
+.RightDetailContent{
+  text-align: center;
+}
+.RightInnerDetailContent{
+  display: grid;
+  line-height: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:173px 173px ;
+}
+.p1{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.button2{
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  text-align:center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #007FFF;
+  font-weight: bold;
+  color: #F0F0F0;
+  border: none;
+}
+div>button>img{
+  height: 30px;
+}
+.BottomContent{
+  border: 1px solid gray;
+}
+.RightContent{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.LeftContent
+{
+  border-left: 1px solid gray;
+}
+
+
+
+/* ///////////////////////////////////////////////////0 */
+
+.Info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: -500px;
+  border: 1px solid gray;
+  /* gap :20px; */
+  
+}
+.Info>div{
+  margin-top: 40px;
+}
+
+.LeftInfo{
+  margin-left: 20px;
+  padding: 10px;
+}
+.RightInfo{
+  margin-left: 20px;
+  padding: 10px;
+}
+.Infohead{
+  font-size: 27px;
+  font-weight: bold;
+}
+.samep{
+  font-size: 15px;
+  font-weight: bold;
+}
+.icons{
+  display: flex;
+  gap: 40px;
+ font-size: 15px;
+}
+
+.info2{
+  display: flex;
+  gap: 20px;
+
+}
+
+/* ///////////////////////////////////// */
+.iceCremImg{
+ background-color: rgba(190, 192, 191,0.2);
+  display: grid;
+  grid-template-columns:repeat(6,153px);
+  border: 1px solid gray;
+  padding: 20px;
+  border-top: none;
+  column-gap: 30px;
+  row-gap: 5px;
+}
+ 
+.iceCremImg>div>img{
+  width: 150px;
+  height: 157px;
+}
+.MealDeals{
+    width: 86%;
+    /* display: flex; */
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .MealDealsHead>span>a{
+    text-decoration: none;
+  }
+  .MealDealsHead>span>a:hover{
+    text-decoration: underline;
+  }
+  .MealDealsHead{
+    margin-top: 10px;
+    color: #666666;
+  
+    font-size: 24px;
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .MealDealsCards{
+    margin-top: 20px;
+  display: grid;
+  grid-template-columns:220px 220px 220px 220px 220px;
+  text-align: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #666666;
+  font-weight: bold;
+  margin-left: 10px;
+  
+  }
+  .innerCard>div>img{
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .mealsOff{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    margin-top:-170px;
+    margin-left: 150px;
+    background-color: #FB2222;
+    color:white;
+    position: absolute;
+  }
+  .offText{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .SpecialBannerImg{
+   width: 86%;
+   margin: auto;
+   margin-top: 20px;
+  
+    }
+    .SpecialBannerImg>img{
+      width: 100%;
+    }
+    .review{
+        width: 86%;
+        /* height: 500px; */
+        margin: auto;
+        /* border: 1px solid blueviolet; */
+        display: grid;
+        grid-template-columns: 27% 68%;
+        gap: 5%;
+        margin-top: 30px;
+        /* grid-template-rows: 400px 700px; */
+      }
+      .LeftReview{
+        border: 1px solid gary;
+        height: 400px;
+      }
+      .RightReview{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        /* padding: 0px 9px 0px 9px; */
+        /* border: 1px solid gray; */
+      }
+      
+      .ReviewHead{
+        width: 100%;
+        height: 40px;
+        background-color: rgba(128, 128, 128,0.2);
+        margin-top: -29px;
+        font-size: 30px;
+      }
+      .Frame{
+        display: flex;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      .frame1img>img{
+      width: 70px;
+      border-radius: 10px;
+      }
+      .frame2img>img{
+        width: 130px;
+        height: 130px;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .starImgs>img{
+        width: 30px;
+      }
+      .innerFrame{
+        display: flex;
+        gap: 10px;
+        
+      }
+      .comment>p{
+        font-size: 15px;
+        font-weight: bold;
+        width: 90%;
+        word-spacing: 5px;
+      }
+      .LeftReview {
+        padding:0px 8px 0px 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
+      .reviewButton>button{
+        margin-left: 60px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffff;
+        border: none;
+        border-radius: 6px;
+        margin-top: 40px;
+        height: 40px;
+        background-color: #F53838;
+      }
+      .help{
+        font-weight: bold;
+        margin-top: 30px;
+        word-spacing: 5px;
+      }
+      
+      .lastSec{
+        padding: 10px;
+       margin-left: 10px;
+      }
+      
+      #starsEdit>img:hover{
+        background-color: yellow;
+      }
+      .lastInput{
+        height: 100px;
+        width:97%
+      }
+      
+      .lastButton2{
+        width: 130px;
+        height: 30px;
+        border-color: gray;
+       background-color: lightgray;
+        font-size: 18px;
+      }
+      
+      .reviewbutton>button{
+        /* margin-left: 60px; */
+        width: 150px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffff;
+        border: none;
+        border-radius: 6px;
+        /* margin-top: 40px; */
+        height: 40px;
+        background-color: #F53838;
+      }

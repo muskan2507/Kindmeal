@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import style from "../Styles/Recipe.module.css";
 
-const Recipe = () => {
+const Recipes = () => {
   const [show, setShow] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState();
   const [count, setCount] = useState(1);
@@ -199,4 +199,4 @@ const Recipe = () => {
   );
 };
 
-export default Recipe;
+export default Recipes;
