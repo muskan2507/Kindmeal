@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link, useParams } from 'react-router-dom'
 import { RoundImg, Para, MainImg, AButton, MiniContainer, SocialIcon } from './Styled'
-{ }
+
 const MapKindMeals = (data) => {
+    
     return (
 
-
+        <Link
+        to={`/kindmoments/${data.id}`}
+        style={{ textDecoration: "none", color: "#444444" }}
+      >
         <MiniContainer>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "5px" }}>
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -50,6 +55,7 @@ const MapKindMeals = (data) => {
             <hr />
             
         </MiniContainer>
+        </Link>
 
     )
 }

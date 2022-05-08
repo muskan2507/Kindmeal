@@ -43,7 +43,7 @@ const ListHead = () => {
               to={`/articles/${e.id}`}
               style={{ textDecoration: "none", color: "#444444" }}
             >
-              <div style={{ width: "170px", textAlign: "center" }} key={e.id}>
+              <div style={{ width: "200px", textAlign: "center" }} key={e.id}>
                 <img src={e.imgURL} />
                 <p style={{ textAlign: "center", fontSize: "12px" }}>
                   {e.title}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 import style from "../Styles/Home.module.css";
 const ListHead = () => {
   const navigate = useNavigate();
@@ -7,7 +8,7 @@ const ListHead = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        let res = await fetch(`http://localhost:8080/superHeroes?_limit=5`);
+        let res = await fetch(`http://localhost:8080/kindmoments?_limit=5`);
         let data = await res.json();
         setData(data);
         // console.log(data)
@@ -19,6 +20,7 @@ const ListHead = () => {
     // console.log(data)
   }, []);
   return (
+      
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p style={{ fontSize: "20px" }}>Amazing Superheroes</p>
@@ -34,10 +36,14 @@ const ListHead = () => {
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         {data.map((e) => {
           return (
-            <div style={{ width: "170px", textAlign: "center" }} key={e.id}>
-              <img src={e.img} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.name}</p>
+            <Link
+        to={`/kindmoments/${e.id}`}
+        style={{ textDecoration: "none", color: "#444444" }}>
+            <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
+              <img src={e.authorimg} />
+              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.authorname}</p>
             </div>
+            </Link>
           );
         })}
       </div>

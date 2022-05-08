@@ -40,7 +40,7 @@ const ListHead1 = () => {
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         {data.map((e) => {
           return (
-            <div style={{ width: "170px", textAlign: "center" }} key={e.id}>
+            <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
               <img src={e.img} />
               <p style={{ textAlign: "center", fontSize: "12px" }}>{e.title}</p>
             </div>
