@@ -12,6 +12,7 @@ import Home from '../Pages/Home'
 import Join from '../Pages/Join'
 import JoinShop from '../Pages/JoinShop'
 import JoinSuccess from '../Pages/JoinSuccess'
+import Logout from '../Pages/LogOut'
 import MealDeals from '../Pages/MealDeals'
 import Recipe from '../Pages/Recipes'
 const MainRoutes = () => {
