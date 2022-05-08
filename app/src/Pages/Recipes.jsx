@@ -112,18 +112,22 @@ const Recipe = () => {
         <button>Soup</button>
       </div>
       <div className={style.pagination}>
-       {filteredList.length>9 ?  (<div>
-          <p>Page : </p>
-          <p onClick={() => setCount(1)}>1</p>
-          <p onClick={() => setCount(2)}>2</p>
-          <p onClick={() => setCount(2)}>3</p>
-          <p onClick={() => setCount(2)}>4</p>
-          <p onClick={() => setCount(2)}>5</p>
-          <p onClick={() => setCount(2)}>6</p>
-          <p onClick={() => setCount(2)}>7</p>
-          <p onClick={() => setCount(2)}>8</p>
-          <p onClick={() => setCount(2)}>9</p>
-        </div>): <div></div>}
+        {filteredList.length > 9 ? (
+          <div>
+            <p>Page : </p>
+            <p onClick={() => setCount(1)}>1</p>
+            <p onClick={() => setCount(2)}>2</p>
+            <p onClick={() => setCount(2)}>3</p>
+            <p onClick={() => setCount(2)}>4</p>
+            <p onClick={() => setCount(2)}>5</p>
+            <p onClick={() => setCount(2)}>6</p>
+            <p onClick={() => setCount(2)}>7</p>
+            <p onClick={() => setCount(2)}>8</p>
+            <p onClick={() => setCount(2)}>9</p>
+          </div>
+        ) : (
+          <div></div>
+        )}
         <button onClick={() => setCount(count + 1)}>Next </button>
       </div>
       <div className={style.grid_div}>
@@ -141,8 +145,13 @@ const Recipe = () => {
             <h5 className={style.title}>{item.title}</h5>
 
             <div className={style.time_like_div}>
-            <p style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-
+              <p
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 {" "}
                 <img
                   src="https://www.kindmeal.my/images/icon_time_small.png"
@@ -152,22 +161,31 @@ const Recipe = () => {
                 {item.time}
               </p>
 
-              <p style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+              <p
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <img
                   src="https://www.kindmeal.my/images/icon_heart_small.png"
                   alt="like"
                   className={style.ti_li_co}
-                 
                 />
                 {item.Like}
               </p>
-              <p style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-
+              <p
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <img
                   src="https://www.kindmeal.my/images/icon_commentbubble_small.png"
                   alt="comment"
                   className={style.ti_li_co}
-                  
                 />
                 {item.Comment}
               </p>
@@ -175,7 +193,8 @@ const Recipe = () => {
           </div>
         ))}
       </div>
-      <br/><br/>
+      <br />
+      <br />
     </div>
   );
 };

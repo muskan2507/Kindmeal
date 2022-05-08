@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import style from "../Styles/MealDeals.module.css";
 
 const MealDeals = () => {
@@ -7,7 +7,7 @@ const MealDeals = () => {
   const [selectedCategory, setSelectedCategory] = useState();
   const [show, setShow] = useState([]);
 
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   useEffect(() => {
     fetch(`http://localhost:8080/mealDeals?_page=${count}&_limit=8`)
       .then((res) => res.json())
@@ -53,33 +53,32 @@ const MealDeals = () => {
       setSelectedCategory(event.target.value);
     }
   }
-
-  const handleLocationChange = () => {};
-
   return (
     <div>
       <div className={style.ynews}>
         <div className={style.mar}>
           <h2>
-            Meat-Free Deals{" "}
+            Meat-Free Deals
             <span className={style.heading_span}>
-              {" "}
               | Restaurants In Malaysia
             </span>
           </h2>
-<br/>
+          <br/>
           <p>
             Browse delicious meat-free, vegetarian deals from top restaurants
             and cafes! Just click on "Get Free Coupon" to obtain instant
             discounts and dine at the restaurants. No upfront payment, booking
             or printing is needed. If you share it on social media, you'll even
             DOUBLE your discount!
-          </p><br/>
+          </p>
+          <br/>
           <p>
             Download our <span> mobile app</span> now to easily get coupons and
             start dining in a few seconds. Effortlessly save lives, health,
             environment and money now!
-          </p><br/><br/>
+          </p>
+          <br/>
+          <br/>
         </div>
         <div className={style.flex}>
           <input
@@ -110,7 +109,6 @@ const MealDeals = () => {
           <select
             id="select"
             className={style.select}
-            onChange={handleLocationChange}
             name="Location"
           >
             <option value="All Locations">All Locations</option>
@@ -127,32 +125,37 @@ const MealDeals = () => {
           </select>
 
           <button className={style.search_btn}>Search Deals</button>
-          <button onClick={()=>navigate("/directory")} className="addShop">Browse Resturents</button>
-
+          <button onClick={() => navigate("/directory")} className="addShop">
+            Browse Resturents
+          </button>
         </div>
       </div>
-
       <img
         src="https://www.kindmeal.my/images/ads/banner_ekoeko-1100x280.jpg"
         alt="addvertise"
         className={style.addvertise}
-      /><br/>
-     {filteredList.length>7?( <div className={style.pagination}>
-        <div className={style.pageNum}>
-          <p>Page : </p>
-          <p onClick={() => setCount(1)}>1</p>
-          <p onClick={() => setCount(2)}>2</p>
-          <p onClick={() => setCount(3)}>3</p>
-          <p onClick={() => setCount(4)}>4</p>
-          <p onClick={() => setCount(5)}>5</p>
-          <p onClick={() => setCount(6)}>6</p>
-          <p onClick={() => setCount(7)}>7</p>
-          <p onClick={() => setCount(8)}>8</p>
-          <p onClick={() => setCount(9)}>9</p>
-          <p onClick={() => setCount(10)}>10</p>
+      />
+      <br/>
+      {filteredList.length > 7 ? (
+        <div className={style.pagination}>
+          <div className={style.pageNum}>
+            <p>Page : </p>
+            <p onClick={() => setCount(1)}>1</p>
+            <p onClick={() => setCount(2)}>2</p>
+            <p onClick={() => setCount(3)}>3</p>
+            <p onClick={() => setCount(4)}>4</p>
+            <p onClick={() => setCount(5)}>5</p>
+            <p onClick={() => setCount(6)}>6</p>
+            <p onClick={() => setCount(7)}>7</p>
+            <p onClick={() => setCount(8)}>8</p>
+            <p onClick={() => setCount(9)}>9</p>
+            <p onClick={() => setCount(10)}>10</p>
+          </div>
+          <button onClick={() => setCount(count + 1)}>Next &raquo; </button>
         </div>
-        <button onClick={() => setCount(count + 1)}>Next &raquo; </button>
-      </div>):(<div></div>)}
+      ) : (
+        <div></div>
+      )}
       <br/>
       <div className={style.grid}>
         {filteredList.map((item) => (
@@ -170,10 +173,20 @@ const MealDeals = () => {
                 {item.name}
                 <span className={style.res_address}>{item.address}</span>
               </p>
-            </div><br/>
-            <p className={style.description}>{item.desc}</p><br/>
+            </div>
+            <br/>
+            <p className={style.description}>{item.desc}</p>
+            <br/>
             <div className={style.btn_str}>
-              <button style={{display:"flex",justifyContent:"center",alignItems:"center"}}>Get FREE Coupon</button>
+              <button
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                }}
+              >
+                Get FREE Coupon
+              </button>
               <div>
                 <img src={item.strImg} alt="stars" />
                 <img src={item.strImg} alt="stars" />
@@ -183,9 +196,8 @@ const MealDeals = () => {
                 <p>({item.Like})</p>
               </div>
             </div>
-           
+
             <div className={style.bottom_div}>
-           
               <div>
                 <img src={item.eggContain} alt="egg" />
                 <img src={item.dairyContain} alt="egg" />
@@ -203,7 +215,10 @@ const MealDeals = () => {
           </div>
         ))}
       </div>
-<br/><br/><br/>>br/>
+      <br/>
+      <br/>
+      <br/>
+      >br/>
       <img
         src="https://www.kindmeal.my/images/how_kindmeal_works.png"
         alt="download app"

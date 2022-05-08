@@ -23,8 +23,8 @@ const LoginPopup = () => {
     // console.log(formData);
     getData();
     // console.log(data);
-   if(data.length>0){
-    if (
+    if (data.length > 0) {
+      if (
         data[0].email === formData.email &&
         data[0].password === formData.password
       ) {
@@ -33,16 +33,15 @@ const LoginPopup = () => {
       } else if (formData.email !== data[0].email) {
         alert("User Not Found, Please Sign in First");
         navigator("/join");
-        setVisibility(false)
+        setVisibility(false);
       } else if (formData.password !== data[0].password) {
         alert("Wrong Password, Try again");
       }
-   }
-   else{
-       alert("First Sign in")
-       navigate("/join")
-       setVisibility(false)
-   }
+    } else {
+      alert("First Sign in");
+      navigate("/join");
+      setVisibility(false);
+    }
   };
 
   const handleChange = (e) => {
@@ -69,7 +68,7 @@ const LoginPopup = () => {
               alt=""
             />
             <h3>Member Login</h3>
-            <br/>
+            <br />
             <div className={style.login_input}>
               <input
                 type="email"
@@ -88,21 +87,23 @@ const LoginPopup = () => {
                 <button className={style.btn_login} onClick={handleSubmit}>
                   Login
                 </button>
-                <br />  
-                <br/>
+                <br />
+                <br />
                 <hr />
-                <br/> 
-                 <a href="https://www.kindmeal.my/login.php?action=facebook" target="_blank">
-                <button className={style.btn_facebook}>
-                  <img
-                    src="https://www.kindmeal.my/images/icon_button_fb.png"
-                    alt="facebook"
-                    className={style.facebook_logo}
-                  />
-                  Login With Facebook
-                </button>
+                <br />
+                <a
+                  href="https://www.kindmeal.my/login.php?action=facebook"
+                  target="_blank"
+                >
+                  <button className={style.btn_facebook}>
+                    <img
+                      src="https://www.kindmeal.my/images/icon_button_fb.png"
+                      alt="facebook"
+                      className={style.facebook_logo}
+                    />
+                    Login With Facebook
+                  </button>
                 </a>
-               
               </div>
             </div>
 

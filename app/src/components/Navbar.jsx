@@ -21,29 +21,27 @@ const Navbar = () => {
   const { isAuth, setIsAuth } = useContext(AuthContext);
   // const navigate = useNavigate()
 
-  const getdata =  () => {
-    let data = JSON.parse(localStorage.getItem("RegisteredData")) || []
+  const getdata = () => {
+    let data = JSON.parse(localStorage.getItem("RegisteredData")) || [];
     // setdata([...data])
     // console.log(data[0].firstName, data[0].lastNme);
-    // 
+    //
     if (data.length > 0) {
       setIsAuth(true);
       setName(data[0].firstName);
-    setLastname(data[0].lastName);
-    setPhoto(data[0].photo);
+      setLastname(data[0].lastName);
+      setPhoto(data[0].photo);
     }
     // console.log(data)
     // console.log(data, isAuth);
-    
-
   };
   useEffect(() => {
-    getdata()
+    getdata();
   }, []);
-  const handleLogOut=()=>{
+  const handleLogOut = () => {
     // navigate("/logout")
-    setIsAuth(false)
-  }
+    setIsAuth(false);
+  };
   //
   //   console.log(data[0].firstName,data[0].lastNme)
 
@@ -81,7 +79,18 @@ const Navbar = () => {
         </div>
         {isAuth ? (
           <div style={{ display: "flex" }}>
-          <Link to="/logout" style={{textDecoration:"none"}}><p style={{ marginTop: "20px", marginRight: "15px",cursor:"pointer" }} onClick={handleLogOut} >Log Out</p></Link>
+            <Link to="/logout" style={{ textDecoration: "none" }}>
+              <p
+                style={{
+                  marginTop: "20px",
+                  marginRight: "15px",
+                  cursor: "pointer",
+                }}
+                onClick={handleLogOut}
+              >
+                Log Out
+              </p>
+            </Link>
             <p style={{ marginTop: "20px", marginRight: "15px" }}>
               {name} {lastname}
             </p>{" "}

@@ -1,7 +1,5 @@
 {
-  "formData": [
-    []
-  ],
+  "formData": [[]],
   "directory": [
     {
       "id": 1,
@@ -12,7 +10,7 @@
       "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Selangore"
+      "catagory": "Selangore"
     },
     {
       "id": 2,
@@ -23,7 +21,7 @@
       "opening": "Fri - Wed: 9am - 4pm; Thu: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Kuala Lumpur"
+      "catagory": "Kuala Lumpur"
     },
     {
       "id": 3,
@@ -33,7 +31,7 @@
       "opening": "Tue-Sun 11am-3pm, 6:30-10pm.",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Johor"
+      "catagory": "Johor"
     },
     {
       "id": 4,
@@ -44,7 +42,7 @@
       "opening": "Daily: 6:30am - 9:00pm",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Kedah"
+      "catagory": "Kedah"
     },
     {
       "id": 5,
@@ -55,7 +53,7 @@
       "opening": "Daily: 6:30am - 9:00pm",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Melaka"
+      "catagory": "Melaka"
     },
     {
       "id": 6,
@@ -66,7 +64,7 @@
       "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Melaka"
+      "catagory": "Melaka"
     },
     {
       "id": 7,
@@ -77,7 +75,7 @@
       "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Pehang"
+      "catagory": "Pehang"
     },
     {
       "id": 8,
@@ -88,7 +86,7 @@
       "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Pehang"
+      "catagory": "Pehang"
     },
     {
       "id": 9,
@@ -99,7 +97,7 @@
       "opening": "Mon-Sat: 10am - 7.30pm (Valentime Bread Available Mon-Sat 10am-7.30pm)",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Melaka"
+      "catagory": "Melaka"
     },
     {
       "id": 10,
@@ -110,7 +108,7 @@
       "opening": "Sun - Thu: 11am - 3pm & 6pm - 9pm; Fri - Sat: Closed",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Selangore"
+      "catagory": "Selangore"
     },
     {
       "id": 11,
@@ -120,7 +118,7 @@
       "phone": "03-8723 2862 / 016-2013949 / 016-2132949 / 016-3303949",
       "opening": "Mon - Fri: Monday - Friday: 9am - 6pm; Closed: Sat - Sun",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
-      "catagory":"Johor"
+      "catagory": "Johor"
     },
     {
       "id": 12,
@@ -131,7 +129,7 @@
       "opening": "Mon - Sun: 11am - 9pm",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
       "visit": "https://mobile.kindmeal.my/#!p=shop&v=362",
-      "catagory":"Kedah"
+      "catagory": "Kedah"
     },
     {
       "id": 13,
@@ -139,7 +137,7 @@
       "address": "Jalan SS15 (at next to Taylor Intertiol College), Subang Jaya, 47500, Selangor",
       "phone": "017-3909180",
       "opening": "Mon - Sun: 11am - 9pm",
-      "catagory":"Kedah",
+      "catagory": "Kedah",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
     },
     {
@@ -148,7 +146,7 @@
       "address": "35, Ground Floor, Jalan USJ10/1E, Subang Jaya, 47620, Selangor",
       "phone": "017-3909180 / 012-5073013",
       "opening": "Mon - Sun: 11am - 9pm",
-      "catagory":"Melaka",
+      "catagory": "Melaka",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
     },
     {
@@ -157,7 +155,7 @@
       "address": "114-116, Jalan Berhala, Brickfields, Kuala Lumpur, 50470, Wilayah Persekutuan",
       "phone": "03-22723799, 03-22843799",
       "opening": "Tue-Sun 11am-3pm, 6:30-10pm.",
-      "catagory":"Selangore",
+      "catagory": "Selangore",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
     },
     {
@@ -166,7 +164,7 @@
       "address": "12,14,14-1, Persiaran Mergatua, Kepong Baru, Kuala Lumpur, 52100, Wilayah Persekutuan",
       "phone": "017-3909180 / 012-5073013",
       "opening": "Mon - Sun: 11am - 9pm",
-      "catagory":"Pehang",
+      "catagory": "Pehang",
       "map": "https://maps.google.com/maps?width=900&amp;height=800&amp;hl=en&amp;q=1, Jalan 4/93, Taman Miharja, Jalan Cheras, 55200 Kuala Lumpur, Wilayah Persekutuan&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
     },
     {
@@ -176,7 +174,7 @@
       "email": "343434@afaf.xcom",
       "opening": " Mon - Fri: 10am - 9pm; Sat - Sun: 10am - 10pm",
       "visit": "www.debu.com",
-      "catagory":"Kedah",
+      "catagory": "Kedah",
       "description": "We serve delicious home-cooked vegetarian meals, crafted with the healthiest ingredients and plenty of love. We also sell natural, handmade clay and wooden Buddhist crafts, health suppleme",
       "id": 17
     },
@@ -187,7 +185,7 @@
       "email": "343434@afaf.xcom",
       "opening": " Mon - Fri: 10am - 9pm; Sat - Sun: 10am - 10pm",
       "map": "www",
-      "catagory":"Selangore",
+      "catagory": "Selangore",
       "description": "hajnjndbsdas",
       "id": 18
     },
@@ -380,7 +378,7 @@
       "id": 18
     }
   ],
-  
+
   "articles": [
     {
       "id": 1,
@@ -1211,563 +1209,546 @@
       "name": "Kyoto Pork Ribs Ramen"
     }
   ],
-  "mealDeals":[
+  "mealDeals": [
     {
-            "id":25,
-             "img":"https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg",
-              "title":"Cozy Oriental Dining",
-              "off":"-20%",
-              "name":"Ring Zhi Vegetarian Restaurant",
-              "address":"—  Kepong, Kuala Lumpur",
-              "desc":"This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
-              "strImg":"https://www.kindmeal.my/images/icon_star.png",
-              "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-              "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
-              "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-              "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-                "alcoContain":"https://www.kindmeal.my/images/icon_alcohol.png",
-              "expire":"21 Hours",
-                "Like": 10,
-                "off2":"20%",
-                "Location":"Kualalumpur",
-                "catagory":"Pasta"
+      "id": 25,
+      "img": "https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg",
+      "title": "Cozy Oriental Dining",
+      "off": "-20%",
+      "name": "Ring Zhi Vegetarian Restaurant",
+      "address": "—  Kepong, Kuala Lumpur",
+      "desc": "This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol.png",
+      "expire": "21 Hours",
+      "Like": 10,
+      "off2": "20%",
+      "Location": "Kualalumpur",
+      "catagory": "Pasta"
     },
     {
-      "id":26,
-             "img":"https://www.kindmeal.my/photos/deal/7/701-4904-l.jpg",
-              "title":"Tasy, Joyful Moments",
-              "off":"-10%",
-              "name":"Moment of Joy",
-              "address":" —  Cheras & 1 Branch",
-              "desc":"We are committed to sustainability and plant-based diet. When food is melting into our mouths with an Unami flavor, life becomes ..",
-              "strImg":"https://www.kindmeal.my/images/icon_star.png",
-              "halfstr":"https://www.kindmeal.my/images/icon_star.png",
-              "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-           
-              "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-              "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-                "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-              "expire":"5 Days",
-                "Like": 1,
-                "off2":"10%",
-                "Location":"Klang vally",
-                "catagory":"Burger"
+      "id": 26,
+      "img": "https://www.kindmeal.my/photos/deal/7/701-4904-l.jpg",
+      "title": "Tasy, Joyful Moments",
+      "off": "-10%",
+      "name": "Moment of Joy",
+      "address": " —  Cheras & 1 Branch",
+      "desc": "We are committed to sustainability and plant-based diet. When food is melting into our mouths with an Unami flavor, life becomes ..",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "expire": "5 Days",
+      "Like": 1,
+      "off2": "10%",
+      "Location": "Klang vally",
+      "catagory": "Burger"
     },
     {
-      "id":1,
-      "img":"https://www.kindmeal.my/photos/deal/6/686-4475-l.jpg",
-      "off":"-15%",
-      "title":"Blend of Asian Flavors",
-      "name":"Figure Out Cafe ",
-      "address":"—  Klang, Selangor",
-      "desc":"Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere!Enjoy discount off a lar..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"15%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "id": 1,
+      "img": "https://www.kindmeal.my/photos/deal/6/686-4475-l.jpg",
+      "off": "-15%",
+      "title": "Blend of Asian Flavors",
+      "name": "Figure Out Cafe ",
+      "address": "—  Klang, Selangor",
+      "desc": "Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere!Enjoy discount off a lar..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "15%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": " 6Days",
       "Like": 8,
-      "Location":"Klang vally",
-        "catagory":"Burger"
-      
-  },
-  {
-      "id":2,
-      "img":"https://www.kindmeal.my/photos/deal/5/565-4023-l.jpg",
-      "off":"-20%",
-      "title":"Buon Appetito at Table9",
-      "name":"Table9 Cafe & Kitchen",
-      "address":"- Kula Lumpur,Wilayah Persekutuan",
-      "desc":"Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9Select any meat-free i..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Burger"
+    },
+    {
+      "id": 2,
+      "img": "https://www.kindmeal.my/photos/deal/5/565-4023-l.jpg",
+      "off": "-20%",
+      "title": "Buon Appetito at Table9",
+      "name": "Table9 Cafe & Kitchen",
+      "address": "- Kula Lumpur,Wilayah Persekutuan",
+      "desc": "Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9Select any meat-free i..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 5,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_grey.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_grey.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "4 Days",
-      "Location":"Klang vally",
-    "catagory":"Pasta"
-      
-  },
-  {
-      "id":3,
-      "img":"https://www.kindmeal.my/photos/deal/5/574-3020-l.jpg",
-      "off":"-20%",
-      "title":"Mad About Food",
-      "name":"Medal Mad Cafe",
-      "address":" —Kepong,Kuala Lumpur",
-      "desc":"Enjoy a selection of Western cuisine, signature mocktails and desserts, especially their egg bubble waffle! Enjoy meat-free items..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Pasta"
+    },
+    {
+      "id": 3,
+      "img": "https://www.kindmeal.my/photos/deal/5/574-3020-l.jpg",
+      "off": "-20%",
+      "title": "Mad About Food",
+      "name": "Medal Mad Cafe",
+      "address": " —Kepong,Kuala Lumpur",
+      "desc": "Enjoy a selection of Western cuisine, signature mocktails and desserts, especially their egg bubble waffle! Enjoy meat-free items..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 10,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "5 Days",
-      "Location":"Klang vally",
-                "catagory":"Breakfast"
-      
-  },
-  {
-      "id":4,
-      "img":"https://www.kindmeal.my/photos/deal/6/617-3503-l.jpg",
-      "off":"-15%",
-      "title":"Earth-Friendly Meals",
-      "name":"Love Earth Cafe",
-      "address":"—Kuala Lumpur,Wilayah Persekutuan",
-      "desc":"Indulge in a wide variety of delicious meat-free cuisines, and contribute to a better Earth and environment! Select from any of o..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"15%",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 4,
+      "img": "https://www.kindmeal.my/photos/deal/6/617-3503-l.jpg",
+      "off": "-15%",
+      "title": "Earth-Friendly Meals",
+      "name": "Love Earth Cafe",
+      "address": "—Kuala Lumpur,Wilayah Persekutuan",
+      "desc": "Indulge in a wide variety of delicious meat-free cuisines, and contribute to a better Earth and environment! Select from any of o..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "15%",
       "Like": 15,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": " 12 Days",
-      "Location":"Klang vally",
-      "catagory":"Breakfast"
-      
-  },
-  {
-      "id":5,
-      "img":"https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg",
-      "off":"-20%",
-      "title":"Scrumptious Croutons",
-      "name":"Croutons Cafe",
-      "address":"—Seri Kembangan,Selangor",
-      "desc":"Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: • ..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 5,
+      "img": "https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg",
+      "off": "-20%",
+      "title": "Scrumptious Croutons",
+      "name": "Croutons Cafe",
+      "address": "—Seri Kembangan,Selangor",
+      "desc": "Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: • ..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 20,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "12 Days",
-      "Location":"Klang vally",
-      "catagory":"Breakfast"
-      
-  },
-  {
-      "id":6,
-      "img":"https://www.kindmeal.my/photos/deal/4/469-1822-l.jpg",
-      "off":"-20%",
-      "title":"Healthy Personal Salad",
-      "name":"Salad Atelier",
-      "address":"—Jalan Tun Razak & 4 Branches",
-      "desc":"Enjoy a crispy, crunchy adult-sized salad prepared with fresh greens, fruits and healthy ingredients! Choose from a base, 6 meat-..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal (Save RM3.80)",
-      "off2":"RM 15.20",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 6,
+      "img": "https://www.kindmeal.my/photos/deal/4/469-1822-l.jpg",
+      "off": "-20%",
+      "title": "Healthy Personal Salad",
+      "name": "Salad Atelier",
+      "address": "—Jalan Tun Razak & 4 Branches",
+      "desc": "Enjoy a crispy, crunchy adult-sized salad prepared with fresh greens, fruits and healthy ingredients! Choose from a base, 6 meat-..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal (Save RM3.80)",
+      "off2": "RM 15.20",
       "Like": 10,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "11 Days",
-      "Location":"Klang vally",
-      "catagory":"Breakfast"
-      
-  },
-  {
-      "id":7,
-      "img":"https://www.kindmeal.my/photos/deal/6/681-4353-l.jpg",
-      "off":"-10%",
-      "title":"Contemporary Vegetarian Experience",
-      "name":"Berjaya Cafe",
-      "address":"— Kuala Lumpur, Wilayah Persekutuan",
-      "desc":"Berjaya Cafe delights you with opulence, style and taste from the best chefs in town. Savor only the best in gastronomic experien..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"10%",
-      "Like": 7, 
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
-      "expire": "4 Days",
-      "Location":"Klang vally",
-      "catagory":"Breakfast"
-      
-  },
-  {
-      "id":8,
-      "img":"https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg",
-      "off":"-20%",
-      "title":"Flavours Around the World",
-      "name":"The Black Cat Cafe ",
-      "address":"— Kuala Lumpur, Wilayah persekutuan",
-      "desc":"Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
-      "Like": 30,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
-      "expire": "11 Days",
-      "Location":"Klang vally",
-      "catagory":"Burger"
-      
-  },
-  {
-      "id":9,
-      "img":"https://www.kindmeal.my/photos/deal/6/605-3316-l.jpg",
-      "off":"-20%",
-      "title":"Hyderabadi Indian Feast",
-      "name":"Hyderabad Recipes",
-      "address":"— Kuala Lumpur, Wilayah Persekutuan",
-      "desc":"Indulge yourself in the best Hyderabadi cuisine, including the 'World's Favourite Biryani'! Select from any meat-free items from ..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 7,
+      "img": "https://www.kindmeal.my/photos/deal/6/681-4353-l.jpg",
+      "off": "-10%",
+      "title": "Contemporary Vegetarian Experience",
+      "name": "Berjaya Cafe",
+      "address": "— Kuala Lumpur, Wilayah Persekutuan",
+      "desc": "Berjaya Cafe delights you with opulence, style and taste from the best chefs in town. Savor only the best in gastronomic experien..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "10%",
       "Like": 7,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "expire": "12 Days",
-      "Location":"Klang vally",
-      "catagory":"Bakery"
-      
-  },
-  {
-      "id":10,
-      "img":"https://www.kindmeal.my/photos/deal/4/467-2796-l.jpg",
-      "off":"-20%",
-      "title":"Churros,Coffee & Meals",
-      "name":"PCLO Cafe",
-      "address":" —  Cheras & 1 Branch",
-      "desc":"Think of Churros, think of PCLO Cafe! Each batch of eggless Churros is made with passion and from scratch in our kitchen. Which ..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%", 
-       "Like": 6,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "4 Days",
-      "Location":"Klang vally",
-      "catagory":"Cute"
-      
-  },
-  {
-      "id":11,
-      "img":"https://www.kindmeal.my/photos/deal/4/403-1390-l.jpg",
-      "off":"-20%",
-      "title":"Wellness Meal + 10% Off Organic Products",
-      "name":"Juve Wellness Puchong ",
-      "address":"— Puchong,Selangor",
-      "desc":"Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 8,
+      "img": "https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg",
+      "off": "-20%",
+      "title": "Flavours Around the World",
+      "name": "The Black Cat Cafe ",
+      "address": "— Kuala Lumpur, Wilayah persekutuan",
+      "desc": "Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "Like": 30,
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
+      "expire": "11 Days",
+      "Location": "Klang vally",
+      "catagory": "Burger"
+    },
+    {
+      "id": 9,
+      "img": "https://www.kindmeal.my/photos/deal/6/605-3316-l.jpg",
+      "off": "-20%",
+      "title": "Hyderabadi Indian Feast",
+      "name": "Hyderabad Recipes",
+      "address": "— Kuala Lumpur, Wilayah Persekutuan",
+      "desc": "Indulge yourself in the best Hyderabadi cuisine, including the 'World's Favourite Biryani'! Select from any meat-free items from ..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "Like": 7,
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "expire": "12 Days",
+      "Location": "Klang vally",
+      "catagory": "Bakery"
+    },
+    {
+      "id": 10,
+      "img": "https://www.kindmeal.my/photos/deal/4/467-2796-l.jpg",
+      "off": "-20%",
+      "title": "Churros,Coffee & Meals",
+      "name": "PCLO Cafe",
+      "address": " —  Cheras & 1 Branch",
+      "desc": "Think of Churros, think of PCLO Cafe! Each batch of eggless Churros is made with passion and from scratch in our kitchen. Which ..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "Like": 6,
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "expire": "4 Days",
+      "Location": "Klang vally",
+      "catagory": "Cute"
+    },
+    {
+      "id": 11,
+      "img": "https://www.kindmeal.my/photos/deal/4/403-1390-l.jpg",
+      "off": "-20%",
+      "title": "Wellness Meal + 10% Off Organic Products",
+      "name": "Juve Wellness Puchong ",
+      "address": "— Puchong,Selangor",
+      "desc": "Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 5,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "4 Days",
-      "Location":"Klang vally",
-      "catagory":"Bakery"
-      
-  },
-  {
-      "id":12,
-      "img":"https://www.kindmeal.my/photos/deal/6/610-3386-l.jpg",
-      "off":"-20%",
-      "title":"Authentic Asian Experience",
-      "name":"Cameleon Vegetarian Resturant", 
-      "address":"— Kuala Lumpur, Wilayah Persekutuan",
-      "desc":"Indulge yourself in healthy, authentic Asian cuisines within a traditional dinning environment. Enjoy any items from our ala cart..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Bakery"
+    },
+    {
+      "id": 12,
+      "img": "https://www.kindmeal.my/photos/deal/6/610-3386-l.jpg",
+      "off": "-20%",
+      "title": "Authentic Asian Experience",
+      "name": "Cameleon Vegetarian Resturant",
+      "address": "— Kuala Lumpur, Wilayah Persekutuan",
+      "desc": "Indulge yourself in healthy, authentic Asian cuisines within a traditional dinning environment. Enjoy any items from our ala cart..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 12,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "12 Days",
-      "Location":"Klang vally",
-      "catagory":"Cute"
-      
-  },
-  {
-      "id":13,
-      "img":"https://www.kindmeal.my/photos/deal/6/677-4286-l.jpg",
-      "off":"-20%",
-      "title":"Japanese Vegan Feast",
-      "name":"SUPE Vegan",
-      "address":" Kuala Lumpur, Wilayah Persekutuan",
-      "desc":"Indulge yourself with creative, delicious and healthy fusion Japanese vegan cuisine at SUPE! Featuring uniquely crafted vegan mea..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Cute"
+    },
+    {
+      "id": 13,
+      "img": "https://www.kindmeal.my/photos/deal/6/677-4286-l.jpg",
+      "off": "-20%",
+      "title": "Japanese Vegan Feast",
+      "name": "SUPE Vegan",
+      "address": " Kuala Lumpur, Wilayah Persekutuan",
+      "desc": "Indulge yourself with creative, delicious and healthy fusion Japanese vegan cuisine at SUPE! Featuring uniquely crafted vegan mea..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 11,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "12 Days",
-      "Location":"Klang vally",
-      "catagory":"Tea & Desserts"
-      
-  },
-  {
-      "id":14,
-      "img":"https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
-      "off":"-20%",
-      "title":"Dining Bowl Asian Delicates",
-      "name":"Dining Bowl","address": "— Kuala Lumpur, Wilayah Persekutuan",
-      "desc":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Tea & Desserts"
+    },
+    {
+      "id": 14,
+      "img": "https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
+      "off": "-20%",
+      "title": "Dining Bowl Asian Delicates",
+      "name": "Dining Bowl",
+      "address": "— Kuala Lumpur, Wilayah Persekutuan",
+      "desc": "Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 14,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_grey.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_grey.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "9 Days",
-      "Location":"Klang vally",
-      "catagory":"Breakfast"
-      
-  },
-  {
-      "id":15,
-      "img":"https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg",
-      "off":"-20%",
-      "title":"Rawsome Lifestyle",
-      "name":"Rawsome ","address":" Sungai Buloh,Selangor",
-      "desc":"Enjoy healthy, guilt-free, raw food meals artfully crafted for a nutritious and delicious experience. Indulge in a satisfying mea..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Breakfast"
+    },
+    {
+      "id": 15,
+      "img": "https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg",
+      "off": "-20%",
+      "title": "Rawsome Lifestyle",
+      "name": "Rawsome ",
+      "address": " Sungai Buloh,Selangor",
+      "desc": "Enjoy healthy, guilt-free, raw food meals artfully crafted for a nutritious and delicious experience. Indulge in a satisfying mea..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 16,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "13 Days",
-      "Location":"Klang vally",
-      "catagory":"Tea & Desserts"
-      
-  },
-  {
-      "id":16,
-      "img":"https://www.kindmeal.my/photos/deal/3/301-722-l.jpg",
-      "off":"-20%",
-      "title":"MBG Fruit Juice Deal",
-      "name":"MBG Fruit Shop","address":" — Petaling Jaya & 5 Branches",
-      "desc":"Enjoy discount from any of our signature fruit juices below: No 1 (Avocado + Date Sweetener + Yogurt + Milk) – RM12.70 No 8 (Gi..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
+      "Location": "Klang vally",
+      "catagory": "Tea & Desserts"
+    },
+    {
+      "id": 16,
+      "img": "https://www.kindmeal.my/photos/deal/3/301-722-l.jpg",
+      "off": "-20%",
+      "title": "MBG Fruit Juice Deal",
+      "name": "MBG Fruit Shop",
+      "address": " — Petaling Jaya & 5 Branches",
+      "desc": "Enjoy discount from any of our signature fruit juices below: No 1 (Avocado + Date Sweetener + Yogurt + Milk) – RM12.70 No 8 (Gi..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
       "Like": 17,
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "1 Days",
-      "Location":"Klang vally",
-      "catagory":"Indian"
-      
-  },
-  {
-      "id":17,
-      "img":"https://www.kindmeal.my/photos/deal/6/682-4370-l.jpg",
-      "off":"-15%",
-      "title":"Smooth Teas & Cold Brews",
-      "name":"Fullleaf Tea Store","address":"— Bandar Sunway, Selangor",
-      "desc":"Chill out with our ready-to-drink Cold Brew Teas! Invigorate yourself with our healthy, refreshing selection of Pure and Smooth T..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "Location": "Klang vally",
+      "catagory": "Indian"
+    },
+    {
+      "id": 17,
+      "img": "https://www.kindmeal.my/photos/deal/6/682-4370-l.jpg",
+      "off": "-15%",
+      "title": "Smooth Teas & Cold Brews",
+      "name": "Fullleaf Tea Store",
+      "address": "— Bandar Sunway, Selangor",
+      "desc": "Chill out with our ready-to-drink Cold Brew Teas! Invigorate yourself with our healthy, refreshing selection of Pure and Smooth T..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "1 Days",
-      "Location":"Klang vally",
-      "catagory":"Indian"
-      
-  },
-  {
-      "id":18,
-      "img":"https://www.kindmeal.my/photos/deal/6/664-4296-l.jpg",
-      "off":"-10%",
-      "title":"The Soul of Local Delights",
-      "name":"Soul Green ","address":"— Perniagaan Kota Shahbandar , Melaka",
-      "desc":"Revitalize your soul with our healthy, delicious local cuisine, straight from the food paradise of Melaka! Enjoy discounts off al..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"10%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
+      "Location": "Klang vally",
+      "catagory": "Indian"
+    },
+    {
+      "id": 18,
+      "img": "https://www.kindmeal.my/photos/deal/6/664-4296-l.jpg",
+      "off": "-10%",
+      "title": "The Soul of Local Delights",
+      "name": "Soul Green ",
+      "address": "— Perniagaan Kota Shahbandar , Melaka",
+      "desc": "Revitalize your soul with our healthy, delicious local cuisine, straight from the food paradise of Melaka! Enjoy discounts off al..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "10%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
       "expire": "6 Days",
-      "Location":"Klang vally",
-      "catagory":"Indian"
-      
-  },
-  {
-      "id":19,
-      "img":"https://www.kindmeal.my/photos/deal/6/634-3683-l.jpg",
-      "off":"-20%",
-      "title":"Vegan Thai Delights",
-      "name":"Veggielicious Thai Cuisine","address":"— Petaling Jaya,Selangor",
-      "desc":"Indulge in a wide array of authentic Thai vegan dishes within a cozy environment! Deliciously crafted to bring you the finest gas..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Indian"
+    },
+    {
+      "id": 19,
+      "img": "https://www.kindmeal.my/photos/deal/6/634-3683-l.jpg",
+      "off": "-20%",
+      "title": "Vegan Thai Delights",
+      "name": "Veggielicious Thai Cuisine",
+      "address": "— Petaling Jaya,Selangor",
+      "desc": "Indulge in a wide array of authentic Thai vegan dishes within a cozy environment! Deliciously crafted to bring you the finest gas..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "3 Days",
-      "Location":"Klang vally",
-      "catagory":"Chinese"
-      
-  },
-  {
-      "id":20,
-      "img":"https://www.kindmeal.my/photos/deal/6/685-4392-l.jpg",
-      "off":"-15%",
-      "title":"Authentic Italian Indulgence",
-      "name":"The Italian Job","address":"— Petaling Jaya,Selangor",
-      "desc":"Enjoy authentic Italian cuisine within a cozy environment! Pizza, breads and sometimes cakes or cookies are baked within the in-h..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"15%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Chinese"
+    },
+    {
+      "id": 20,
+      "img": "https://www.kindmeal.my/photos/deal/6/685-4392-l.jpg",
+      "off": "-15%",
+      "title": "Authentic Italian Indulgence",
+      "name": "The Italian Job",
+      "address": "— Petaling Jaya,Selangor",
+      "desc": "Enjoy authentic Italian cuisine within a cozy environment! Pizza, breads and sometimes cakes or cookies are baked within the in-h..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "15%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "13 Days",
-      "Location":"Klang vally",
-      "catagory":"Chinese"
-      
-  },
-  {
-      "id":21,
-      "img":"https://www.kindmeal.my/photos/deal/6/628-4921-l.jpg",
-      "off":"-15%",
-      "title":"Janpanese Fusion Delights",
-      "name":"Sushi Kitchen Kota Damansara ","address":" —  Cheras & 1 Branch",
-      "desc":"Enjoy creative, delicious and healthy fusion Japanese cuisine at Sushi Kitchen! Meticulously prepared with fresh, quality ingredi..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg_disabled.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"15%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Chinese"
+    },
+    {
+      "id": 21,
+      "img": "https://www.kindmeal.my/photos/deal/6/628-4921-l.jpg",
+      "off": "-15%",
+      "title": "Janpanese Fusion Delights",
+      "name": "Sushi Kitchen Kota Damansara ",
+      "address": " —  Cheras & 1 Branch",
+      "desc": "Enjoy creative, delicious and healthy fusion Japanese cuisine at Sushi Kitchen! Meticulously prepared with fresh, quality ingredi..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg_disabled.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "15%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "13 Days",
-      "Location":"Klang vally",
-      "catagory":"Soup"
-      
-  },
-  {
-      "id":22,
-      "img":"https://www.kindmeal.my/photos/deal/5/553-2769-l.jpg",
-      "off":"-10%",
-      "title":"Sandalo Weekday Gourmet",
-      "name":"Sandalo Healthy Vegetarian",
-      "address":" —  Petaling Jaya, Selangor",
-      "desc":"Nourish your body and delight your taste buds with our tasty selection of vegetarian dishes. Choose from any of our menu items, i..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk_disabled.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"10%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Soup"
+    },
+    {
+      "id": 22,
+      "img": "https://www.kindmeal.my/photos/deal/5/553-2769-l.jpg",
+      "off": "-10%",
+      "title": "Sandalo Weekday Gourmet",
+      "name": "Sandalo Healthy Vegetarian",
+      "address": " —  Petaling Jaya, Selangor",
+      "desc": "Nourish your body and delight your taste buds with our tasty selection of vegetarian dishes. Choose from any of our menu items, i..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk_disabled.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "10%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "12 Days",
-      "Location":"Klang vally",
-      "catagory":"Salads"
-      
-  },
-  {
-      "id":23,
-      "img":"https://www.kindmeal.my/photos/deal/5/591-3151-l.jpg",
-      "off":"-20%",
-      "title":"Vegipai's Fusion Indulgence",
-      "name":"Vegipai Cafe",
-      "address":" —  Taman Desa, Off Jln. Kelang La.., Kuala Lumpur",
-      "desc":"Indulge in a healthy and tasty variety of Oriental and Western delicacies, prepared with quality ingredients! Enjoy any items fro..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"20%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-     "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
-     "emptyStr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Salads"
+    },
+    {
+      "id": 23,
+      "img": "https://www.kindmeal.my/photos/deal/5/591-3151-l.jpg",
+      "off": "-20%",
+      "title": "Vegipai's Fusion Indulgence",
+      "name": "Vegipai Cafe",
+      "address": " —  Taman Desa, Off Jln. Kelang La.., Kuala Lumpur",
+      "desc": "Indulge in a healthy and tasty variety of Oriental and Western delicacies, prepared with quality ingredients! Enjoy any items fro..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "20%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "8 Days",
-      "Location":"Klang vally",
-      "catagory":"Soup"
-      
-  },
-  {
-      "id":24,
-      "img":"https://www.kindmeal.my/photos/deal/6/698-4639-l.jpg",
-      "off":"-10%",
-      "title":"Nutritious Meets Delicious",
-      "name":"Wise Crafters",
-      "address":"—  Petaling Jaya, Selangorr",
-      "desc":"Wise Crafters offers freshly-prepared meals, developed by a team of chefs and nutritionists. Let us invigorate your body and mind..",
-      "eggContain":"https://www.kindmeal.my/images/icon_egg.png",
-      "dairyContain":"https://www.kindmeal.my/images/icon_milk.png",
-      "alcoContain":"https://www.kindmeal.my/images/icon_alcohol_disabled.png",
-      "discounttitle":"KindMeal Discount",
-      "off2":"10%",
-      "strImg":"https://www.kindmeal.my/images/icon_star.png",
-      "emptyStr":"https://www.kindmeal.my/images/icon_star_grey.png",
-      "halfstr":"https://www.kindmeal.my/images/icon_star_half.png",
+      "Location": "Klang vally",
+      "catagory": "Soup"
+    },
+    {
+      "id": 24,
+      "img": "https://www.kindmeal.my/photos/deal/6/698-4639-l.jpg",
+      "off": "-10%",
+      "title": "Nutritious Meets Delicious",
+      "name": "Wise Crafters",
+      "address": "—  Petaling Jaya, Selangorr",
+      "desc": "Wise Crafters offers freshly-prepared meals, developed by a team of chefs and nutritionists. Let us invigorate your body and mind..",
+      "eggContain": "https://www.kindmeal.my/images/icon_egg.png",
+      "dairyContain": "https://www.kindmeal.my/images/icon_milk.png",
+      "alcoContain": "https://www.kindmeal.my/images/icon_alcohol_disabled.png",
+      "discounttitle": "KindMeal Discount",
+      "off2": "10%",
+      "strImg": "https://www.kindmeal.my/images/icon_star.png",
+      "emptyStr": "https://www.kindmeal.my/images/icon_star_grey.png",
+      "halfstr": "https://www.kindmeal.my/images/icon_star_half.png",
       "expire": "13 Days",
-      "Location":"Klang vally",
-      "catagory":"Salads"
-      
-  }
-],
+      "Location": "Klang vally",
+      "catagory": "Salads"
+    }
+  ],
   "formData": [
-   
     {
       "firstName": "Muskan",
       "lastName": "Shaw",
@@ -1781,6 +1762,376 @@
       "photo": "https://www.kindmeal.my/photos/member/41/41066-s.jpg",
       "agree": true,
       "id": 2
+    }
+  ],
+  "hotpicks1": [
+    {
+      "img": "https://www.kindmeal.my/photos/deal/5/579-4524-m.jpg",
+
+      "txt": "Lush Comfort Food"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/7/703-4854-m.jpg",
+
+      "txt": "Vietnamese Homecooked Meals"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/5/565-4023-m.jpg",
+
+      "txt": "Plant-Based Culinary Experience"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/696-4578-m.jpg",
+
+      "txt": "Authentic Vietnamese Experience"
+    }
+  ],
+  "hotpicks2": [
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16373-25137-m.jpg",
+
+      "logo": "https://www.kindmeal.my/images/default_female-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:",
+
+      "txt2": "Totally love the Cheesy Burger which caught me by surprise with the texture, taste, and appearance! Who will ever imagine and ex..",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16358-25101-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/33/33871-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:",
+
+      "txt2": "The 'realest' banana cake I have ever tried! 😍",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16360-25103-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/33/33871-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room: ",
+
+      "txt2": "Our newly dressed  Ceviche :)",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16352-25085-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/30/30031-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room: ",
+
+      "txt2": "Wonderful ambience, friendly attentive service and absolutely delicious food! Will definitely be back :)",
+
+      "txt": "Read Review »"
+    }
+  ],
+  "hotpicks3": [
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/684-4446-m.jpg",
+
+      "txt": "Lush Comfort Food"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/618-3514-m.jpg",
+
+      "txt": "Vietnamese Homecooked Meals"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/696-4578-m.jpg",
+
+      "txt": "Plant-Based Culinary Experience"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/670-4180-m.jpg",
+
+      "txt": "Authentic Vietnamese Experience"
+    }
+  ],
+  "hotpicks4": [
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16344-25057-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/12/12420-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room: ",
+
+      "txt2": "Totally love the Cheesy Burger which caught me by surprise with the texture, taste, and appearance! Who will ever imagine and ex..",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/15/15210-22289-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/28/28997-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "The 'realest' banana cake I have ever tried! 😍",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16185-24666-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/33/33341-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "今早的点心早餐🌹🌹",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/15/15193-22252-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/30/30213-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "Wonderful ambience, friendly attentive service and absolutely delicious food! Will definitely be back :)",
+
+      "txt": "Read Review »"
+    }
+  ],
+  "hotpicks5": [
+    {
+      "img": "https://www.kindmeal.my/photos/deal/3/369-3697-m.jpg",
+
+      "txt": "Lush Comfort Food"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/698-4639-m.jpg",
+
+      "txt": "Vietnamese Homecooked Meals"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/621-3576-m.jpg",
+
+      "txt": "Plant-Based Culinary Experience"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/5/590-3137-m.jpg",
+
+      "txt": "Authentic Vietnamese Experience"
+    }
+  ],
+  "hotpicks6": [
+    {
+      "img": "https://www.kindmeal.my/photos/moment/18/18018-29221-m.jpg",
+
+      "logo": "https://www.kindmeal.my/images/default_female-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:   ",
+
+      "txt2": "The 'realest' banana cake I have ever tried! 😍",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16099-24499-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/33/33595-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:  ",
+
+      "txt2": "Totally love the Cheesy Burger which caught me by surprise with the texture, taste, and appearance! Who will ever imagine and ex..",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16313-24975-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/32/32600-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "Wonderful ambience, friendly attentive service and absolutely delicious food! Will definitely be back :)",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16094-24482-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/20/20155-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "今早的点心早餐🌹🌹",
+
+      "txt": "Read Review »"
+    }
+  ],
+  "hotpicks7": [
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/698-4639-m.jpg",
+
+      "txt": "Lush Comfort Food"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/4/469-1822-m.jpg",
+
+      "txt": "Vietnamese Homecooked Meals"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/5/551-2642-m.jpg",
+
+      "txt": "Plant-Based Culinary Experience"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/2/271-519-m.jpg",
+
+      "txt": "Authentic Vietnamese Experience"
+    }
+  ],
+  "hotpicks8": [
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16314-24978-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/10/10072-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "The 'realest' banana cake I have ever tried! 😍",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/4/469-1822-s.jpg",
+
+      "logo": "https://www.kindmeal.my/images/default_female-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "Totally love the Cheesy Burger which caught me by surprise with the texture, taste, and appearance! Who will ever imagine and ex..",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16224-24752-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/30/30530-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:     ",
+
+      "txt2": "Wonderful ambience, friendly attentive service and absolutely delicious food! Will definitely be back :)",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/14/14891-21520-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/20/20043-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "今早的点心早餐🌹🌹",
+
+      "txt": "Read Review »"
+    }
+  ],
+  "hotpicks9": [
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/685-4392-m.jpg",
+
+      "txt": "Lush Comfort Food"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/4/467-2796-m.jpg",
+
+      "txt": "Vietnamese Homecooked Meals"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/5/529-2478-m.jpg",
+
+      "txt": "Plant-Based Culinary Experience"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/deal/6/621-3576-m.jpg",
+
+      "txt": "Authentic Vietnamese Experience"
+    }
+  ],
+  "hotpicks10": [
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16354-25094-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/10/10038-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:    ",
+
+      "txt2": "The 'realest' banana cake I have ever tried! 😍",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/15/15345-22609-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/10/10038-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:   ",
+
+      "txt2": "Totally love the Cheesy Burger which caught me by surprise with the texture, taste, and appearance! Who will ever imagine and ex..",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/15/15179-22220-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/11/11524-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room:     ",
+
+      "txt2": "Wonderful ambience, friendly attentive service and absolutely delicious food! Will definitely be back :)",
+
+      "txt": "Read Review »"
+    },
+
+    {
+      "img": "https://www.kindmeal.my/photos/moment/16/16354-25094-m.jpg",
+
+      "logo": "https://www.kindmeal.my/photos/member/11/11411-m.jpg",
+
+      "txt1": "ChanElaine at Martino's Dessert Room    ",
+
+      "txt2": "咖啡館不是只有咖啡的，這裡的多種類選擇一定不會讓你失望，西式、中式、檳島美食等等，絕不會讓你感到乏味。老闆夫婦精益求精，最近菜單又多了幾種新選擇，我期待天然食材的Portobello mushrooms Burger 終於誕生了，很好吃！還有第一張照片那一道特..",
+
+      "txt": "Read Review »"
     }
   ]
 }
