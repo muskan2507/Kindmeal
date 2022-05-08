@@ -1093,16 +1093,16 @@
   "formData": [
    
     {
-      "firstName": "Muskan",
-      "lastName": "Shaw",
-      "email": "princesahil0065@gmail.com",
+      "firstName": "Debobrota",
+      "lastName": "Haldar",
+      "email": "iamdebobrota@gmail.com",
       "country": "INDIA",
       "password": "12345678",
-      "username": "muskan2507",
-      "dob": "1999-07-25",
+      "username": "debobrota",
+      "dob": "1999-03-03",
       "state": "KOLKATA",
-      "gender": "female",
-      "photo": "https://www.kindmeal.my/photos/member/41/41066-s.jpg",
+      "gender": "male",
+      "photo": "https://www.kindmeal.my/photos/member/41/41065-m.jpg",
       "agree": true,
       "id": 2
     }
