@@ -7,7 +7,7 @@ const ListHead = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        let res = await fetch(`http://localhost:8080/discoverRest?_limit=5`);
+        let res = await fetch(`http://localhost:8080/recipeData?_limit=5`);
         let data = await res.json();
         setData(data);
         // console.log(data)
@@ -21,7 +21,7 @@ const ListHead = () => {
   return (
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "20px" }}>Discover Restaurants</p>
+        <p style={{ fontSize: "25px",color:"#333333",fontWeight:"800" }}>Discover Restaurants</p>
         <p style={{ fontSize: "17px" }}>
           <a href="" onClick={() => navigate("/directory")}>
             Vegiterian Directory
@@ -39,7 +39,7 @@ const ListHead = () => {
           return (
             <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
               <img src={e.img} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.name}</p>
+              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.title}</p>
             </div>
           );
         })}

@@ -22,7 +22,7 @@ const ListHead = () => {
   return (
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "20px" }}>Latest News & Videos</p>
+        <p style={{ fontSize: "25px",color:"#333333",fontWeight:"800" }}>Latest News & Videos</p>
         <p style={{ fontSize: "17px" }}>
           <a href="https://www.kindmeal.my/widget.htm">
             Save Lives with your Blogs
@@ -41,11 +41,11 @@ const ListHead = () => {
           return (
             <Link
               to={`/articles/${e.id}`}
-              style={{ textDecoration: "none", color: "#444444" }}
+              style={{ textDecoration: "none",color:"#333333" }}
             >
               <div style={{ width: "200px", textAlign: "center" }} key={e.id}>
                 <img src={e.imgURL} />
-                <p style={{ textAlign: "center", fontSize: "12px" }}>
+                <p style={{ textAlign: "center", fontSize: "12px" ,color:"#666666"}}>
                   {e.title}
                 </p>
               </div>

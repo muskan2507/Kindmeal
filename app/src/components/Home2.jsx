@@ -23,7 +23,7 @@ const ListHead = () => {
       
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "20px" }}>Amazing Superheroes</p>
+        <p style={{ fontSize: "25px",color:"#333333",fontWeight:"800" }}>Amazing Superheroes</p>
         <p style={{ fontSize: "17px" }}>
           <a href="https://www.kindmeal.my/buzz.htm">Latest Buzz</a>  |  
           <a href="https://www.kindmeal.my/ambassadors.htm">
@@ -38,7 +38,7 @@ const ListHead = () => {
           return (
             <Link
         to={`/kindmoments/${e.id}`}
-        style={{ textDecoration: "none", color: "#444444" }}>
+        style={{ textDecoration: "none", color: "#333333" }}>
             <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
               <img src={e.authorimg} />
               <p style={{ textAlign: "center", fontSize: "12px" }}>{e.authorname}</p>

@@ -45,6 +45,7 @@ a {
 }
 .box a {
   color: blue;
+  font-weight: 600;
 }
 .box img {
   height: 150px;

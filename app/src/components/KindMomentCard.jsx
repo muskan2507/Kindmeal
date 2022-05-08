@@ -15,7 +15,7 @@ const MapKindMeals = (data) => {
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                     <RoundImg src={data.authorimg} alt={data.name} />
                     <div>
-                    <p style={{color:"#666666",fontSize:"15px"}}>{data.authorname}</p>
+                    <p style={{color:"#666666",fontSize:"15px",fontWeight:"800"}}>{data.authorname}</p>
                     <Para style={{color:"#aaaaaa"}}>{data.date}</Para>
                 </div>
                 </div>
