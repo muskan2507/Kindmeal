@@ -2,17 +2,23 @@ import React from 'react'
 import style from './popup.module.css'
 import { useState } from "react";
 import CustomPopup from "./CustomPopup";
+import { useLocation } from 'react-router-dom';
 
 const LoginPopup = () => {
 const [formData, setFormData]= useState({})
     const [visibility, setVisibility] = useState(false);
  
+    const location = useLocation()
+
     const popupCloseHandler = (e) => {
       setVisibility(e);
     };
 
 const handleSubmit=(e)=>{
 e.preventDefault()
+window.location.href = "../"
+
+
 }
 
 const handleChange=(e)=>{

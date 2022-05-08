@@ -26,7 +26,7 @@ const UserProfile = () => {
 
  
 
-                <div className={style.username_div}>
+                <div className={style.username_div} key={item.id}>
                     <div>
                         <h1>{item.username}</h1>
                         <span className={style.dot}>&#8226;</span>

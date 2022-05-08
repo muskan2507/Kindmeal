@@ -34,7 +34,7 @@ const Navbar = () => {
     getdata();
   }, []);
   if (data.length > 0) {
-    setIsAuth(true);
+    setIsAuth(false);
   }
   console.log(data, isAuth);
   //   console.log(data[0].firstName,data[0].lastNme)
@@ -90,11 +90,11 @@ const Navbar = () => {
             </p>
             <div className="facebook_email">
               <Facebook className="show">Facebook</Facebook>
-              <p className="hide">Login with Facebook Account</p>
+              <p className="hide">Login with Facebook Account </p>
             </div>
             <div className="facebook_email">
               <Email className="showEmail">Email</Email>
-              <p className="hideEmail">Login with KindMeal Account</p>
+              <p className="hideEmail">Login with KindMeal Account </p>
             </div>
             <Signup>
               <SignupPopup />
