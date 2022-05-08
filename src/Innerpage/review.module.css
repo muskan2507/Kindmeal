@@ -1,0 +1,112 @@
+.review{
+    width: 86%;
+    /* height: 500px; */
+    margin: auto;
+    /* border: 1px solid blueviolet; */
+    display: grid;
+    grid-template-columns: 27% 68%;
+    gap: 5%;
+    margin-top: 30px;
+    /* grid-template-rows: 400px 700px; */
+  }
+  .LeftReview{
+    border: 1px solid gary;
+    height: 400px;
+  }
+  .RightReview{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* padding: 0px 9px 0px 9px; */
+    /* border: 1px solid gray; */
+  }
+  
+  .ReviewHead{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(128, 128, 128,0.2);
+    margin-top: -29px;
+    font-size: 30px;
+  }
+  .Frame{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .frame1img>img{
+  width: 70px;
+  border-radius: 10px;
+  }
+  .frame2img>img{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .starImgs>img{
+    width: 30px;
+  }
+  .innerFrame{
+    display: flex;
+    gap: 10px;
+    
+  }
+  .comment>p{
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    word-spacing: 5px;
+  }
+  .LeftReview {
+    padding:0px 8px 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  .reviewButton>button{
+    margin-left: 60px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+    height: 40px;
+    background-color: #F53838;
+  }
+  .help{
+    font-weight: bold;
+    margin-top: 30px;
+    word-spacing: 5px;
+  }
+  
+  .lastSec{
+    padding: 10px;
+   margin-left: 10px;
+  }
+  
+  #starsEdit>img:hover{
+    background-color: yellow;
+  }
+  .lastInput{
+    height: 100px;
+    width:97%
+  }
+  
+  .lastButton2{
+    width: 130px;
+    height: 30px;
+    border-color: gray;
+   background-color: lightgray;
+    font-size: 18px;
+  }
+  
+  .reviewbutton>button{
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    background-color: #F53838;
+  }
+
+  

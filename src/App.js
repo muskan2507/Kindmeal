@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import InnerPage from "./Inner/InnerPage";
+import Inner from "./Innerpage/Inner";
 // import AddDirectory from "./components/AddDirectory";
 
 // import Directory from "./components/Directory";
@@ -63,10 +65,14 @@ function App() {
 {/* <Footer/> */}
 
 
-<MainRoutes/>
+{/* <MainRoutes/> */}
 
 
 {/* <UserProfile/> */}
+
+<Inner/>
+
+{/* <InnerPage/> */}
 
     </div>
   );
