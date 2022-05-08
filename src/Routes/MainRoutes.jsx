@@ -31,6 +31,7 @@ const MainRoutes = () => {
             <Route path="/directory" element={<Directory/>}/>
             <Route path="/directory/addshop" element={<AddDirectory/>}/>
             <Route path="/recipes" element={<Recipe/>}/>
+            <Route path="/logout" element={<Logout/>}/>
         </Routes>
         <Footer/>
     </div>
