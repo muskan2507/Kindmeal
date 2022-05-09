@@ -1,10 +1,15 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import InnerPage from '../Inner/InnerPage';
 import style from './mealdeal.module.css'
 
 const MealDeals = () => {
     const [count, setCount] =useState(1)
     const [selectedCategory, setSelectedCategory] = useState();
 const [show,setShow]= useState([])
+
+
+const navigate=useNavigate()
 
     useEffect(()=>{
       fetch(`http://localhost:8080/mealDeals?_page=${count}&_limit=8`)
@@ -58,7 +63,14 @@ const getFilteredList=()=>{
 const handleLocationChange=()=>{
 
 }
-
+var cartitem=[];
+const handleinner=(item)=>{
+//   console.log("SSS");
+//   // cartitem.push(item)
+//   // localStorage.setItem("InnerPage", JSON.stringify(cartitem))
+localStorage.setItem("item",JSON.stringify(item))
+  navigate("/innerpage")
+}
 
 
   return (
@@ -131,8 +143,13 @@ const handleLocationChange=()=>{
 <div className={style.grid}>
   {
 filteredList.map((item)=>(
-  <div className={style.map_main} key={item.id}>
-    <img src={item.img} alt="mealDeal" className={style.meal_deal_img} />
+  <div className={style.map_main} key={item.id} >
+    <img src={item.img} alt="mealDeal" className={style.meal_deal_img} 
+    onClick={()=>{
+      // cartitem.push(item)
+
+     handleinner(item)}
+      }/>
     <h4 className={style.off}>{item.off}</h4>
     <h3 className={style.title}>{item.title}</h3>
     <div className={style.resturent_div}>

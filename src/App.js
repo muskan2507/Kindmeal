@@ -15,7 +15,7 @@ import Inner from "./Innerpage/Inner";
 // import Recipe from "./Recipes/Recipe";
 // import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
-// import MealDeals from "./MealDeals/MealDeals";
+import MealDeals from "./MealDeals/MealDeals";
 // import UserProfile from "./UserProfile/UserProfile";
 import MainRoutes from "./Routes/MainRoutes";
 
@@ -61,7 +61,7 @@ function App() {
 {/* <Directory/> */}
 {/* <Help/> */}
 {/* <Recipe/> */}
-{/* <MealDeals/> */}
+<MealDeals/>
 {/* <Footer/> */}
 
 
@@ -70,7 +70,7 @@ function App() {
 
 {/* <UserProfile/> */}
 
-<Inner/>
+{/* <Inner/> */}
 
 {/* <InnerPage/> */}
 
