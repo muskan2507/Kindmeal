@@ -134,7 +134,7 @@ const Recipes = () => {
       <div className={style.grid_div}>
         {filteredList.map((item) => (
           <Link
-        to={`/articles/${item.id}`}
+        to={`/recipes/${item.id}`}
         style={{ textDecoration: "none", color: "#444444" }}
       >
           <div className={style.map_div} key={item.id}>
