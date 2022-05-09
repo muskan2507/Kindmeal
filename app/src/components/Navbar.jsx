@@ -1,5 +1,4 @@
 import React, { useState, useContext, useEffect } from "react";
-import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
 import {
@@ -16,55 +15,14 @@ import { NavLink, Link } from "react-router-dom";
 import LoginPopup from "../PopUp/LoginPopUp";
 import SignupPopup from "../PopUp/SignUpPopUp";
 import { AuthContext } from "../Context/AuthContext";
-import App1 from "../Pages/DropDown";
 
-const DropDownContainer = styled("div")`
-  width: 10.5em;
-  margin: 0px auto;
-  background: black;
-`;
 
-const DropDownHeader = styled("div")`
-  margin-bottom: 0.8em;
-  padding: 0.4em 2em 0.4em 1em;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: #3faffa;
-  background: #ffffff;
-`;
-
-const DropDownListContainer = styled("div")`
-  margin-top: 130px;
-`;
-
-const DropDownList = styled("ul")`
-  padding: 0;
-  ${"" /* margin-top:30px; */}
-  padding-left: 1em;
-  background: #ffffff;
-  border: 2px solid #e5e5e5;
-  box-sizing: border-box;
-  color: #3faffa;
-  font-size: 1.3rem;
-  font-weight: 500;
-  &:first-child {
-    padding-top: 0.8em;
-  }
-`;
-
-const ListItem = styled("li")`
-  list-style: none;
-  margin-bottom: 0.8em;
-`;
 
 const Navbar = () => {
   const [name, setName] = useState("");
   const [lastname, setLastname] = useState("");
   const [photo, setPhoto] = useState("");
   const { isAuth, setIsAuth } = useContext(AuthContext);
-  const [isOpen, setIsOpen] = useState(false);
-  const toggling = () => setIsOpen(!isOpen);
   const navigate = useNavigate();
 
   const getdata = () => {
@@ -86,6 +44,7 @@ const Navbar = () => {
   }, []);
   const handleLogOut = () => {
     // navigate("/logout")
+    navigate("/logout")
     setIsAuth(false);
   };
   //
@@ -123,26 +82,21 @@ const Navbar = () => {
             />
           </a>
         </div>
-        {isAuth ? (
-          <div style={{ display: "flex" }}>
-            <div>
-              {" "}
-              <p
-                style={{
-                  marginTop: "0px",
-                  marginRight: "15px",
-                  color: "black",
-                }}
-              >
-                {name} {lastname}
-              </p>
-            </div>
-            <div style={{ marginTop: "100px", marginLeft: "200px" }}>
-              {" "}
-              <App1 />
-            </div>
-          </div>
-        ) : (
+        {isAuth ? (  <div>
+          <div style={{ display: "flex",justifyContent:"space-between",alignItems:"center",marginTop:"-10px" }}>
+             <p style={{  marginRight: "25px",color:"black" }}>
+              {name} {lastname}
+            </p> 
+            <img src={photo} alt="user" style={{borderRadius:"50%", height:"50px"}}  onClick={()=>navigate("/userprofile")}/>
+           <p style={{cursor:"pointer",marginLeft:"25px",color:"black"}} onClick={handleLogOut}>Log Out</p>
+         </div>
+        
+          
+              
+            {/* <div style={{marginTop:"100px",marginLeft:"200px"}}> <App1/></div> */}
+           
+          
+       </div> ) : (
           <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
             <p style={{ fontSize: "12px" }}>
               <LoginPopup />
