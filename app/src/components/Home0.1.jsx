@@ -8,7 +8,9 @@ const ListHead1 = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        let res = await fetch(`http://localhost:8080/kindmoments?_page=2&_limit=5`);
+        let res = await fetch(
+          `http://localhost:8080/kindmoments?_page=2&_limit=5`
+        );
         let data = await res.json();
         setData(data);
         // console.log(data)
@@ -42,13 +44,15 @@ const ListHead1 = () => {
         {data.map((e) => {
           return (
             <Link
-        to={`/kindmoments/${e.id}`}
-        style={{ textDecoration: "none" }}
-      >
-            <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
-              <img src={e.img} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.description}</p>
-            </div>
+              to={`/kindmoments/${e.id}`}
+              style={{ textDecoration: "none" }}
+            >
+              <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
+                <img src={e.img} />
+                <p style={{ textAlign: "center", fontSize: "12px" }}>
+                  {e.description}
+                </p>
+              </div>
             </Link>
           );
         })}

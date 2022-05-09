@@ -63,7 +63,7 @@ const MealDeals = () => {
               | Restaurants In Malaysia
             </span>
           </h2>
-          <br/>
+          <br />
           <p>
             Browse delicious meat-free, vegetarian deals from top restaurants
             and cafes! Just click on "Get Free Coupon" to obtain instant
@@ -71,14 +71,14 @@ const MealDeals = () => {
             or printing is needed. If you share it on social media, you'll even
             DOUBLE your discount!
           </p>
-          <br/>
+          <br />
           <p>
             Download our <span> mobile app</span> now to easily get coupons and
             start dining in a few seconds. Effortlessly save lives, health,
             environment and money now!
           </p>
-          <br/>
-          <br/>
+          <br />
+          <br />
         </div>
         <div className={style.flex}>
           <input
@@ -106,11 +106,7 @@ const MealDeals = () => {
             <option value="Salads">Salads</option>
           </select>
 
-          <select
-            id="select"
-            className={style.select}
-            name="Location"
-          >
+          <select id="select" className={style.select} name="Location">
             <option value="All Locations">All Locations</option>
             <option value="Klang vally">Klang vally</option>
             <option value="Kualalumpur">Kualalumpur</option>
@@ -135,7 +131,7 @@ const MealDeals = () => {
         alt="addvertise"
         className={style.addvertise}
       />
-      <br/>
+      <br />
       {filteredList.length > 7 ? (
         <div className={style.pagination}>
           <div className={style.pageNum}>
@@ -156,72 +152,73 @@ const MealDeals = () => {
       ) : (
         <div></div>
       )}
-      <br/>
+      <br />
       <div className={style.grid}>
         {filteredList.map((item) => (
           <Link
-        to={`/deals/${item.id}`}
-        style={{ textDecoration: "none", color: "#444444" }}
-      >
-          <div className={style.map_main} key={item.id}>
-            <img
-              src={item.img}
-              alt="mealDeal"
-              className={style.meal_deal_img}
-            />
-            <h4 className={style.off}>{item.off}</h4>
-            <h3 className={style.title}>{item.title}</h3>
-            <br/>
-            <div className={style.resturent_div}>
-              <p className={style.res_name}>
-                {item.name}
-                <span className={style.res_address}>{item.address}</span>
-              </p>
-            </div>
-            <br/>
-            <p className={style.description}>{item.desc}</p>
-            <br/>
-            <div className={style.btn_str}>
-              <button
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                Get FREE Coupon
-              </button>
-              <div>
-                <img src={item.strImg} alt="stars" />
-                <img src={item.strImg} alt="stars" />
-                <img src={item.strImg} alt="stars" />
-                <img src={item.halfstr} alt="stars" />
-                <img src={item.emptyStr} alt="stars" />
-                <p>({item.Like})</p>
+            to={`/deals/${item.id}`}
+            style={{ textDecoration: "none", color: "#444444" }}
+          >
+            <div className={style.map_main} key={item.id}>
+              <img
+                src={item.img}
+                alt="mealDeal"
+                className={style.meal_deal_img}
+              />
+              <h4 className={style.off}>{item.off}</h4>
+              <h3 className={style.title}>{item.title}</h3>
+              <br />
+              <div className={style.resturent_div}>
+                <p className={style.res_name}>
+                  {item.name}
+                  <span className={style.res_address}>{item.address}</span>
+                </p>
               </div>
-            </div>
+              <br />
+              <p className={style.description}>{item.desc}</p>
+              <br />
+              <div className={style.btn_str}>
+                <button
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  Get FREE Coupon
+                </button>
+                <div>
+                  <img src={item.strImg} alt="stars" />
+                  <img src={item.strImg} alt="stars" />
+                  <img src={item.strImg} alt="stars" />
+                  <img src={item.halfstr} alt="stars" />
+                  <img src={item.emptyStr} alt="stars" />
+                  <p>({item.Like})</p>
+                </div>
+              </div>
 
-            <div className={style.bottom_div}>
-              <div>
-                <img src={item.eggContain} alt="egg" />
-                <img src={item.dairyContain} alt="egg" />
-                <img src={item.alcoContain} alt="egg" />
-              </div>
-              <div>
-                <p>KindMeal Discount</p>
-                <p className={style.discount}>{`${item.off2} Off`}</p>
-              </div>
-              <div>
-                <p>Expires In</p>
-                <p className={style.expire}>{item.expire}</p>
+              <div className={style.bottom_div}>
+                <div>
+                  <img src={item.eggContain} alt="egg" />
+                  <img src={item.dairyContain} alt="egg" />
+                  <img src={item.alcoContain} alt="egg" />
+                </div>
+                <div>
+                  <p>KindMeal Discount</p>
+                  <p className={style.discount}>{`${item.off2} Off`}</p>
+                </div>
+                <div>
+                  <p>Expires In</p>
+                  <p className={style.expire}>{item.expire}</p>
+                </div>
               </div>
             </div>
-          </div></Link>
+          </Link>
         ))}
       </div>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
       >br/>
       <img
         src="https://www.kindmeal.my/images/how_kindmeal_works.png"

@@ -39,24 +39,27 @@ const KindMoments = () => {
       <ArticleHeader style={{ display: "flex", gap: "40px" }}>
         <div>
           <Ahedd>KindMoments | Saving Lives with Yummy Photos</Ahedd>
-          <br/>
+          <br />
           <Apara>
             Discover new, delicious meat-free cuisines enjoyed by other
             compassionate food lovers. Share your interesting KindMoments, and
             build your own fans and followers to encourage kind, healthy meals.
-          </Apara><br/>
+          </Apara>
+          <br />
           <Apara>
             {" "}
             You can also follow our Facebook Page or Twitter for more news and
             updates.
-          </Apara><br/>
+          </Apara>
+          <br />
           <Apara>Get started sharing your tasty moments now.</Apara>
         </div>
         <MiniBox>
-          <Ahedd style={{fontSize:"20px"}}>Share Your KindMoment</Ahedd>
+          <Ahedd style={{ fontSize: "20px" }}>Share Your KindMoment</Ahedd>
           <Apara>
             Interesting food or restaurant? Share with 1000s of food lovers!
-          </Apara><br/>
+          </Apara>
+          <br />
           <AButton>Share</AButton>
         </MiniBox>
       </ArticleHeader>
@@ -125,9 +128,13 @@ const KindMoments = () => {
           <AButton>Search</AButton>
         </div>
       </ButtonBar>
-      <Pagination style={{width:"72%",fontSize:"16px",alignItems:"center"}}>
-        <p style={{fontSize:"16px"}}>Page : </p>
-        <PageNum style={{marginLeft:"-550px",fontSize:"16px",marginTop:"0px"}}>
+      <Pagination
+        style={{ width: "72%", fontSize: "16px", alignItems: "center" }}
+      >
+        <p style={{ fontSize: "16px" }}>Page : </p>
+        <PageNum
+          style={{ marginLeft: "-550px", fontSize: "16px", marginTop: "0px" }}
+        >
           <Num onClick={() => setPageNumber(1)}>1</Num>
           <Num onClick={() => setPageNumber(2)}>2</Num>
           <Num onClick={() => setPageNumber(3)}>3</Num>
@@ -147,7 +154,9 @@ const KindMoments = () => {
             Next »
           </PButton>
         </div>
-      </Pagination><br/><br/>
+      </Pagination>
+      <br />
+      <br />
       <KindContainer>
         {data.map((data) => (
           <>
@@ -155,10 +164,24 @@ const KindMoments = () => {
           </>
         ))}
       </KindContainer>
-      <br/><br/><br/><br/> <br/><br/><br/><br/>
-      <br/><br/><br/><br/> <br/><br/><br/><br/>
-      <br/><br/><br/><br/> 
-
+      <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 };

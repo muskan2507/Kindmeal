@@ -134,68 +134,69 @@ const Recipes = () => {
       <div className={style.grid_div}>
         {filteredList.map((item) => (
           <Link
-        to={`/recipes/${item.id}`}
-        style={{ textDecoration: "none", color: "#444444" }}
-      >
-          <div className={style.map_div} key={item.id}>
-            <div className={style.head_logo_div}>
-              <div>
-                <img src={item.logo} alt="logo" className={style.logo} />
-                <p className={style.author}>{item.author}</p>
+            to={`/recipes/${item.id}`}
+            style={{ textDecoration: "none", color: "#444444" }}
+          >
+            <div className={style.map_div} key={item.id}>
+              <div className={style.head_logo_div}>
+                <div>
+                  <img src={item.logo} alt="logo" className={style.logo} />
+                  <p className={style.author}>{item.author}</p>
+                </div>
+                <button className={style.view_btn}>View</button>
               </div>
-              <button className={style.view_btn}>View</button>
+
+              <img src={item.img} alt="images" />
+              <h5 className={style.title}>{item.title}</h5>
+
+              <div className={style.time_like_div}>
+                <p
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    src="https://www.kindmeal.my/images/icon_time_small.png"
+                    alt="time"
+                    className={style.ti_li_co}
+                  />
+                  {item.time}
+                </p>
+
+                <p
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src="https://www.kindmeal.my/images/icon_heart_small.png"
+                    alt="like"
+                    className={style.ti_li_co}
+                  />
+                  {item.Like}
+                </p>
+                <p
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src="https://www.kindmeal.my/images/icon_commentbubble_small.png"
+                    alt="comment"
+                    className={style.ti_li_co}
+                  />
+                  {item.Comment}
+                </p>
+              </div>
             </div>
-
-            <img src={item.img} alt="images" />
-            <h5 className={style.title}>{item.title}</h5>
-
-            <div className={style.time_like_div}>
-              <p
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                {" "}
-                <img
-                  src="https://www.kindmeal.my/images/icon_time_small.png"
-                  alt="time"
-                  className={style.ti_li_co}
-                />
-                {item.time}
-              </p>
-
-              <p
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src="https://www.kindmeal.my/images/icon_heart_small.png"
-                  alt="like"
-                  className={style.ti_li_co}
-                />
-                {item.Like}
-              </p>
-              <p
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img
-                  src="https://www.kindmeal.my/images/icon_commentbubble_small.png"
-                  alt="comment"
-                  className={style.ti_li_co}
-                />
-                {item.Comment}
-              </p>
-            </div>
-          </div></Link>
+          </Link>
         ))}
       </div>
       <br />

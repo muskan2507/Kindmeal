@@ -27,7 +27,7 @@ const JoinShop = () => {
 
     arr.push(FormData);
     localStorage.setItem("RegisteredData", JSON.stringify(arr));
-    setIsAuth(true)
+    setIsAuth(true);
     console.log(arr);
   };
   const handleSubmit = (e) => {

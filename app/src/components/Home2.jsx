@@ -20,7 +20,6 @@ const ListHead = () => {
     // console.log(data)
   }, []);
   return (
-      
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p style={{ fontSize: "20px" }}>Amazing Superheroes</p>
@@ -37,12 +36,15 @@ const ListHead = () => {
         {data.map((e) => {
           return (
             <Link
-        to={`/kindmoments/${e.id}`}
-        style={{ textDecoration: "none", color: "#444444" }}>
-            <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
-              <img src={e.authorimg} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.authorname}</p>
-            </div>
+              to={`/kindmoments/${e.id}`}
+              style={{ textDecoration: "none", color: "#444444" }}
+            >
+              <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
+                <img src={e.authorimg} />
+                <p style={{ textAlign: "center", fontSize: "12px" }}>
+                  {e.authorname}
+                </p>
+              </div>
             </Link>
           );
         })}

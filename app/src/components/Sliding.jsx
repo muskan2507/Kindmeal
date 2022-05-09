@@ -5,19 +5,15 @@ import { Carousel } from "react-responsive-carousel";
 import { useNavigate } from "react-router-dom";
 
 const Sliding = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="sliding">
       <Carousel infiniteLoop autoPlay>
-        <div
-          className="image-div"
-          onClick={()=>navigate("/kindmoments")}
-        >
+        <div className="image-div" onClick={() => navigate("/kindmoments")}>
           <img
             src="https://www.kindmeal.my/photos/deal/7/700-4802-m.jpg"
             alt="img1"
             className="image"
-           
           />
           <p className="bottom-text">Lovely fahion meals 20% off - Ins meals</p>
           <img
@@ -27,10 +23,7 @@ const Sliding = () => {
           />
         </div>
 
-        <div
-          className="image-div"
-          onClick={()=>navigate("/recipes")}
-        >
+        <div className="image-div" onClick={() => navigate("/recipes")}>
           <img
             src="https://www.kindmeal.my/photos/deal/6/681-4353-m.jpg"
             alt="img2"
@@ -44,10 +37,7 @@ const Sliding = () => {
           />
         </div>
 
-        <div
-          className="image-div"
-          onClick={()=>navigate("/hotpicks")}
-        >
+        <div className="image-div" onClick={() => navigate("/hotpicks")}>
           <img
             src="https://www.kindmeal.my/photos/deal/6/635-3704-l.jpg"
             alt="img1"
@@ -62,10 +52,7 @@ const Sliding = () => {
           />
         </div>
 
-        <div
-          className="image-div"
-          onClick={()=>navigate("/deals")}
-        >
+        <div className="image-div" onClick={() => navigate("/deals")}>
           <img
             src="https://www.kindmeal.my/photos/deal/5/553-2769-l.jpg"
             alt="img1"
@@ -79,11 +66,7 @@ const Sliding = () => {
             alt="img2"
           />
         </div>
-        <div
-          className="image-div"
-
-          onClick={()=>navigate("/kindmoments")}
-        >
+        <div className="image-div" onClick={() => navigate("/kindmoments")}>
           <img
             src="https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="img1"
@@ -97,10 +80,7 @@ const Sliding = () => {
             alt="img2"
           />
         </div>
-        <div
-          className="image-div"
-          onClick={()=>navigate("/recipes")}
-        >
+        <div className="image-div" onClick={() => navigate("/recipes")}>
           <img
             src="https://www.kindmeal.my/photos/deal/6/610-3386-l.jpg"
             alt="img1"
@@ -114,10 +94,7 @@ const Sliding = () => {
             alt="img2"
           />
         </div>
-        <div
-          className="image-div"
-          onClick={()=>navigate("/directory")}
-        >
+        <div className="image-div" onClick={() => navigate("/directory")}>
           <img
             src="https://www.kindmeal.my/photos/deal/6/626-3611-m.jpg"
             alt="img1"

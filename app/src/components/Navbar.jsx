@@ -1,4 +1,4 @@
-import React, { useState,  useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
@@ -18,11 +18,10 @@ import SignupPopup from "../PopUp/SignUpPopUp";
 import { AuthContext } from "../Context/AuthContext";
 import App1 from "../Pages/DropDown";
 
-
 const DropDownContainer = styled("div")`
   width: 10.5em;
   margin: 0px auto;
-  background:black;
+  background: black;
 `;
 
 const DropDownHeader = styled("div")`
@@ -36,12 +35,12 @@ const DropDownHeader = styled("div")`
 `;
 
 const DropDownListContainer = styled("div")`
- margin-top:130px;
+  margin-top: 130px;
 `;
 
 const DropDownList = styled("ul")`
   padding: 0;
-  ${'' /* margin-top:30px; */}
+  ${"" /* margin-top:30px; */}
   padding-left: 1em;
   background: #ffffff;
   border: 2px solid #e5e5e5;
@@ -66,7 +65,7 @@ const Navbar = () => {
   const { isAuth, setIsAuth } = useContext(AuthContext);
   const [isOpen, setIsOpen] = useState(false);
   const toggling = () => setIsOpen(!isOpen);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const getdata = () => {
     let data = JSON.parse(localStorage.getItem("RegisteredData")) || [];
@@ -126,12 +125,22 @@ const Navbar = () => {
         </div>
         {isAuth ? (
           <div style={{ display: "flex" }}>
-           
-         <div>   <p style={{ marginTop: "0px", marginRight: "15px",color:"black" }}>
-              {name} {lastname}
-            </p></div>
-            <div style={{marginTop:"100px",marginLeft:"200px"}}> <App1/></div>
-           
+            <div>
+              {" "}
+              <p
+                style={{
+                  marginTop: "0px",
+                  marginRight: "15px",
+                  color: "black",
+                }}
+              >
+                {name} {lastname}
+              </p>
+            </div>
+            <div style={{ marginTop: "100px", marginLeft: "200px" }}>
+              {" "}
+              <App1 />
+            </div>
           </div>
         ) : (
           <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
@@ -139,11 +148,15 @@ const Navbar = () => {
               <LoginPopup />
             </p>
             <div className="facebook_email">
-              <Facebook className="show" style={{backgroundColor: "#35619f"}}>Facebook</Facebook>
+              <Facebook className="show" style={{ backgroundColor: "#35619f" }}>
+                Facebook
+              </Facebook>
               <p className="hide">Login with Facebook Account</p>
             </div>
             <div className="facebook_email">
-              <Email className="showEmail" style={{background:"#666666"}}>Email</Email>
+              <Email className="showEmail" style={{ background: "#666666" }}>
+                Email
+              </Email>
               <p className="hideEmail">Login with KindMeal Account</p>
             </div>
             <Signup>

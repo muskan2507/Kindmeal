@@ -4,7 +4,6 @@ import { useNavigate } from "react-router";
 import { AuthContext } from "../Context/AuthContext";
 import "../Styles/Join.css";
 const Join = () => {
-
   const navigate = useNavigate();
   const [FormData, setFormData] = useState({});
   const { isAuth, setIsAuth } = useContext(AuthContext);
@@ -29,7 +28,7 @@ const Join = () => {
 
     arr.push(FormData);
     localStorage.setItem("RegisteredData", JSON.stringify(arr));
-    setIsAuth(true)
+    setIsAuth(true);
     console.log(arr);
   };
   const handleSubmit = (e) => {

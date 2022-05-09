@@ -39,12 +39,12 @@ const MainRoutes = () => {
         <Route path="/directory/addshop" element={<AddDirectory />} />
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/logout" element={<Logout />} />
-        <Route path="/hotpicks" element={<HotPicks/>}/>
-        <Route path="/kindmoments" element={<KindMoments/>}/>
-        <Route path="/kindmoments/:id" element={<KindMoment/>}/>
-        <Route path="/userprofile" element={<UserProfile/>}/>
-        <Route path="/recipes/:id" element={<Recipe/>}/>
-        <Route path="/deals/:id" element={<MealDeal/>}/>
+        <Route path="/hotpicks" element={<HotPicks />} />
+        <Route path="/kindmoments" element={<KindMoments />} />
+        <Route path="/kindmoments/:id" element={<KindMoment />} />
+        <Route path="/userprofile" element={<UserProfile />} />
+        <Route path="/recipes/:id" element={<Recipe />} />
+        <Route path="/deals/:id" element={<MealDeal />} />
       </Routes>
       <Footer />
     </div>

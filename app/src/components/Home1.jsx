@@ -17,7 +17,6 @@ const ListHead = () => {
       }
     };
     getData();
-  
   }, []);
   return (
     <div className={style.box}>
@@ -39,13 +38,15 @@ const ListHead = () => {
         {data.map((e) => {
           return (
             <Link
-        to={`/recipes/${e.id}`}
-        style={{ textDecoration: "none", color: "#444444" }}
-      >
-            <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
-              <img src={e.img} />
-              <p style={{ textAlign: "center", fontSize: "12px" }}>{e.title}</p>
-            </div>
+              to={`/recipes/${e.id}`}
+              style={{ textDecoration: "none", color: "#444444" }}
+            >
+              <div style={{ width: "190px", textAlign: "center" }} key={e.id}>
+                <img src={e.img} />
+                <p style={{ textAlign: "center", fontSize: "12px" }}>
+                  {e.title}
+                </p>
+              </div>
             </Link>
           );
         })}
