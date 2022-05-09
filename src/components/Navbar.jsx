@@ -132,6 +132,23 @@ const Navbar = () => {
             </p></div>
             <div style={{marginTop:"100px",marginLeft:"200px"}}> <App1/></div>
            
+        
+            <nav className="nav">
+        <ul className="nav__menu">
+        
+          <li
+            className="nav__menu-item"
+          >
+             <p style={{ marginTop: "10px", marginRight: "15px",color:"black" }}>
+              {name} {lastname}
+            </p> 
+            <Submenu />
+          </li>
+  
+        </ul>
+      </nav>
+
+
           </div>
         ) : (
           <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
@@ -231,3 +248,23 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+class Submenu extends React.Component {
+  render() {
+    return (
+      <ul className="nav__submenu">
+        <li className="nav__submenu-item ">
+          <a>Our Company</a>
+        </li>
+        <li className="nav__submenu-item ">
+          <a>Our Team</a>
+        </li>
+        <li className="nav__submenu-item ">
+          <a>Our Portfolio</a>
+        </li>
+      </ul>
+    )
+  }
+}
