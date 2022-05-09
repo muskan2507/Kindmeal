@@ -70,6 +70,8 @@ const Recipe = () => {
                                 <img src="https://www.kindmeal.my/images/icon_star.png"/>
                                 <img src="https://www.kindmeal.my/images/icon_star.png"/>
                                 <img src="https://www.kindmeal.my/images/icon_star.png"/>
+                                <img src="https://www.kindmeal.my/images/icon_star.png"/>
+
 
                             </div>
                             <p style={{color:"#333333"}}>5 Votes</p>

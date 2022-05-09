@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import style from "../Styles/MealDeals.module.css";
 
 const MealDeals = () => {
@@ -159,6 +159,10 @@ const MealDeals = () => {
       <br/>
       <div className={style.grid}>
         {filteredList.map((item) => (
+          <Link
+        to={`/deals/${item.id}`}
+        style={{ textDecoration: "none", color: "#444444" }}
+      >
           <div className={style.map_main} key={item.id}>
             <img
               src={item.img}
@@ -182,7 +186,7 @@ const MealDeals = () => {
                 style={{
                   display: "flex",
                   justifyContent: "center",
-                  alignItems: "center"
+                  alignItems: "center",
                 }}
               >
                 Get FREE Coupon
@@ -212,7 +216,7 @@ const MealDeals = () => {
                 <p className={style.expire}>{item.expire}</p>
               </div>
             </div>
-          </div>
+          </div></Link>
         ))}
       </div>
       <br/>

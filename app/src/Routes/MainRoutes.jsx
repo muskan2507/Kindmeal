@@ -16,6 +16,7 @@ import JoinSuccess from "../Pages/JoinSuccess";
 import KindMoment from "../Pages/KindMoment";
 import KindMoments from "../Pages/KindMoments";
 import Logout from "../Pages/LogOut";
+import MealDeal from "../Pages/MealDeal";
 import MealDeals from "../Pages/MealDeals";
 import Recipe from "../Pages/Recipe";
 import Recipes from "../Pages/Recipes";
@@ -43,6 +44,7 @@ const MainRoutes = () => {
         <Route path="/kindmoments/:id" element={<KindMoment/>}/>
         <Route path="/userprofile" element={<UserProfile/>}/>
         <Route path="/recipes/:id" element={<Recipe/>}/>
+        <Route path="/deals/:id" element={<MealDeal/>}/>
       </Routes>
       <Footer />
     </div>
