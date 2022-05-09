@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
+import { Link } from "react-router-dom";
 import style from "../Styles/Recipe.module.css";
 
 const Recipes = () => {
@@ -132,6 +133,10 @@ const Recipes = () => {
       </div>
       <div className={style.grid_div}>
         {filteredList.map((item) => (
+          <Link
+        to={`/articles/${item.id}`}
+        style={{ textDecoration: "none", color: "#444444" }}
+      >
           <div className={style.map_div} key={item.id}>
             <div className={style.head_logo_div}>
               <div>
@@ -190,7 +195,7 @@ const Recipes = () => {
                 {item.Comment}
               </p>
             </div>
-          </div>
+          </div></Link>
         ))}
       </div>
       <br />

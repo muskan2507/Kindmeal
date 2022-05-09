@@ -21,7 +21,7 @@ const ListHead = () => {
   return (
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "25px",color:"#333333",fontWeight:"800" }}>Discover Restaurants</p>
+        <p style={{ fontSize: "20px" }}>Discover Restaurants</p>
         <p style={{ fontSize: "17px" }}>
           <a href="" onClick={() => navigate("/directory")}>
             Vegiterian Directory

@@ -22,7 +22,7 @@ const ListHead1 = () => {
   return (
     <div className={style.box}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p style={{ fontSize: "25px",color:"#333333",fontWeight:"800" }}>Yummylicious Moments</p>
+        <p style={{ fontSize: "20px" }}>Yummylicious Moments</p>
         <p style={{ fontSize: "17px" }}>
           <a href="" onClick={() => navigate("/recipes")}>
             Secret Recipies

@@ -1,4 +1,7 @@
-import React, { useState, useNavigate, useContext, useEffect } from "react";
+import React, { useState,  useContext, useEffect } from "react";
+import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
+
 import {
   Email,
   Facebook,
@@ -13,13 +16,57 @@ import { NavLink, Link } from "react-router-dom";
 import LoginPopup from "../PopUp/LoginPopUp";
 import SignupPopup from "../PopUp/SignUpPopUp";
 import { AuthContext } from "../Context/AuthContext";
+import App1 from "../Pages/DropDown";
+
+
+const DropDownContainer = styled("div")`
+  width: 10.5em;
+  margin: 0px auto;
+  background:black;
+`;
+
+const DropDownHeader = styled("div")`
+  margin-bottom: 0.8em;
+  padding: 0.4em 2em 0.4em 1em;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #3faffa;
+  background: #ffffff;
+`;
+
+const DropDownListContainer = styled("div")`
+ margin-top:130px;
+`;
+
+const DropDownList = styled("ul")`
+  padding: 0;
+  ${'' /* margin-top:30px; */}
+  padding-left: 1em;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #3faffa;
+  font-size: 1.3rem;
+  font-weight: 500;
+  &:first-child {
+    padding-top: 0.8em;
+  }
+`;
+
+const ListItem = styled("li")`
+  list-style: none;
+  margin-bottom: 0.8em;
+`;
 
 const Navbar = () => {
   const [name, setName] = useState("");
   const [lastname, setLastname] = useState("");
   const [photo, setPhoto] = useState("");
   const { isAuth, setIsAuth } = useContext(AuthContext);
-  // const navigate = useNavigate()
+  const [isOpen, setIsOpen] = useState(false);
+  const toggling = () => setIsOpen(!isOpen);
+  const navigate = useNavigate()
 
   const getdata = () => {
     let data = JSON.parse(localStorage.getItem("RegisteredData")) || [];
@@ -79,26 +126,12 @@ const Navbar = () => {
         </div>
         {isAuth ? (
           <div style={{ display: "flex" }}>
-            <Link to="/logout" style={{ textDecoration: "none" }}>
-              <p
-                style={{
-                  marginTop: "20px",
-                  marginRight: "15px",
-                  cursor: "pointer",
-                }}
-                onClick={handleLogOut}
-              >
-                Log Out
-              </p>
-            </Link>
-            <p style={{ marginTop: "20px", marginRight: "15px" }}>
+           
+         <div>   <p style={{ marginTop: "0px", marginRight: "15px",color:"black" }}>
               {name} {lastname}
-            </p>{" "}
-            <img
-              style={{ height: "50px", width: "50px" }}
-              src={photo}
-              alt={name}
-            />
+            </p></div>
+            <div style={{marginTop:"100px",marginLeft:"200px"}}> <App1/></div>
+           
           </div>
         ) : (
           <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
