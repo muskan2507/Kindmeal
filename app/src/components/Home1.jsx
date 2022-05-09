@@ -17,7 +17,7 @@ const ListHead = () => {
       }
     };
     getData();
-    // console.log(data)
+  
   }, []);
   return (
     <div className={style.box}>
