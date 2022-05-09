@@ -207,10 +207,11 @@ function Home3() {
               lineHeight: "40px",
               fontSize: "40px",
               borderRadius: "10px",
+              color:"white"
             }}
           >
-            <div style={{ marginTop: "12px" }}>Join KindMeal Now</div>
-            <div style={{ fontSize: "16px", lineHeight: "10px" }}>
+            <div style={{ marginTop: "12px" ,color:"white"}}>Join KindMeal Now</div>
+            <div style={{ fontSize: "16px", lineHeight: "10px" ,color:"white"}}>
               <br />
               Your tasty journey begins here
             </div>
