@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import style from "../Styles/Recip.module.css"
+import style from "../Styles/Recipe.module.css"
 const Recipe = () => {
     const [show, setShow] = useState([]);
       const {id}=useParams()

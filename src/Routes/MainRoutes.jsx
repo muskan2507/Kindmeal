@@ -9,7 +9,7 @@ import Directory from "../Pages/Directory";
 
 import Help from "../Pages/Help";
 import Home from "../Pages/Home";
-import HotPicks from "../Pages/HotPicks";
+import HotPicks from "../Pages/Hotpicks";
 import Join from "../Pages/Join";
 import JoinShop from "../Pages/JoinShop";
 import JoinSuccess from "../Pages/JoinSuccess";

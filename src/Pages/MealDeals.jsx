@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import style from '../Styles/mealdeal.module.css'
+import style from '../Styles/Mealdeal.module.css'
 
 
 

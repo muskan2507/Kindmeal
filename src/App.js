@@ -61,11 +61,11 @@ function App() {
 {/* <Directory/> */}
 {/* <Help/> */}
 {/* <Recipe/> */}
-<MealDeals/>
+{/* <MealDeals/> */}
 {/* <Footer/> */}
 
 
-{/* <MainRoutes/> */}
+<MainRoutes/>
 
 
 {/* <UserProfile/> */}
